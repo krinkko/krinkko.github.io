@@ -29,7 +29,7 @@ github_username:  krinkko
 timezone: Europe/Berlin
 
 # Build settings
-remote_theme: harveynick/lagrange
+remote_theme: amitmerchant1990/reverie
 plugins:
  - jekyll-paginate
  - jekyll-sitemap
