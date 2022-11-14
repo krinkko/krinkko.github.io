@@ -27,14 +27,16 @@ twitter_username: krinkko_the_cat
 github_username:  krinkko
 timezone: Europe/Berlin
 
-# Build settings
-remote_theme: LeNPaul/Lagrange
 plugins:
  - jekyll-paginate
  - jekyll-sitemap
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-remote-theme
+
+# Build settings
+remote_theme: LeNPaul/Lagrange
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
