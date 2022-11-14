@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Konsum on d381blog</title>
+    <link>https://blog.d381.xyz/tags/konsum/</link>
+    <description>Recent content in Konsum on d381blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Tue, 08 Feb 2022 10:53:24 +0100</lastBuildDate>
+    
+	<atom:link href="https://blog.d381.xyz/tags/konsum/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>Entspann dich mal!</title>
+      <link>https://blog.d381.xyz/entspann-dich-mal/</link>
+      <pubDate>Thu, 16 Jun 2022 10:05:23 +0200</pubDate>
+      
+      <guid>https://blog.d381.xyz/entspann-dich-mal/</guid>
+      <description>&lt;p&gt;Manchmal habe ich das Gefühl ich werde zu einem Klischeeradler. Helm und Brille auf, Windjacke an und an - ausgelöst von einem kleinen Frustmoment (Vorfahrt genommen) - fahre ich wie die letzte Scheiße. Schnell, bisschen rücksichtsloser. Ziemlich pissig und mit Tunnelblick.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;8bit_stevens-gravere.jpeg&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a href=&#34;https://blog.d381.xyz/entspann-dich-mal/8bit_stevens-gravere.jpeg&#34;&gt;
+    &lt;picture&gt;
+    
+    &lt;source media=&#34;(max-width: 376px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/entspann-dich-mal/8bit_stevens-gravere_hu8e847ebb23553f4f15c78ff10d42b6c1_829651_500x0_resize_q75_h2_box.webp&#34;&gt;
+
+    &lt;source media=&#34;(max-width: 992px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/entspann-dich-mal/8bit_stevens-gravere_hu8e847ebb23553f4f15c78ff10d42b6c1_829651_800x0_resize_q75_h2_box.webp&#34;&gt;
+
+    &lt;source media=&#34;(max-width: 1400px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/entspann-dich-mal/8bit_stevens-gravere_hu8e847ebb23553f4f15c78ff10d42b6c1_829651_1200x0_resize_q75_h2_box.webp&#34;&gt;
+
+    &lt;source media=&#34;(min-width: 1600px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/entspann-dich-mal/8bit_stevens-gravere_hu8e847ebb23553f4f15c78ff10d42b6c1_829651_1500x0_resize_q75_h2_box.webp&#34;&gt;
+    
+    &lt;img 
+ 
+   alt=&#34;Mein Stevens in lächerlichem 8bit :D&#34; title=&#34;Mein Stevens in lächerlichem 8bit :D&#34; src=&#34;https://blog.d381.xyz/entspann-dich-mal/8bit_stevens-gravere.jpeg&#34; class=&#34;img-fluid lazyload&#34;&gt;
+
+&lt;/picture&gt;
+&lt;/a&gt;
+  
+  
+
+  
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Zu Hause angekommen bin ich mir dann nicht sicher, ob das so sein muss oder sollte. Keine Zeitersparnis, mehr Schweiß. Nicht wirklich Spaß. Andere Leute vielleicht pissed weil man auch nur entspannt rollen wollte bis der Bikeraser vorbei kam. Und eigentlich will ich doch auch nur entspannt ein paar Meter machen. Cool auf dem Gravere hocken, der Fahrtwind, das Geräusch vom Freilauf unter mir. Bisschen so relaxed wie die Bikecouriere in den New York Videos von Terry.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Ampler Stout 2019 - 2020 Spezifikationsliste</title>
+      <link>https://blog.d381.xyz/ampler-stout-2019-2020-spezifikationsliste/</link>
+      <pubDate>Wed, 08 Jun 2022 10:40:46 +0200</pubDate>
+      
+      <guid>https://blog.d381.xyz/ampler-stout-2019-2020-spezifikationsliste/</guid>
+      <description>&lt;p&gt;Kleiner Dump der Spezifikationsliste für mein Ampler Stout 2019. Einfach, damit ich es leichter wiederfinde. Vielleicht ja auch für Dich interessant :)&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Komponenten&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Rahmen&lt;/td&gt;
+&lt;td&gt;Aluminium 6061&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Gabel&lt;/td&gt;
+&lt;td&gt;Aluminium 1 1/8&amp;quot;, 12 mm Steckachse&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kurbelgarnitur&lt;/td&gt;
+&lt;td&gt;Aluminium-Legierung 42T, 170 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Tretlager&lt;/td&gt;
+&lt;td&gt;Abgedichtetes Tretlager mit Drehmomentsensor&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Antrieb&lt;/td&gt;
+&lt;td&gt;Shimano Deore RD-T6000 10-Gang&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kasette&lt;/td&gt;
+&lt;td&gt;Shimano HG500 11-32&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kette&lt;/td&gt;
+&lt;td&gt;Yaban SLA-H10 114L&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Bremsen&lt;/td&gt;
+&lt;td&gt;Shimano Deore T6000 hydraulische Scheibenbremsen&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Bremsbeläge&lt;/td&gt;
+&lt;td&gt;Shimano G02S&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Reifen&lt;/td&gt;
+&lt;td&gt;Continental Top Contact II, 42-622 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Laufräder&lt;/td&gt;
+&lt;td&gt;28&amp;quot; Laufräder mit asymmetrischen 18 mm Felgen und gedichteten, industriegelagerten Naben&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Schutzbleche&lt;/td&gt;
+&lt;td&gt;Ampler Aluminium Schutzbleche, 60 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Gewicht&lt;/td&gt;
+&lt;td&gt;17,2 kg&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Max. Unterstützung&lt;/td&gt;
+&lt;td&gt;25 km/h&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Reichweite&lt;/td&gt;
+&lt;td&gt;45-100 km je nach Gelände und Einstellung der Unterstützung, durchschnittliche Reichweite 70 km&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Batterie&lt;/td&gt;
+&lt;td&gt;48 V 336 Wh LG Li-ion Akku&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Motor&lt;/td&gt;
+&lt;td&gt;48 V 250 W Nabenmotor (Hinterrad)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kontrollmodus&lt;/td&gt;
+&lt;td&gt;Präzise Pedal-Drehmoment spürende Motorsteuerung, 2 Motor-Unterstützungsstufen&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Konnektivität&lt;/td&gt;
+&lt;td&gt;Smartphone-Konnektivität ermöglicht u.a. die Änderung von Motoreinstellungen&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ladegerät&lt;/td&gt;
+&lt;td&gt;3A Li-Ionen-Ladegerät mit Rosenberger Magnetstecker&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ladezeit&lt;/td&gt;
+&lt;td&gt;2,5 Stunden (100%)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Lichter Vorne:&lt;/td&gt;
+&lt;td&gt;Busch+Müller IQ2 EYC&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Hinten:&lt;/td&gt;
+&lt;td&gt;LightSKIN in der Sattelstütze integrierte LED-Lichter&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;So. Passt.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Satanic Temple Gathering &#43; Gegenprotest = Cringefest 9000</title>
+      <link>https://blog.d381.xyz/satanic-temple-gathering--gegenprotest-cringefest-9000/</link>
+      <pubDate>Wed, 11 May 2022 13:52:06 +0200</pubDate>
+      
+      <guid>https://blog.d381.xyz/satanic-temple-gathering--gegenprotest-cringefest-9000/</guid>
+      <description>&lt;p&gt;Wenn Andrew Callaghan (&lt;a href=&#34;https://www.youtube.com/channel/UCtqxG9IrHFU_ID1khGvx9sA&#34;&gt;All Gas no Brakes&lt;/a&gt;) irgendwo auftaucht und Leute bei Happenings interviewt, braucht man nicht lange bis man einen auf Facepalm macht.&lt;/p&gt;
+&lt;p&gt;Ich schätze den &lt;a href=&#34;https://de.wikipedia.org/wiki/The_Satanic_Temple&#34;&gt;Satanic Temple&lt;/a&gt; für dessen Sarkasmus aber bei ihrem Gathering und dem damit verbundenen Gegenprotest gehe ich auch komplett auf Cringefest 9000 steil.&lt;/p&gt;
+&lt;p&gt;Aber seht selbst. Und viel Spaß ;-)&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube-nocookie.com/embed/1AmOqQOOPn8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Fieser, zugemüllter WSUS! Bereinigt!</title>
+      <link>https://blog.d381.xyz/fieser-zugem%C3%BCllter-wsus-bereinigt/</link>
+      <pubDate>Fri, 29 Apr 2022 14:24:05 +0200</pubDate>
+      
+      <guid>https://blog.d381.xyz/fieser-zugem%C3%BCllter-wsus-bereinigt/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;wsusboeseunddreckig.jpg&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a href=&#34;https://blog.d381.xyz/fieser-zugem%C3%BCllter-wsus-bereinigt/wsusboeseunddreckig.jpg&#34;&gt;
+    &lt;picture&gt;
+    
+    &lt;source media=&#34;(max-width: 376px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/fieser-zugem%C3%BCllter-wsus-bereinigt/wsusboeseunddreckig_hu7f4fc35319fb02b037f13ce78ff0dc62_138729_500x0_resize_q75_h2_box.webp&#34;&gt;
+
+    &lt;source media=&#34;(max-width: 992px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/fieser-zugem%C3%BCllter-wsus-bereinigt/wsusboeseunddreckig_hu7f4fc35319fb02b037f13ce78ff0dc62_138729_800x0_resize_q75_h2_box.webp&#34;&gt;
+
+    &lt;source media=&#34;(max-width: 1400px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/fieser-zugem%C3%BCllter-wsus-bereinigt/wsusboeseunddreckig_hu7f4fc35319fb02b037f13ce78ff0dc62_138729_1200x0_resize_q75_h2_box.webp&#34;&gt;
+
+    &lt;source media=&#34;(min-width: 1600px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/fieser-zugem%C3%BCllter-wsus-bereinigt/wsusboeseunddreckig_hu7f4fc35319fb02b037f13ce78ff0dc62_138729_1500x0_resize_q75_h2_box.webp&#34;&gt;
+    
+    &lt;img 
+ 
+   alt=&#34;Einige Updates sammelten sich auf dem WSUS an&#34; title=&#34;Einige Updates sammelten sich auf dem WSUS an&#34; src=&#34;https://blog.d381.xyz/fieser-zugem%C3%BCllter-wsus-bereinigt/wsusboeseunddreckig.jpg&#34; class=&#34;img-fluid lazyload&#34;&gt;
+
+&lt;/picture&gt;
+&lt;/a&gt;
+  
+  
+
+  
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Seit irgendwann letzter Woche oder so konnte man unseren tollen WSUS Server nicht mehr richtig bedienen, weil die Datenbank so sehr ausgelastet und zugemüllt war, dass dauernd die Nachricht &amp;ldquo;Serverknoten zurücksetzen&amp;rdquo; erschienen ist. Kennt man ja.&lt;/p&gt;
+&lt;p&gt;Da guckt man mal in die &amp;ldquo;Produkte und Spezifikationen&amp;rdquo; Auswahl des Updateservers rein und findet massig Treiber und solch einen Kram. Etwas, was man nie, nie, nieeemals dem WSUS antun sollte. Es ist einfach zu viel Durcheinander für dieses zärtliche Wesen.&lt;/p&gt;
+&lt;p&gt;Nun ging ich also hin und entfernte Treiber und alles, was nur Müll macht, aus den Produkten aber konnte die Bereinigung nicht durchziehen. Immer lastete der Prozess die Datenbank so sehr aus, dass mir die MCC/der Server abgeraucht ist.&lt;/p&gt;
+&lt;p&gt;Also erinnerte ich mich an &lt;a href=&#34;https://damgoodadmin.com/2017/11/05/fully-automate-software-update-maintenance-in-cm/&#34;&gt;das CleanUp Script von Bryan Dam&lt;/a&gt;, welches auch WSUS Server wieder zum laufen bringen sollte, die man über Jahre hinweg dreckig hat werden lassen. Ließ das Script mit -FirstRun und -UseCustomIndexes laufen und siehe da: Er säubert die WSUS-Partition von 91gb frei auf (!!!) 320gb frei. Noch fix eine Aufgabe für jeden Sonntag um 12 Uhr Mittags drauß gebastelt und tschüss.&lt;/p&gt;
+&lt;p&gt;Ich starte das Teil also neu und es schnurrt wie ein Kätzchen.&lt;/p&gt;
+&lt;p&gt;So. Wochenende.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Neue Hypewelle auf Mastodon</title>
+      <link>https://blog.d381.xyz/neue-hypewelle-auf-mastodon/</link>
+      <pubDate>Tue, 26 Apr 2022 15:00:50 +0200</pubDate>
+      
+      <guid>https://blog.d381.xyz/neue-hypewelle-auf-mastodon/</guid>
+      <description>&lt;p&gt;Da will der reichste Typ der Welt sich ein Soziales Netzwerk abgrabbeln und schon löst er damit einen Hype Run auf Mastodon aus. Wie erfreulich!&lt;/p&gt;
+&lt;p&gt;Zu diesen Hypewellen kam es immer mal wieder und ich gehe es inzwischen cool an, aber ich freue mich dennoch über die neue Gesellschaft im Fediverse. Vielleicht bleiben &amp;ldquo;dieses mal&amp;rdquo; ja doch viele da und man macht sich eine coole Zeit ohne konflikt schürenden Algorythmus?&lt;/p&gt;
+&lt;p&gt;Ich denke Algorythmen spielen eine große Rolle in der kontinuierlichen Nutzung von sozialen Netzwerken. Die Leute werden sozusagen Drama abhängig gemacht. Es tobt die Schlammschlacht. Das fehlen eines solchen Algorythmus macht die Nutzung auch um einiges entspannter. Man wird nicht dauernd mit irgendeiner dummen Scheiße konfrontiert.&lt;/p&gt;
+&lt;p&gt;Aber zurück zum Thema. Das Fediverse ist ja gerade deshalb so interessant, weil es nicht den Regeln des Konzerns folgen kann. Bin ich mit der &amp;ldquo;Führung&amp;rdquo; meiner Instanz, meines Servers, nicht zufrieden, so suche ich mir halt einen anderen. Oder ich mache mir selbst eine Instanz auf.&lt;/p&gt;
+&lt;p&gt;Was Mastodon meiner Meinung nach momentan am meisten Fehlt ist eine einfache Erklärung der Instanzen die direkt ersichtlich und super duper easy ist UND - eher was persönliches - eine richtig gute Thread-View für die Konversation. Und gifs.&lt;/p&gt;
+&lt;p&gt;Haut rein!&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Foto Nr.4: Katze Lucy</title>
+      <link>https://blog.d381.xyz/foto-nr.4-katze-lucy/</link>
+      <pubDate>Tue, 19 Apr 2022 20:31:21 +0200</pubDate>
+      
+      <guid>https://blog.d381.xyz/foto-nr.4-katze-lucy/</guid>
+      <description>&lt;p&gt;Dieses Foto mag ich besonders gern. Es zeigt eines der ersten Fotos von Katze Lucy und für mich auch das erste, welches &amp;ldquo;gesessen&amp;rdquo; hat. Ich war und bin mega zufrieden wie der Fokus sitzt, wie scharf das Foto wurde und wie gut man es auch bearbeiten kann. Außerdem ist es halt Lucy. Katze Lucy.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;lucy.jpg&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a href=&#34;https://blog.d381.xyz/foto-nr.4-katze-lucy/lucy.jpg&#34;&gt;
+    &lt;picture&gt;
+    
+    &lt;source media=&#34;(max-width: 376px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/foto-nr.4-katze-lucy/lucy_hub51da87e11c6a29631c046122376633e_540401_500x0_resize_q75_h2_box.webp&#34;&gt;
+
+    &lt;source media=&#34;(max-width: 992px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/foto-nr.4-katze-lucy/lucy_hub51da87e11c6a29631c046122376633e_540401_800x0_resize_q75_h2_box.webp&#34;&gt;
+
+    &lt;source media=&#34;(max-width: 1400px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/foto-nr.4-katze-lucy/lucy_hub51da87e11c6a29631c046122376633e_540401_1200x0_resize_q75_h2_box.webp&#34;&gt;
+
+    &lt;source media=&#34;(min-width: 1600px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/foto-nr.4-katze-lucy/lucy_hub51da87e11c6a29631c046122376633e_540401_1500x0_resize_q75_h2_box.webp&#34;&gt;
+    
+    &lt;img 
+ 
+   alt=&#34;Katze Lucy&#34; title=&#34;Katze Lucy&#34; src=&#34;https://blog.d381.xyz/foto-nr.4-katze-lucy/lucy.jpg&#34; class=&#34;img-fluid lazyload&#34;&gt;
+
+&lt;/picture&gt;
+&lt;/a&gt;
+  
+  
+
+  
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Happy Gravelbikebesitzer der die Slicks wieder entfernt</title>
+      <link>https://blog.d381.xyz/happy-gravelbikebesitzer-der-die-slicks-wieder-entfernt/</link>
+      <pubDate>Fri, 25 Mar 2022 10:30:27 +0100</pubDate>
+      
+      <guid>https://blog.d381.xyz/happy-gravelbikebesitzer-der-die-slicks-wieder-entfernt/</guid>
+      <description>&lt;p&gt;Seit etwas mehr als einem Monat bin ich nun auch stolzer Besitzer eines Gravelbikes - eines Stevens Gravere - und natürlich habe ich direkt damit angefangen ein wenig daran herumzuwerkeln.&lt;/p&gt;
+&lt;p&gt;Aber lasst mich kurz sagen, dass ich schon bei der ersten Fahrt gemerkt habe was für einen tollen Hobel ich da erstanden habe und ich wette mal, meine Fitness wird sich mit dem Ding auch noch deutlich verbessern.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a href=&#34;https://blog.d381.xyz/happy-gravelbikebesitzer-der-die-slicks-wieder-entfernt/gravere-ausgestattet.jpg&#34;&gt;
+    &lt;picture&gt;
+    
+    &lt;source media=&#34;(max-width: 376px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/happy-gravelbikebesitzer-der-die-slicks-wieder-entfernt/gravere-ausgestattet_hu30a76531c71693113f075878b00d4190_431078_500x0_resize_q75_h2_box.webp&#34;&gt;
+
+    &lt;source media=&#34;(max-width: 992px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/happy-gravelbikebesitzer-der-die-slicks-wieder-entfernt/gravere-ausgestattet_hu30a76531c71693113f075878b00d4190_431078_800x0_resize_q75_h2_box.webp&#34;&gt;
+
+    &lt;source media=&#34;(max-width: 1400px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/happy-gravelbikebesitzer-der-die-slicks-wieder-entfernt/gravere-ausgestattet_hu30a76531c71693113f075878b00d4190_431078_1200x0_resize_q75_h2_box.webp&#34;&gt;
+
+    &lt;source media=&#34;(min-width: 1600px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/happy-gravelbikebesitzer-der-die-slicks-wieder-entfernt/gravere-ausgestattet_hu30a76531c71693113f075878b00d4190_431078_1500x0_resize_q75_h2_box.webp&#34;&gt;
+    
+    &lt;img 
+ 
+   alt=&#34;Foto vom Lastenradautomaten in Bilk&#34; title=&#34;Foto vom Lastenradautomaten in Bilk&#34; src=&#34;https://blog.d381.xyz/happy-gravelbikebesitzer-der-die-slicks-wieder-entfernt/gravere-ausgestattet.jpg&#34; class=&#34;img-fluid lazyload&#34;&gt;
+
+&lt;/picture&gt;
+&lt;/a&gt;
+  
+  
+
+  
+&lt;/p&gt;
+&lt;p&gt;Also wie man sieht wollte ich es etwas tauglicher für den Alltag machen, was mit dem Gepäckträger &amp;ldquo;Light-it&amp;rdquo; und den Primus Schutzblechen von SKS schon mal sehr gut funktioniert hat. Auch, wenn es etwas frickelig war mit der Befestigung der Schutzblechstreben.&lt;/p&gt;
+&lt;p&gt;Ich hatte auch die mitgelieferten G-One Bite Reifen gegen Semislicks von Conti getauscht, was mir nun aber doch ein wenig misfällt und so überlege ich schon wieder die Schutzbleche zu entfernen und die Bites wieder aufzuziehen. Ich komme nicht um den Gedanken herum dem Bike mit meinem jetzigen Setup etwas von seiner Wildheit genommen zu haben. Oder ich lasse die Schutzbleche doch dran und mache nur die Bites wieder drauf? Fragen über Fragen. Ich stehe neben dem Bike und fahre mir mit den Fingern durch den Bart.&lt;/p&gt;
+&lt;p&gt;Alles in Allem bin ich dennoch sehr, sehr happy damit und schön fix unterwegs hier im urbanen Raum und ich meine das Bike wird mich so einige Zeit begleiten auf den Radwegen der Region :)&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Konnte Elden Ring nicht wiederstehen</title>
+      <link>https://blog.d381.xyz/konnte-elden-ring-nicht-wiederstehen/</link>
+      <pubDate>Thu, 24 Feb 2022 16:25:02 +0100</pubDate>
+      
+      <guid>https://blog.d381.xyz/konnte-elden-ring-nicht-wiederstehen/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a href=&#34;https://blog.d381.xyz/konnte-elden-ring-nicht-wiederstehen/Eldenring-Screen1.png&#34;&gt;
+    &lt;picture&gt;
+    
+    &lt;source media=&#34;(max-width: 376px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/konnte-elden-ring-nicht-wiederstehen/Eldenring-Screen1_huf74cd458c1e5273fd919454b2c54fe09_131131_500x0_resize_q75_h2_box_3.webp&#34;&gt;
+
+    &lt;source media=&#34;(max-width: 992px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/konnte-elden-ring-nicht-wiederstehen/Eldenring-Screen1_huf74cd458c1e5273fd919454b2c54fe09_131131_800x0_resize_q75_h2_box_3.webp&#34;&gt;
+
+    &lt;source media=&#34;(max-width: 1400px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/konnte-elden-ring-nicht-wiederstehen/Eldenring-Screen1_huf74cd458c1e5273fd919454b2c54fe09_131131_1200x0_resize_q75_h2_box_3.webp&#34;&gt;
+
+    &lt;source media=&#34;(min-width: 1600px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/konnte-elden-ring-nicht-wiederstehen/Eldenring-Screen1_huf74cd458c1e5273fd919454b2c54fe09_131131_1500x0_resize_q75_h2_box_3.webp&#34;&gt;
+    
+    &lt;img 
+ 
+   alt=&#34;EldenRing Download&#34; title=&#34;EldenRing Download&#34; src=&#34;https://blog.d381.xyz/konnte-elden-ring-nicht-wiederstehen/Eldenring-Screen1.png&#34; class=&#34;img-fluid lazyload&#34;&gt;
+
+&lt;/picture&gt;
+&lt;/a&gt;
+  
+  
+
+  
+&lt;/p&gt;
+&lt;p&gt;Yeeeees. Eigentlich wollte ich keine Open World Games mehr kaufen und spielen, aber nachdem ich das &lt;a href=&#34;https://www.youtube.com/watch?v=jJdzHtYTpu0&#34;&gt;Video zum Test bei Gamestar&lt;/a&gt; gesehen hatte&amp;hellip;bäm, Impulskauf.&lt;/p&gt;
+&lt;p&gt;Ich mein: allein die schiere Größe und Vielfalt der Spielwelt&amp;hellip;ich freue mich richtig drauf. Auch bin ich mit so Roguelikes inzwischen irgendwie begeistert dabei (Dead Cells, Hades) und obwohl ich nicht wirklich die Zeit für so ein Game hab muss es einfach sein. Einfach mal rein in diese brilliante Fantasywelt, die ja ein wahres Meisterwerk sein soll wie man so hört. Und in diesen Zeiten ist es gar nicht so schlecht ab und zu mal abzutauchen.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Foto Nr.3: Sonnenuntergang in Riddagshausen</title>
+      <link>https://blog.d381.xyz/foto-nr.3-sonnenuntergang-in-riddagshausen/</link>
+      <pubDate>Tue, 22 Feb 2022 19:18:05 +0100</pubDate>
+      
+      <guid>https://blog.d381.xyz/foto-nr.3-sonnenuntergang-in-riddagshausen/</guid>
+      <description>&lt;p&gt;Es gibt immer gute Gründe mal &lt;a href=&#34;https://www.openstreetmap.org/#map=17/52.2731/10.57647&#34;&gt;zu den Teichen in Riddagshausen&lt;/a&gt; zu fahren.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;DSC04950_DxO-internet.jpg&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a href=&#34;https://blog.d381.xyz/foto-nr.3-sonnenuntergang-in-riddagshausen/DSC04950_DxO-internet.jpg&#34;&gt;
+    &lt;picture&gt;
+    
+    &lt;source media=&#34;(max-width: 376px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/foto-nr.3-sonnenuntergang-in-riddagshausen/DSC04950_DxO-internet_huc03d005b47aa21ae09e8226085858b9d_1236257_500x0_resize_q75_h2_box.webp&#34;&gt;
+
+    &lt;source media=&#34;(max-width: 992px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/foto-nr.3-sonnenuntergang-in-riddagshausen/DSC04950_DxO-internet_huc03d005b47aa21ae09e8226085858b9d_1236257_800x0_resize_q75_h2_box.webp&#34;&gt;
+
+    &lt;source media=&#34;(max-width: 1400px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/foto-nr.3-sonnenuntergang-in-riddagshausen/DSC04950_DxO-internet_huc03d005b47aa21ae09e8226085858b9d_1236257_1200x0_resize_q75_h2_box.webp&#34;&gt;
+
+    &lt;source media=&#34;(min-width: 1600px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/foto-nr.3-sonnenuntergang-in-riddagshausen/DSC04950_DxO-internet_huc03d005b47aa21ae09e8226085858b9d_1236257_1500x0_resize_q75_h2_box.webp&#34;&gt;
+    
+    &lt;img 
+ 
+   alt=&#34;Sonnenuntergang Riddagshausen&#34; title=&#34;Sonnenuntergang Riddagshausen&#34; src=&#34;https://blog.d381.xyz/foto-nr.3-sonnenuntergang-in-riddagshausen/DSC04950_DxO-internet.jpg&#34; class=&#34;img-fluid lazyload&#34;&gt;
+
+&lt;/picture&gt;
+&lt;/a&gt;
+  
+  
+
+  
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Powershellscript ohne Fenster</title>
+      <link>https://blog.d381.xyz/powershellscript-ohne-fenster/</link>
+      <pubDate>Thu, 17 Feb 2022 11:17:20 +0100</pubDate>
+      
+      <guid>https://blog.d381.xyz/powershellscript-ohne-fenster/</guid>
+      <description>&lt;p&gt;Man kann einfach ein bisschen vbs-Code dazu benutzen um ein Powershellfenster vor Usern zu verstecken:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Dim objArguments
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Dim command
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;Set&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;objArguments &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; WScript.Arguments
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;command = &lt;span class=&#34;s2&#34;&gt;&amp;#34;powershell.exe -nologo -command &amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt; objArguments(0) &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;set&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;shell &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; CreateObject(&lt;span class=&#34;s2&#34;&gt;&amp;#34;WScript.Shell&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;shell.Run command,0
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Speichern wir das nun z.B. als Launchpwrshl.vbs können wir direkt ein Script als Argument[0] daran hängen:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; launchpwrshl.vbs meinscript.ps1
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Nützlich, wenn man ein Powershellscript als Aufgabe oder so laufen lassen will.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Not Just Bikes &amp; Climate Town mit Städtebauvergleich</title>
+      <link>https://blog.d381.xyz/not-just-bikes-climate-town-mit-st%C3%A4dtebauvergleich/</link>
+      <pubDate>Mon, 14 Feb 2022 09:22:10 +0100</pubDate>
+      
+      <guid>https://blog.d381.xyz/not-just-bikes-climate-town-mit-st%C3%A4dtebauvergleich/</guid>
+      <description>&lt;p&gt;Also ihr solltet euch unbedingt mal diese Kollaboration von &lt;a href=&#34;https://www.youtube.com/channel/UC0intLFzLaudFG-xAvUEO-A&#34;&gt;Not Just Bikes&lt;/a&gt; und &lt;a href=&#34;https://www.youtube.com/channel/UCuVLG9pThvBABcYCm7pkNkA&#34;&gt;Climate Town&lt;/a&gt; in zwei Teilen ansehen. Die beiden verdeutlichen ziemlich genial die Unterschiede zwischen Amsterdam und im Prinzip den meisten verkackten US Städten:&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube-nocookie.com/embed/cO6txCZpbsQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube-nocookie.com/embed/SfsCniN7Nsc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Quote: Wir brauchen eine europäische Alternative zu Facebook</title>
+      <link>https://blog.d381.xyz/quote-wir-brauchen-eine-europ%C3%A4ische-alternative-zu-facebook/</link>
+      <pubDate>Wed, 09 Feb 2022 11:12:02 +0100</pubDate>
+      
+      <guid>https://blog.d381.xyz/quote-wir-brauchen-eine-europ%C3%A4ische-alternative-zu-facebook/</guid>
+      <description>&lt;p&gt;Heute las ich einige Tweets zum Thema Meta und deren Aussage zum europäischen Datenschutz und, dass deren Produkte (Facebook, Insta, WhatsApp) nicht länger angeboten werden könnten wenn die EU ihre Datenschutzbestrebungen durchsetzen würde.&lt;/p&gt;
+
+    &lt;style type=&#34;text/css&#34;&gt;
+      .twitter-tweet {
+        font: 14px/1.45 -apple-system,BlinkMacSystemFont,&#34;Segoe UI&#34;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&#34;Helvetica Neue&#34;,sans-serif;
+        border-left: 4px solid #2b7bb9;
+        padding-left: 1.5em;
+        color: #555;
+      }
+      .twitter-tweet a {
+        color: #2b7bb9;
+        text-decoration: none;
+      }
+      blockquote.twitter-tweet a:hover,
+      blockquote.twitter-tweet a:focus {
+        text-decoration: underline;
+      }
+    &lt;/style&gt;
+  &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;de&#34; dir=&#34;ltr&#34;&gt;Kommentar: Facebook und Whatsapp raus aus Europa – warum nicht? &lt;a href=&#34;https://t.co/qS7Fj4JZ3u&#34;&gt;https://t.co/qS7Fj4JZ3u&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/Facebook?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Facebook&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/Meta?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Meta&lt;/a&gt;&lt;/p&gt;&amp;mdash; heise online (@heiseonline) &lt;a href=&#34;https://twitter.com/heiseonline/status/1491007929859854340?ref_src=twsrc%5Etfw&#34;&gt;February 8, 2022&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Und im Großen und Ganzen ist die Resonanz an dieser Aussage ja, dass die Leute schon Bock drauf hätten, wenn dieses Kackenetzwerk endlich verschwinden würde. Dieses Lügen verbreitende, spionierende Scheißgebilde mit dem glatten Zuckerbot an der Spitze. Das Ding ist: nun kommen Leute aus der Deckung und labern was von wegen wie es Zeit wird für &amp;ldquo;eine europäische Alternative&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Nun, zunächst einmal gibt es bereits Alternativen zum gängigen Müll. Und zwar im Fediverse. Gemeint sind hier die teils selbst gehosteten Instanzen von &lt;a href=&#34;https://mastodon.social&#34;&gt;Mastodon&lt;/a&gt; (Twitter), &lt;a href=&#34;https://pixelfed.org&#34;&gt;Pixelfed&lt;/a&gt; (Insta) und Diaspora (Facebook). Zu WhatsApp gibt es ja zum Glück etliche viel bessere Alternativen, die alle soweit auch schon nutzen. Zugegeben, gerade die Social Media Alternativen funktionieren ab und zu mal nicht so zuverlässig - aber sie sind auch nicht so bevölkert und damit auch nicht so finanziert wie die geschlossenen, kapitalistischen Scheißeschleudern denen wir einfach so unsere Daten schenken.&lt;/p&gt;
+&lt;p&gt;Wie soll also so eine &amp;ldquo;europäische Alternative&amp;rdquo; aussehen? Wie &amp;ldquo;the product is you&amp;rdquo; von Meta Facebook? Die europäische Alternative nur eine Alternative weil aus Europa und sonst saugt sie genauso Daten ab und manipuliert die Menschen zu konsum? Wie langweilig.&lt;/p&gt;
+&lt;p&gt;Denkt daran, dass es bereits echte Alternativen gibt und macht euch doch einfach schon mal einen Account? Oder baut euch und euren Freunden einen eigenen Server.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Kaufkonflikte</title>
+      <link>https://blog.d381.xyz/kaufkonflikte/</link>
+      <pubDate>Tue, 08 Feb 2022 10:53:24 +0100</pubDate>
+      
+      <guid>https://blog.d381.xyz/kaufkonflikte/</guid>
+      <description>&lt;p&gt;&lt;em&gt;cash rules everything around me&lt;/em&gt; rappte Method Man in &lt;a href=&#34;https://www.youtube.com/watch?v=PBwAxmrE194&#34;&gt;C.R.E.A.M von Wu Tang Clan&lt;/a&gt;. Und wieder mal kommt der Cashkonflikt in meinem Kopf zusammen. Ich nenn ihn Konsumkonflikt.&lt;/p&gt;
+&lt;p&gt;Zeitgleich zu meiner Bestellung eines neuen Fahrrads kam meine Frau auf die Idee, dass wir uns eines dieser coolen Familienbetten von Ikea besorgen sollten und da ich dafür gerade ausreichend flüssig bin - allerdings nicht für beides, also&amp;hellip;zumindest nicht direkt zeitgleich - hat sie schon mal für Mittwoch zum Abholen bestellt. Und mein Konflikt entsteht so da, wo mein Hirn mir erzählt, dass das Bike wichtig(er) ist, als das nice Familienbett. Ganz ehrlich? Ich brauche wahrscheinlich gerade kein Bike, ich habe schon eins, aber eben nicht &lt;em&gt;so eins&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Also, ich könnte auch einfach auf die Steuerrückzahlung warten. Oder auf das Sommergeld. Oder darauf, dass der Leasingvertrag von meinem aktuellen Fahrrad ausläuft. Aber mein Hirn so: &lt;em&gt;&amp;ldquo;Nee, nimm das jetzt. Es gibt gerade keine Bikes. Es gibt Lieferengpässe. Denk dran wie geil so ein Gravelbike ist!&amp;rdquo;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Bitte, halt die Klappe, Hirn.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Lastenradautomat Bilk</title>
+      <link>https://blog.d381.xyz/lastenradautomat-bilk/</link>
+      <pubDate>Fri, 04 Feb 2022 11:46:32 +0100</pubDate>
+      
+      <guid>https://blog.d381.xyz/lastenradautomat-bilk/</guid>
+      <description>&lt;p&gt;In Düsseldorf Bilk gibt es nun eine tollen Lastenradautomaten. Dort dann man sich bei Bedarf ein Lastenrad ausleihen und zwar draußen und per App:&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a href=&#34;https://blog.d381.xyz/lastenradautomat-bilk/FKrmHyUVUAo74Qe.jpg&#34;&gt;
+    &lt;picture&gt;
+    
+    &lt;source media=&#34;(max-width: 376px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/lastenradautomat-bilk/FKrmHyUVUAo74Qe_hu28a27bbdb154d77af323f3d049d4a211_434497_500x0_resize_q75_h2_box.webp&#34;&gt;
+
+    &lt;source media=&#34;(max-width: 992px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/lastenradautomat-bilk/FKrmHyUVUAo74Qe_hu28a27bbdb154d77af323f3d049d4a211_434497_800x0_resize_q75_h2_box.webp&#34;&gt;
+
+    &lt;source media=&#34;(max-width: 1400px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/lastenradautomat-bilk/FKrmHyUVUAo74Qe_hu28a27bbdb154d77af323f3d049d4a211_434497_1200x0_resize_q75_h2_box.webp&#34;&gt;
+
+    &lt;source media=&#34;(min-width: 1600px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/lastenradautomat-bilk/FKrmHyUVUAo74Qe_hu28a27bbdb154d77af323f3d049d4a211_434497_1500x0_resize_q75_h2_box.webp&#34;&gt;
+    
+    &lt;img 
+ 
+   alt=&#34;Foto vom Lastenradautomaten in Bilk&#34; title=&#34;Foto vom Lastenradautomaten in Bilk&#34; src=&#34;https://blog.d381.xyz/lastenradautomat-bilk/FKrmHyUVUAo74Qe.jpg&#34; class=&#34;img-fluid lazyload&#34;&gt;
+
+&lt;/picture&gt;
+&lt;/a&gt;
+  
+  
+
+  
+
+
+    &lt;style type=&#34;text/css&#34;&gt;
+      .twitter-tweet {
+        font: 14px/1.45 -apple-system,BlinkMacSystemFont,&#34;Segoe UI&#34;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&#34;Helvetica Neue&#34;,sans-serif;
+        border-left: 4px solid #2b7bb9;
+        padding-left: 1.5em;
+        color: #555;
+      }
+      .twitter-tweet a {
+        color: #2b7bb9;
+        text-decoration: none;
+      }
+      blockquote.twitter-tweet a:hover,
+      blockquote.twitter-tweet a:focus {
+        text-decoration: underline;
+      }
+    &lt;/style&gt;
+  &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;de&#34; dir=&#34;ltr&#34;&gt;Mitten im Herzen von &lt;a href=&#34;https://twitter.com/hashtag/Bilk?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Bilk&lt;/a&gt; haben wir heute mit Unterstützung von Stadt &lt;a href=&#34;https://twitter.com/Duesseldorf?ref_src=twsrc%5Etfw&#34;&gt;@Duesseldorf&lt;/a&gt; und SWD Wohnungsbau den 1. &lt;a href=&#34;https://twitter.com/hashtag/LastenradAutomat?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#LastenradAutomat&lt;/a&gt; in Betrieb genommen. Weitere 4 bis 5 Automaten werden dieses Jahr noch folgen (--&amp;gt; &lt;a href=&#34;https://twitter.com/hashtag/Mobilit%C3%A4tStation?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#MobilitätStation&lt;/a&gt;). &lt;a href=&#34;https://twitter.com/hashtag/Mobilit%C3%A4tswende?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Mobilitätswende&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/D%C3%BCsseldorf?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Düsseldorf&lt;/a&gt; &lt;a href=&#34;https://t.co/wnFZLm6lQv&#34;&gt;pic.twitter.com/wnFZLm6lQv&lt;/a&gt;&lt;/p&gt;&amp;mdash; Dr. David Rüdiger 🇺🇦🇩🇪🇪🇺 (@RuedigerDavid) &lt;a href=&#34;https://twitter.com/RuedigerDavid/status/1489255667022000128?ref_src=twsrc%5Etfw&#34;&gt;February 3, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Und das ist sowas, was ich mir für Braunschweig und die Stadtteile auch wünsche. Wir haben hier &lt;a href=&#34;https://www.heinrich-der-lastenloewe.de/&#34;&gt;Heinrich Lastenlöwe&lt;/a&gt; und wie cool wäre es, wenn dieses Prinzip für die Stadtteile übernommen werden wüde? Ich hatte da schon ab und zu mal mit meiner Frau drüber gesprochen und wir fänden es mega, wenn wir einfach eine Straße
+weiter ein Lastenrad leihen könnten. Denn wir könnten uns zwar eins kaufen, aber können es nicht sicher abstellen und würden es auch nicht jeden Tag benötigen.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Warum gibts in Braunschweig nicht so eine Radtour?</title>
+      <link>https://blog.d381.xyz/warum-gibts-in-braunschweig-nicht-so-eine-radtour/</link>
+      <pubDate>Thu, 03 Feb 2022 10:30:18 +0100</pubDate>
+      
+      <guid>https://blog.d381.xyz/warum-gibts-in-braunschweig-nicht-so-eine-radtour/</guid>
+      <description>&lt;p&gt;Checkt mal dieses kleine Promovideo zu New Yorks &amp;ldquo;5 Boro Bike Tour&amp;rdquo;:&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube-nocookie.com/embed/as_9Pj_AD3A&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Und ich stelle mir so die Frage, warum haben wir hier ein Braunschweig (oder in Schland generell) nicht so eine coole Radtour?&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Lieblingsfoto</title>
+      <link>https://blog.d381.xyz/lieblingsfoto/</link>
+      <pubDate>Mon, 31 Jan 2022 20:02:49 +0100</pubDate>
+      
+      <guid>https://blog.d381.xyz/lieblingsfoto/</guid>
+      <description>&lt;p&gt;Checkt mal dieses Foto, es ist mein absolutes Lieblingsbild. Ich glaube, ich hatte es mit der A6000 und einem Minolta gemacht. Sicher bin ich mir allerdings nicht mehr.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;internet-L--6.jpg&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;a href=&#34;https://blog.d381.xyz/lieblingsfoto/internet-L--6.jpg&#34;&gt;
+    &lt;picture&gt;
+    
+    &lt;source media=&#34;(max-width: 376px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/lieblingsfoto/internet-L--6_hu068ec21364f659d5d158d4b1cb3a5963_1593217_500x0_resize_q75_h2_box.webp&#34;&gt;
+
+    &lt;source media=&#34;(max-width: 992px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/lieblingsfoto/internet-L--6_hu068ec21364f659d5d158d4b1cb3a5963_1593217_800x0_resize_q75_h2_box.webp&#34;&gt;
+
+    &lt;source media=&#34;(max-width: 1400px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/lieblingsfoto/internet-L--6_hu068ec21364f659d5d158d4b1cb3a5963_1593217_1200x0_resize_q75_h2_box.webp&#34;&gt;
+
+    &lt;source media=&#34;(min-width: 1600px)&#34; 
+        srcset=&#34;https://blog.d381.xyz/lieblingsfoto/internet-L--6_hu068ec21364f659d5d158d4b1cb3a5963_1593217_1500x0_resize_q75_h2_box.webp&#34;&gt;
+    
+    &lt;img 
+ 
+   alt=&#34;Lieblingsfoto vom Steinhuder Meer&#34; title=&#34;Lieblingsfoto vom Steinhuder Meer&#34; src=&#34;https://blog.d381.xyz/lieblingsfoto/internet-L--6.jpg&#34; class=&#34;img-fluid lazyload&#34;&gt;
+
+&lt;/picture&gt;
+&lt;/a&gt;
+  
+  
+
+  
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Das Foto habe ich &lt;a href=&#34;https://goo.gl/maps/H5Z7inUKwCDmUHbN7&#34;&gt;auf der kleinen Badeinsel&lt;/a&gt; am Steinhuder Meer gemacht.&lt;/p&gt;
+&lt;p&gt;Generell ist das Meer da eigentlich immer einen Besuch wert. Es ist nur wünschenswert, dass das Meer auch mit den Öffis besser zu erreichen wäre. Dann könnte man
+glatt leichter mit der Familie und dem Fahrrad anrücken und einmal rum fahren.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Hallo</title>
+      <link>https://blog.d381.xyz/hallo/</link>
+      <pubDate>Mon, 31 Jan 2022 11:28:04 +0100</pubDate>
+      
+      <guid>https://blog.d381.xyz/hallo/</guid>
+      <description>&lt;p&gt;Moin, moin aus Braunschweig. Hier zurück mit einer kleinen Website unter Hugo und das Ganze möglichst minimalistisch gehalten.
+Ich hatte nun ein wenig Zeit mit dem VPS von 1u1 Ionos zu spielen und hab mich letztendlich dazu entschieden einfach Hugo zu nehmen. Der Einfachheit halber.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    
+  </channel>
+</rss>

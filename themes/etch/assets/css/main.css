@@ -1,0 +1,425 @@
+/* arvo-regular - latin */
+@font-face {
+    font-family: 'Arvo';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/arvo-v14-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/arvo-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/arvo-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/arvo-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/arvo-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/arvo-v14-latin-regular.svg#Arvo') format('svg'); /* Legacy iOS */
+  }
+  
+  /* arvo-700 - latin */
+  @font-face {
+    font-family: 'Arvo';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/arvo-v14-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/arvo-v14-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/arvo-v14-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/arvo-v14-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/arvo-v14-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/arvo-v14-latin-700.svg#Arvo') format('svg'); /* Legacy iOS */
+  }
+  
+  /* arvo-italic - latin */
+  @font-face {
+    font-family: 'Arvo';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/arvo-v14-latin-italic.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/arvo-v14-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/arvo-v14-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/arvo-v14-latin-italic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/arvo-v14-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/arvo-v14-latin-italic.svg#Arvo') format('svg'); /* Legacy iOS */
+  }
+  
+   
+  
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    margin-left: calc(100vw - 100%);
+}
+
+body {
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-family: 'Arvo';
+    color: #313a3d;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+    line-height: 1.7em;
+}
+
+header#banner {
+    margin: 25px 0 30px 0;
+    padding: 0 0 25px 0;
+    border-bottom: 1px dashed #606984;
+}
+
+header#banner a {
+    color: #313a3d;
+    text-decoration: none;
+}
+
+header#banner a:hover {
+    text-decoration: underline;
+}
+
+header#banner h2 {
+    display: inline;
+    font-size: 18px;
+    font-size: 1.9rem;
+    margin: 0 8px 0 0;
+}
+
+header#banner nav {
+    display: inline-block;
+}
+
+header#banner nav ul {
+    list-style-type: none;
+    font-size: 1.05em;
+    text-transform: lowercase;
+    margin: 0;
+    padding: 0;
+}
+
+header#banner nav ul li {
+    display: inline;
+    margin: 0 3px;
+}
+
+header#banner nav ul li a {
+    color: #454545;
+}
+
+main#content {
+    margin: 0 0 80px 0;
+}
+
+main#content a {
+    color: #007dfa;
+    text-decoration: none;
+}
+
+main#content a:hover {
+    text-decoration: underline;
+}
+
+main#content h1,
+main#content h2,
+main#content h3,
+main#content h4,
+main#content h5,
+main#content h6 {
+    margin-bottom: 15px;
+    line-height: 1.15;
+}
+
+main#content h1 a {
+	color: #313a3d;
+}
+
+main#content h3 {
+    font-size: 20px;
+    font-size: 2.0rem;
+    margin-bottom: 5px;
+}
+
+main#content h1 + p,
+main#content h2 + p,
+main#content h3 + p,
+main#content h4 + p,
+main#content h5 + p,
+main#content h6 + p {
+    margin-top: 5px;
+}
+
+main#content p {
+    color: #394548;
+    margin: 16px 0;
+}
+
+main#content div {
+    margin: 0 0 1.7em 0;
+}
+
+main#content hr {
+    height: 1px;
+    border: 0;
+    background: #d8d8d8;
+}
+
+main#content abbr {
+    cursor: help;
+}
+
+/* index.html styles */
+main#content ul#posts {
+    list-style-type: none;
+    font-size: 16px;
+    font-size: 1.6rem;
+    margin-top: 0;
+    padding: 0;
+}
+
+main#content ul#posts li::before {
+    content: "-";
+    color: #606984;
+}
+
+main#content ul#posts li {
+    margin: 5px 0;
+    padding: 0;
+}
+
+main#content ul#posts small {
+    font-size: 0.8em;
+    color: #767676;
+    margin-left: 10px;
+}
+
+main#content ul#posts li a {
+    text-decoration: none;
+}
+
+main#content ul#posts li a:hover {
+    color: #369aff;
+}
+
+main#content ul#posts li a:hover small {
+    color: inherit;
+}
+
+/* single.html styles */
+main#content header#post-header h1 {
+    display: block;
+    font-size: 23px;
+    font-size: 2.3rem;
+    font-weight: 600;
+    line-height: 1.15;
+    margin: 0 0 5px 0;
+}
+
+main#content header#post-header > div {
+    display: inline-flex;
+    font-size: 0.85em;
+    color: #767676;
+    margin: 0;
+}
+
+main#content header#post-header ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0 0 0 5px;
+    margin: 0 0 0 0;
+}
+
+main#content header#post-header ul li {
+    display: flex;
+    padding: 0 0 0 5px;
+    }
+
+main#content header#post-header li a {
+    text-decoration: underline;
+    }
+
+main#content #toc {
+    border: 1px solid #b1b1b1;
+    border-radius: 1px;
+    line-height: 26px;
+    margin: 16px 0;
+    padding: 9px 14px;
+}
+
+main#content #toc h4 {
+    font-size: 1.06em;
+    color: #3d3d3d;
+    margin: 0;
+}
+
+main#content #toc nav#TableOfContents {
+    margin-top: 4px;
+}
+
+main#content #toc nav#TableOfContents > ul, main#content #toc nav#TableOfContents > ol {
+    margin-left: -40px;
+}
+
+main#content #toc ul, main#content #toc ol {
+    font-size: 0.98em;
+    margin: 0;
+    padding: 0 0 0 40px;
+}
+
+main#content #toc ul {
+    list-style-type: none;
+}
+
+main#content #toc ol {
+    counter-reset: item;
+}
+
+main#content #toc ol li {
+    display: block;
+}
+
+main#content #toc ol li:before {
+    content: counters(item, ".") ". ";
+    counter-increment: item;
+}
+
+main#content img {
+    max-width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+main#content figure {
+    margin: 16px 0;
+}
+
+main#content figure img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+main#content figure figcaption {
+    font-size: 0.92em;
+    font-style: italic;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 6px;
+    padding: 0 10px;
+}
+
+main#content figure figcaption h4 {
+    font-style: normal;
+    display: inline;
+    margin: 0;
+}
+
+main#content figure figcaption p {
+    display: inline;
+    margin: 0;
+    padding-left: 8px;
+}
+
+main#content blockquote {
+    font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    padding-left: 15px;
+    border-left: 3px solid #ccc;
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+
+main#content code,
+main#content pre {
+    font-family: 'Menlo', monospace;
+}
+
+main#content code {
+    font-size: 0.96em;
+    padding: 0 5px;
+}
+
+main#content pre {
+    display: block;
+    overflow-x: auto;
+    font-size: 14px;
+    font-size: 1.4rem;
+    white-space: pre;
+    margin: 20px 0;
+    padding: 1.5rem 1.5rem;
+    line-height: 1.4;
+}
+
+main#content pre code {
+    padding: 0;
+}
+
+main#content section.footnotes {
+    font-size: 0.9em;
+}
+
+main#content .article-frontpage {
+	margin: 0 0 35px 0;
+	padding: 0 0 20px 0;
+	border-bottom: 1px dashed #606984;
+}
+
+main#content .pagination {
+	list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 35px 0 0 0;
+    padding: 0;
+}
+
+footer#footer {
+    font-size: 12px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #b3b3b3;
+    margin: 16px 0;
+    padding: 0 0 0 10px;
+    bottom: 0;
+}
+
+footer#footer nav {
+    display: inline-flex;
+}
+
+footer#footer nav ul {
+    list-style-type: none;
+    font-size: 1.2rem;
+    text-transform: lowercase;
+    margin: 0;
+    padding: 0;
+}
+
+footer#footer nav ul li {
+    display: inline;
+    margin: 0 3px;
+}
+
+footer#footer nav ul li a {
+    color: #454545;
+    text-decoration: none;
+}
+
+.twitter-tweet {
+    font-size: 14px!important;
+    font-size: 1.4rem!important;
+    font-family: 'Arvo'!important;
+    line-height: 1.7em!important;
+}
+
+
+.lazyload,
+.lazyloading {
+	opacity: 0;
+}
+.lazyloaded {
+	opacity: 1;
+	transition: opacity 300ms;
+}

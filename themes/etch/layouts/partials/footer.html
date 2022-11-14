@@ -1,0 +1,15 @@
+<footer id="footer">
+    {{ .Site.Params.copyright }}
+
+    <nav>
+        <ul>
+            {{ range .Site.Menus.second.ByWeight -}}
+            <li>
+                {{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}">{{- .Name -}}</a>{{ .Post }}
+            </li>
+            {{- end }}
+        </ul>
+    </nav>
+</footer>
+
+<script defer language="javascript" type="text/javascript"  src="{{ "/js/lightbox2.js" | urlize | relURL }}"></script>

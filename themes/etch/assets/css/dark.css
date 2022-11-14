@@ -1,0 +1,69 @@
+{{ if not (eq .Site.Params.dark "on") -}}
+@media (prefers-color-scheme: dark) {
+{{ end -}}
+html {
+    scrollbar-color: #6c6c6c #2e2e2e;
+}
+
+body {
+    color: #d9e1e8;
+    background: #191b22;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+header#banner a {
+    color: #d9e1e8;
+    text-decoration: none;
+}
+
+header#banner nav ul li a {
+    color: #cccccc;
+}
+
+main#content a {
+    color: #4ea2df;
+}
+
+main#content p {
+    color: #d9e1e8;
+}
+
+main#content hr {
+    background: #5c5c5c;
+}
+
+main#content #toc h4 {
+    color: #d4d4d4;
+}
+
+main#content ul#posts small {
+    color: #606984;
+}
+
+main#content ul#posts li a:hover {
+    color: #4ea2df;
+}
+
+main#content header#post-header h1 {
+    color: #d9e1e8;
+}
+
+main#content h1 a {
+    color: #d9e1e8;
+}
+
+main#content header#post-header div {
+    color: #606984;
+}
+
+main#content blockquote {
+    border-left: 3px solid #606984;
+    color: #606984;
+}
+footer#footer {
+    color: #9baec8;
+}
+{{- if not (eq .Site.Params.dark "on") -}}
+}
+{{- end -}}

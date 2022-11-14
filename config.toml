@@ -1,0 +1,70 @@
+baseURL = "https://blog.d381.xyz"
+title = "d381blog"
+theme = "etch"
+themesDir = "themes"
+languageCode = "de-de"
+defaultContentLanguage = "de"
+enableInlineShortcodes = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+enableRobotsTXT = true
+enableEmoji = true
+paginate = 5
+
+[params]
+  description = "d381test"
+  copyright = "© 2022 d381blog"
+  dark = "auto"
+  highlight = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    title = "posts"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "about"
+    url = "/about/"
+    weight = 20
+
+  [[menu.second]]
+    identifier = "impressum"
+    name = "impressum"
+    title = "impressum"
+    url = "/impressum/"
+    weight = 10
+
+[permalinks]
+  posts = "/:title/"
+
+[markup.goldmark.renderer]
+  # Allows HTML in Markdown
+  unsafe = true
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    anonymizeIP = false
+    disable = true
+    respectDoNotTrack = false
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = false
+    simple = true
+  [privacy.twitter]
+    disable = false
+    enableDNT = false
+    simple = true
+  [privacy.vimeo]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true

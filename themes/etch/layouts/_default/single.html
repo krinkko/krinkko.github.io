@@ -1,0 +1,27 @@
+{{ define "main" }}
+<article>
+    <header id="post-header">
+        <h1>{{ .Title }}</h1>
+        {{- if isset .Params "date" -}}
+            <div>
+                {{ if eq .Lastmod .Date }}
+                <time>{{ .Date | time.Format ":date_medium" }}</time>
+                {{ else }}
+                Updated <time>{{ .Lastmod.Format ":date_medium" }}</time>
+                {{ end }}
+            {{- if isset .Params "tags" -}}
+            <ul>    
+            {{ range (.GetTerms "tags") }}
+                <li><a href="{{ .Permalink }}">{{ .LinkTitle | emojify }}</a></li>
+            {{ end }}
+            </ul>
+            {{ end }}
+            </div>
+        {{- end -}}
+    </header>
+    {{- .Content -}}
+</article>
+<section id="related-content">
+    {{- partial "related.html" . -}}
+</section>
+{{ end }}
