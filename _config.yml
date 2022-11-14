@@ -34,7 +34,7 @@ plugins:
  - jekyll-remote-theme
 
 # Build settings
-theme: minima
+remote_theme: b2a3e8/jekyll-theme-console
 
 
 # Exclude from processing.
