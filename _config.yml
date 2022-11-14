@@ -25,7 +25,6 @@ domain: krinkko.github.io
 url: "https://krinkko.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: krinkko_the_cat
 github_username:  krinkko
-timezone: Europe/Berlin
 
 plugins:
  - jekyll-paginate
