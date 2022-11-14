@@ -37,3 +37,4 @@ gem "jekyll-remote-theme"
 gem "jekyll-paginate"
 gem "jekyll-seo-tag"
 gem "jekyll-sitemap"
+gem 'lanyon', '~> 0.4.4'

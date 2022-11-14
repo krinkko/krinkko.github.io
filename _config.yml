@@ -35,7 +35,7 @@ plugins:
  - jekyll-remote-theme
 
 # Build settings
-remote_theme: harveynick/lagrange
+theme: lanyon
 
 
 # Exclude from processing.
