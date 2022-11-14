@@ -34,7 +34,7 @@ plugins:
  - jekyll-remote-theme
 
 # Build settings
-remote_theme: bitbrain/jekyll-dash
+theme: minima
 
 
 # Exclude from processing.
