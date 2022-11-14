@@ -29,7 +29,7 @@ github_username:  krinkko
 timezone: Europe/Berlin
 
 # Build settings
-remote_theme: LeNPaul/Lagrange
+remote_theme: harveynick/lagrange
 paginate:            5
 markdown:            kramdown
 highlighter:         rouge
