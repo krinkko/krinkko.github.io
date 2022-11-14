@@ -30,7 +30,7 @@ twitter_username: krinkko_the_cat
 github_username:  krinkko
 
 # Build settings
-theme: lanyon
+theme: minima
 plugins:
   - jekyll-feed
 
