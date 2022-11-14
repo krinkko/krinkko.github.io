@@ -35,7 +35,7 @@ plugins:
  - jekyll-remote-theme
 
 # Build settings
-theme: lanyon
+theme: minima
 
 
 # Exclude from processing.
