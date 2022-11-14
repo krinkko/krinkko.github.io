@@ -1,0 +1,75 @@
+<!doctype html><html lang=de><head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="d381test">
+<link rel="shortcut icon" href=https://blog.d381.xyz/favicon.ico>
+<link rel=stylesheet href=/css/style.min.css>
+<script language=javascript type=text/javascript src=/js/lazysizes.min.js></script>
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://blog.d381.xyz/fieser-zugem%C3%BCllter-wsus-bereinigt/wsusboeseunddreckig.jpg">
+<meta name=twitter:title content="Fieser, zugemüllter WSUS! Bereinigt!">
+<meta name=twitter:description content="Seit irgendwann letzter Woche oder so konnte man unseren tollen WSUS Server nicht mehr richtig bedienen, weil die Datenbank so sehr ausgelastet und zugemüllt war, dass dauernd die Nachricht &ldquo;Serverknoten zurücksetzen&rdquo; erschienen ist. Kennt man ja.
+Da guckt man mal in die &ldquo;Produkte und Spezifikationen&rdquo; Auswahl des Updateservers rein und findet massig Treiber und solch einen Kram. Etwas, was man nie, nie, nieeemals dem WSUS antun sollte.">
+<meta property="og:title" content="Fieser, zugemüllter WSUS! Bereinigt!">
+<meta property="og:description" content="Seit irgendwann letzter Woche oder so konnte man unseren tollen WSUS Server nicht mehr richtig bedienen, weil die Datenbank so sehr ausgelastet und zugemüllt war, dass dauernd die Nachricht &ldquo;Serverknoten zurücksetzen&rdquo; erschienen ist. Kennt man ja.
+Da guckt man mal in die &ldquo;Produkte und Spezifikationen&rdquo; Auswahl des Updateservers rein und findet massig Treiber und solch einen Kram. Etwas, was man nie, nie, nieeemals dem WSUS antun sollte.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://blog.d381.xyz/fieser-zugem%C3%BCllter-wsus-bereinigt/"><meta property="og:image" content="https://blog.d381.xyz/fieser-zugem%C3%BCllter-wsus-bereinigt/wsusboeseunddreckig.jpg"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2022-04-29T14:24:05+02:00">
+<meta property="article:modified_time" content="2022-04-29T14:24:05+02:00">
+<title>Fieser, zugemüllter WSUS! Bereinigt!</title>
+</head>
+<body><header id=banner>
+<h2><a href=https://blog.d381.xyz>d381blog</a></h2>
+<nav>
+<ul>
+<li>
+<a href=/ title=posts>posts</a>
+</li><li>
+<a href=/about/ title=about>about</a>
+</li>
+</ul>
+</nav>
+</header>
+<main id=content>
+<article>
+<header id=post-header>
+<h1>Fieser, zugemüllter WSUS! Bereinigt!</h1><div>
+<time>29.04.2022</time>
+<ul>
+<li><a href=https://blog.d381.xyz/tags/wsus/>WSUS</a></li>
+<li><a href=https://blog.d381.xyz/tags/windows-server/>Windows Server</a></li>
+<li><a href=https://blog.d381.xyz/tags/adminkram/>Adminkram</a></li>
+</ul>
+</div></header><p><a href=wsusboeseunddreckig.jpg>
+<a href=/fieser-zugem%C3%BCllter-wsus-bereinigt/wsusboeseunddreckig.jpg>
+<picture>
+<source media="(max-width: 376px)" srcset=/fieser-zugem%C3%BCllter-wsus-bereinigt/wsusboeseunddreckig_hu7f4fc35319fb02b037f13ce78ff0dc62_138729_500x0_resize_q75_h2_box.webp>
+<source media="(max-width: 992px)" srcset=/fieser-zugem%C3%BCllter-wsus-bereinigt/wsusboeseunddreckig_hu7f4fc35319fb02b037f13ce78ff0dc62_138729_800x0_resize_q75_h2_box.webp>
+<source media="(max-width: 1400px)" srcset=/fieser-zugem%C3%BCllter-wsus-bereinigt/wsusboeseunddreckig_hu7f4fc35319fb02b037f13ce78ff0dc62_138729_1200x0_resize_q75_h2_box.webp>
+<source media="(min-width: 1600px)" srcset=/fieser-zugem%C3%BCllter-wsus-bereinigt/wsusboeseunddreckig_hu7f4fc35319fb02b037f13ce78ff0dc62_138729_1500x0_resize_q75_h2_box.webp>
+<img alt="Einige Updates sammelten sich auf dem WSUS an" title="Einige Updates sammelten sich auf dem WSUS an" src=https://blog.d381.xyz/fieser-zugem%C3%BCllter-wsus-bereinigt/wsusboeseunddreckig.jpg class="img-fluid lazyload">
+</picture>
+</a>
+</a></p>
+<p>Seit irgendwann letzter Woche oder so konnte man unseren tollen WSUS Server nicht mehr richtig bedienen, weil die Datenbank so sehr ausgelastet und zugemüllt war, dass dauernd die Nachricht &ldquo;Serverknoten zurücksetzen&rdquo; erschienen ist. Kennt man ja.</p>
+<p>Da guckt man mal in die &ldquo;Produkte und Spezifikationen&rdquo; Auswahl des Updateservers rein und findet massig Treiber und solch einen Kram. Etwas, was man nie, nie, nieeemals dem WSUS antun sollte. Es ist einfach zu viel Durcheinander für dieses zärtliche Wesen.</p>
+<p>Nun ging ich also hin und entfernte Treiber und alles, was nur Müll macht, aus den Produkten aber konnte die Bereinigung nicht durchziehen. Immer lastete der Prozess die Datenbank so sehr aus, dass mir die MCC/der Server abgeraucht ist.</p>
+<p>Also erinnerte ich mich an <a href=https://damgoodadmin.com/2017/11/05/fully-automate-software-update-maintenance-in-cm/>das CleanUp Script von Bryan Dam</a>, welches auch WSUS Server wieder zum laufen bringen sollte, die man über Jahre hinweg dreckig hat werden lassen. Ließ das Script mit -FirstRun und -UseCustomIndexes laufen und siehe da: Er säubert die WSUS-Partition von 91gb frei auf (!!!) 320gb frei. Noch fix eine Aufgabe für jeden Sonntag um 12 Uhr Mittags drauß gebastelt und tschüss.</p>
+<p>Ich starte das Teil also neu und es schnurrt wie ein Kätzchen.</p>
+<p>So. Wochenende.</p>
+</article>
+<section id=related-content>
+</section>
+</main><footer id=footer>
+© 2022 d381blog
+<nav>
+<ul>
+<li>
+<a href=/impressum/ title=impressum>impressum</a>
+</li>
+</ul>
+</nav>
+</footer>
+<script defer language=javascript type=text/javascript src=/js/lightbox2.js></script></body>
+</html>
