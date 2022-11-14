@@ -1,4 +1,4 @@
-baseURL = "https://blog.d381.xyz"
+baseURL = "https://krinkko.github.io"
 title = "d381blog"
 theme = "etch"
 themesDir = "themes"
