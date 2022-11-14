@@ -33,6 +33,7 @@ github_username:  krinkko
 theme: jekyll-dash
 plugins:
   - jekyll-feed
+  - jekyll-archives
 
 # Exclude from processing.
 # The following items will not be processed, by default.
