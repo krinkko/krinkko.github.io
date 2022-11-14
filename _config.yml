@@ -28,7 +28,7 @@ github_username:  krinkko
 timezone: Europe/Berlin
 
 # Build settings
-remote_theme: benbalter/retlab
+theme: minima
 plugins:
  - jekyll-paginate
  - jekyll-sitemap
