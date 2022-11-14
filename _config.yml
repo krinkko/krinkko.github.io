@@ -21,7 +21,6 @@
 title: d381blog
 description: >- # this means to ignore newlines until "baseurl:"
   381er Blog und Labor. Dies und Das.
-baseurl: "" # the subpath of your site, e.g. /blog
 domain: krinkko.github.io
 url: "https://krinkko.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: krinkko_the_cat
