@@ -1,0 +1,163 @@
+#commento {
+   margin: 20px 0 0 0;
+}
+
+.commento-root .commento-main-area {
+    padding: 0 2px 0 2px;
+    transition: filter .2s;
+}
+
+.commento-root .commento-logged-container svg {
+    filter:invert(0);
+}
+
+.commento-root .commento-button-margin {
+    padding-top: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    align-content: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.commento-root .commento-textarea-container {
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100%;
+    order: 1;
+}
+
+.commento-root .commento-anonymous-checkbox-container {
+    float: right;
+    margin: 20px 5px;
+    order: 3;
+}
+
+.commento-root .commento-submit-button {
+    /* float: right; */
+    background: #1971c2;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 0;
+    order: 4;
+}
+
+.commento-root .commento-button {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 14px;
+    padding: 6px 8px;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: #fff;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.commento-root .commento-markdown-button {
+    color: #868e96;
+    margin: 0 16px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: none;
+    line-height: 39px;
+    font-weight: 400;
+    cursor: pointer;
+    display: block;
+    clear: both;
+    order: 5;
+}
+
+.commento-root .commento-card .commento-moderator::after {
+    content: "m"!important;
+}
+
+.commento-root .commento-guest-details-container {
+    margin: 0;
+    order: 2;
+    flex-grow: 1;
+    max-width: 30%;
+}
+
+.commento-root .commento-guest-details {
+    margin: 10px 0 0 0;
+    padding: 6px 8px;
+    height: auto!important;
+    text-align: left!important;
+}
+
+.commento-root .commento-markdown-help {
+    border: 1px dashed #dee2e6;
+    padding: 8px;
+    margin: 10px 0 0 0;
+    order: 6;
+}
+
+.commento-root-font * {
+    font-family: inherit!important;
+}
+
+.commento-root .commento-avatar-img {
+    object-fit: cover;
+}
+
+.input-wrapper {
+    padding: 2px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .commento-root input[type=text], .commento-root textarea {
+        background: #282c37;
+        border: 1px solid rgba(50,50,93,.1);
+        border-radius: 3px;
+        color: #d9e1e8;
+    }
+
+	.commento-root .commento-guest-details-container {
+		margin: 0;
+	} 
+
+	.commento-root .commento-submit-button {
+		background-color: #313543;
+	}
+
+    .commento-root .commento-markdown-help {
+        border: 1px dashed #606984;
+    }
+
+	.commento-root .commento-logged-container .commento-logged-in-as .commento-name {
+		color: #d9e1e8;
+	}
+
+	.commento-root .commento-mod-tools::before {
+		color: springgreen;
+	}
+
+	.commento-root .commento-card {
+		border-top: none;
+	}
+
+	.commento-root .commento-card .commento-name {
+		color: #d9e1e8;
+	}	
+
+	.commento-root .commento-card .commento-body p {
+		color: #d9e1e8;
+	}
+
+	.commento-count-pre::before {
+		color: #606984;
+	}
+
+    .commento-root .commento-logged-container svg {
+        filter:invert(1);
+    }
+}

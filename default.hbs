@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="{{@site.lang}}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>{{meta_title}}</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link rel="stylesheet" type="text/css" href="{{asset "css/normalize.css"}}" />
+  	<link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
+	<link rel="stylesheet" type="text/css" href="{{asset "css/featherlight.css"}}" />
+	<link rel="stylesheet" type="text/css" href="{{asset "css/featherlight.gallery.min.css"}}" />
+	<link rel="stylesheet" type="text/css" href="{{asset "css/fontawesome.all.min.css"}}">
+	<link rel="stylesheet" type="text/css" href="{{asset "css/prism.css"}}" />
+
+	<script type="text/javascript" src="{{asset "js/lazyload.min.js"}}" async></script>
+	<script>
+		window.commentoCustomText = function(count) {
+  			if(count === 0) {
+    			return "0 comments";
+  			} else if (count === 1) {
+    			return "1 comment";
+  			} else {
+    			return count + " comments";
+  			}
+		}
+	</script>
+	<script src="https://comments.d381.xyz/js/count.js" data-custom-text="window.commentoCustomText" defer></script>
+
+	
+
+
+    {{#if pagination.next}}<link href="{{page_url pagination.next}}" rel="prefetch" />{{/if}}
+
+    {{ghost_head}}
+</head>
+<body class="{{body_class}}">
+<div class="wrapper">
+
+    <header id="site-header">
+		{{> social-header}}
+        {{#if @site.logo}}
+          <h1 class="blog-title"><a href="{{@site.url}}"><img src="{{@site.logo}}"></a></h1>
+        {{else}}
+          <h1 class="blog-title"><a href="{{@site.url}}">{{@site.title}}</a></h1>
+        {{/if}}
+        <h2 class="blog-description">{{@site.description}}</h2>
+        {{navigation}}
+    </header>
+
+    {{{body}}}
+
+    <footer class="site-footer">
+        <div class="inner">
+            {{!> footer-description}}
+            <div class="copyright">&copy; {{date format="YYYY"}} <a href="/">{{@site.title}}</a>.</div>
+            <div class="poweredby">Proudly published with <a class="icon-ghost" href="http://ghost.org/"><span class="hidden">Ghost</span></a></div>
+			<div class="offi-links">{{navigation type="secondary"}}</div>
+        </div>
+
+    </footer>
+</div>
+
+	<script type="text/javascript" src="{{asset "js/jquery-3.6.0.min.js"}}"></script>
+	<script>
+		$(document).ready(function(){
+		// Target your .container, .wrapper, .post, etc.
+		$(".post-content").fitVids();
+		$('.kg-image').featherlight({targetAttr: 'src'});
+
+
+		$('.kg-gallery-image img').featherlightGallery({
+		targetAttr: 'src',
+		previousIcon: '&#9664;',     /* Code that is used as previous icon */
+		nextIcon: '&#9654;',         /* Code that is used as next icon */
+		galleryFadeIn: 100,          /* fadeIn speed when slide is loaded */
+		galleryFadeOut: 300          /* fadeOut speed before slide is loaded */
+
+		});
+
+		});
+	</script>
+
+	<script type="text/javascript" src="{{asset "js/featherlight.min.js"}}" defer></script>
+	<script type="text/javascript" src="{{asset "js/featherlight.gallery.min.js"}}" defer></script>
+	<script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}" defer></script>
+	<script type="text/javascript" src="{{asset "js/prism.js"}}" defer></script>
+
+
+	{{ghost_foot}}
+</body>
+</html>

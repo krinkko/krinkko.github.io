@@ -1,0 +1,38 @@
+{{!< default}}
+
+<main class="content" role="main">
+
+    <article class="{{post_class}}">
+
+        {{#post}}
+
+        <header>
+        <div class="post-meta"><time class="post-date" datetime="{{date format="YYYY-MM-DDTHH:mm:ss.SS\Z"}}">{{date published_at format="DD.MM.YYYY"}}</time></div>
+        
+				<h1 class="post-title"><a href="{{url}}">{{{title}}}</a></h1>
+		
+        </header>
+
+        <section class="post-content">
+			{{#if feature_image}}
+				<a href="#" class="feature_image_link" data-featherlight="{{img_url feature_image size="xl"}}"><img class="feature_image" srcset="{{img_url feature_image size="s"}} 324w,
+                    {{img_url feature_image size="m"}} 560w,
+                    {{img_url feature_image size="l"}} 1024w,
+                    {{img_url feature_image size="xl"}} 2000w"
+            sizes="(max-width: 1000px) 324px, 560px"
+            src="{{img_url feature_image size="m"}}"
+            alt="{{title}}"></a>
+			{{/if}}
+            {{content}}
+			
+			{{#if tags}}<div class="tagwrapper"><div class="post-data tags">{{tags prefix="" separator=""}}</div></div>{{/if}}
+        </section>
+
+        <footer class="post-footer">
+		</footer>
+
+        {{/post}}
+
+    </article>
+
+</main>
