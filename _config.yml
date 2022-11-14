@@ -30,10 +30,6 @@ timezone: Europe/Berlin
 
 # Build settings
 remote_theme: poole/lanyon
-paginate:            5
-markdown:            kramdown
-highlighter:         rouge
-permalink:           /:title
 plugins:
   - jekyll-feed
   - jekyll-archives
