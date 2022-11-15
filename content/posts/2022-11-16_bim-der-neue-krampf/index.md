@@ -2,7 +2,6 @@
 title: "BIM der neue Krampf am IT-Himmel"
 date: 2022-11-15T14:57:23+01:00
 tags: ["Software","BIM","ifc-Datei"]
-draft: true
 ---
 Okay eigentlich ist BIM - Building Information Modeling - der kommende coole Kram in Sachen Planung und Zeichnung am Computer. Traurig daher bis jetzt die BIM-Viewer Software auf dem Markt, die entweder Stundenlang lädt oder einfach direkt beim Start abstürzt. Manche lädt auch die Modelle aber zeigt dann nichts an. Alles grau.
 
