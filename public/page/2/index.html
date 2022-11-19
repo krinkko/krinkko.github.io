@@ -38,10 +38,38 @@
     </nav>
 </header>
 <main id="content">
-<p>Kleiner Blog mit Bikes, Fotos und Adminkram aus BS.</p>
 
 
 
+    
+	<article class="article-frontpage">
+    <header id="post-header">
+        <h1><a href="https://krinkko.github.io/neue-hypewelle-auf-mastodon/">Neue Hypewelle auf Mastodon</a></h1><div>
+                
+                <time>26.04.2022</time>
+                <ul>    
+            
+                <li><a href="https://krinkko.github.io/tags/mastodon/">Mastodon</a></li>
+            
+                <li><a href="https://krinkko.github.io/tags/fediverse/">Fediverse</a></li>
+            
+                <li><a href="https://krinkko.github.io/tags/twitter/">Twitter</a></li>
+            
+                <li><a href="https://krinkko.github.io/tags/social-media/">Social Media</a></li>
+            
+                <li><a href="https://krinkko.github.io/tags/hype/">Hype</a></li>
+            
+                <li><a href="https://krinkko.github.io/tags/internet/">Internet</a></li>
+            
+            </ul>
+            
+            </div></header><p>Da will der reichste Typ der Welt sich ein Soziales Netzwerk abgrabbeln und schon löst er damit einen Hype Run auf Mastodon aus. Wie erfreulich!</p>
+<p>Zu diesen Hypewellen kam es immer mal wieder und ich gehe es inzwischen cool an, aber ich freue mich dennoch über die neue Gesellschaft im Fediverse. Vielleicht bleiben &ldquo;dieses mal&rdquo; ja doch viele da und man macht sich eine coole Zeit ohne konflikt schürenden Algorythmus?</p>
+<p>Ich denke Algorythmen spielen eine große Rolle in der kontinuierlichen Nutzung von sozialen Netzwerken. Die Leute werden sozusagen Drama abhängig gemacht. Es tobt die Schlammschlacht. Das fehlen eines solchen Algorythmus macht die Nutzung auch um einiges entspannter. Man wird nicht dauernd mit irgendeiner dummen Scheiße konfrontiert.</p>
+<p>Aber zurück zum Thema. Das Fediverse ist ja gerade deshalb so interessant, weil es nicht den Regeln des Konzerns folgen kann. Bin ich mit der &ldquo;Führung&rdquo; meiner Instanz, meines Servers, nicht zufrieden, so suche ich mir halt einen anderen. Oder ich mache mir selbst eine Instanz auf.</p>
+<p>Was Mastodon meiner Meinung nach momentan am meisten Fehlt ist eine einfache Erklärung der Instanzen die direkt ersichtlich und super duper easy ist UND - eher was persönliches - eine richtig gute Thread-View für die Konversation. Und gifs.</p>
+<p>Haut rein!</p>
+</article>
     
 	<article class="article-frontpage">
     <header id="post-header">
@@ -350,35 +378,6 @@
 
   
 </a></p>
-</article>
-    
-	<article class="article-frontpage">
-    <header id="post-header">
-        <h1><a href="https://krinkko.github.io/powershellscript-ohne-fenster/">Powershellscript ohne Fenster</a></h1><div>
-                
-                <time>17.02.2022</time>
-                <ul>    
-            
-                <li><a href="https://krinkko.github.io/tags/powershell/">Powershell</a></li>
-            
-                <li><a href="https://krinkko.github.io/tags/scripting/">Scripting</a></li>
-            
-                <li><a href="https://krinkko.github.io/tags/scripte/">Scripte</a></li>
-            
-                <li><a href="https://krinkko.github.io/tags/vbs/">vbs</a></li>
-            
-            </ul>
-            
-            </div></header><p>Man kann einfach ein bisschen vbs-Code dazu benutzen um ein Powershellfenster vor Usern zu verstecken:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl">Dim objArguments
-</span></span><span class="line"><span class="cl">Dim command
-</span></span><span class="line"><span class="cl"><span class="k">Set</span> <span class="nv">objArguments </span><span class="p">=</span> WScript.Arguments
-</span></span><span class="line"><span class="cl">command = <span class="s2">&#34;powershell.exe -nologo -command &#34;</span> <span class="p">&amp;</span> objArguments(0) <span class="p">&amp;</span> <span class="s2">&#34;&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nv">shell </span><span class="p">=</span> CreateObject(<span class="s2">&#34;WScript.Shell&#34;</span>)
-</span></span><span class="line"><span class="cl">shell.Run command,0
-</span></span></code></pre></div><p>Speichern wir das nun z.B. als Launchpwrshl.vbs können wir direkt ein Script als Argument[0] daran hängen:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl"> launchpwrshl.vbs meinscript.ps1
-</span></span></code></pre></div><p>Nützlich, wenn man ein Powershellscript als Aufgabe oder so laufen lassen will.</p>
 </article>
 
 
