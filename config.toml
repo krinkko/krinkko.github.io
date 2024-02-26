@@ -12,7 +12,7 @@ enableEmoji = true
 paginate = 5
 
 [params]
-  description = "d381test"
+  description = "kleiner sysadmin blog mit einigen gedanken, die auch gern mal von IT abschweifen"
   copyright = "© 2022 d381blog"
   dark = "auto"
   highlight = true
