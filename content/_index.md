@@ -1,3 +1,3 @@
 ---
-title: "d381blog"
+title: "krinko's"
 ---
