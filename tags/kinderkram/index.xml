@@ -1,388 +1,154 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Kinderkram on krinkko&#39;s</title>
-    <link>http://localhost:1313/tags/kinderkram/</link>
-    <description>Recent content in Kinderkram on krinkko&#39;s</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>de-de</language>
-    <lastBuildDate>Mon, 26 Feb 2024 16:32:27 +0100</lastBuildDate>
-    
-	<atom:link href="http://localhost:1313/tags/kinderkram/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    
-    <item>
-      <title>Schaukelaufbaublues</title>
-      <link>http://localhost:1313/schaukelaufbaublues/</link>
-      <pubDate>Mon, 26 Feb 2024 16:32:27 +0100</pubDate>
-      
-      <guid>http://localhost:1313/schaukelaufbaublues/</guid>
-      <description>&lt;p&gt;Eigentlich ist es ja ein etwas später Zug über unseren &amp;ldquo;neuen&amp;rdquo; Schrebergarten hier direkt mit dem Aufbau unserer brand neuen Kinderschaukel zu starten, aber was solls&amp;hellip;&lt;/p&gt;
-&lt;p&gt;Kurz vorweg: Ich hätte nicht gedacht, dass es so ein Akt ist ein Schaukelgestell aufzustellen, aber lest erst mal rein hier.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;DSC_0980.JPG&#34;&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;a href=&#34;http://localhost:1313/schaukelaufbaublues/DSC_0980.JPG&#34;&gt;
-    &lt;picture&gt;
-    
-    &lt;source media=&#34;(max-width: 376px)&#34; 
-        srcset=&#34;http://localhost:1313/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_500x0_resize_q75_h2_box.webp&#34;&gt;
-
-    &lt;source media=&#34;(max-width: 992px)&#34; 
-        srcset=&#34;http://localhost:1313/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_800x0_resize_q75_h2_box.webp&#34;&gt;
-
-    &lt;source media=&#34;(max-width: 1400px)&#34; 
-        srcset=&#34;http://localhost:1313/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_1200x0_resize_q75_h2_box.webp&#34;&gt;
-
-    &lt;source media=&#34;(min-width: 1600px)&#34; 
-        srcset=&#34;http://localhost:1313/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_1500x0_resize_q75_h2_box.webp&#34;&gt;
-    
-    &lt;img 
- 
-   alt=&#34;Einige Updates sammelten sich auf dem WSUS an&#34; title=&#34;Einige Updates sammelten sich auf dem WSUS an&#34; src=&#34;http://localhost:1313/schaukelaufbaublues/dsc_0980.jpg&#34; class=&#34;img-fluid lazyload&#34;&gt;
-
-&lt;/picture&gt;
-&lt;/a&gt;
-  
-  
-
-  
-&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Extra für Samstag Vormittag hatte ich einen guten Freund dazugeholt, um gemeinsam die Schaukel aufzubauen und früh am Morgen mahnte meine Frau noch: &amp;ldquo;Hast du alles Werkzeug?&amp;rdquo; Und ich nur so: &amp;ldquo;Jaja, ich hab alles&amp;rdquo; Alles ganz locker, dachte ich mir so. Also, hätte ich mal auf meine Frau gehört :D&lt;/p&gt;
-&lt;p&gt;Wir also im Garten am Auspacken und fangen an, die ersten Balken zusammenzuschrauben und ich merke irgendwann, dass die großen Schrauben zwischen so spezielle Plastik Unterlegscheiben mit Nässe- und Stoßschutz kommen. Konnte ich nicht mit dem Maulschlüssel festziehen. Im Garten umgeschaut, nirgendwo eine Nuß gefunden. Bisschen grantig geworden. Dann irgendwann eine 17er Nuß gefunden. War dann schon erleichtert. Kurz darauf dann festgestellt, dass die Nuß auf nix drauf passt und auch nix da ist.&lt;/p&gt;
-&lt;p&gt;Mein Kumpel meinte also: &amp;ldquo;Komm, fahr halt schnell zum Baumarkt&amp;rdquo; Ich also zum Baumarkt und einen Adapter für den Akkuschrauber besorgt. Zurück im Garten schon bisschen gefreut, dass es nun angehen kann. Und was passiert?&lt;/p&gt;
-&lt;p&gt;Der Akkuschrauber packt nicht genug Newtonmeter um die Schrauben ins Holz zu ballern.&lt;/p&gt;
-</description>
-    </item>
-    
-    
-    
-    <item>
-      <title>Update Februar 2024</title>
-      <link>http://localhost:1313/update-februar-2024/</link>
-      <pubDate>Mon, 26 Feb 2024 12:40:47 +0100</pubDate>
-      
-      <guid>http://localhost:1313/update-februar-2024/</guid>
-      <description>&lt;p&gt;Moin! Lang nix hier auf der Page gemacht. Ich habe eigentlich sogar vergessen, dass das Repo noch existiert. Allerdings brauchte ich auch mal wieder was zum Basteln, also bin ich mal wieder kurz zurückgekehrt.&lt;/p&gt;
-&lt;p&gt;In der Zwischenzeit hatte ich alle meine Webspace&amp;rsquo;s, Domains, etc. gekündigt. Gebrauchten konnte ich sie nicht und Zeit für Projekte habe ich ebenfalls nicht mehr. Mein Ziel ist es, irgendwann wenn mal ein paar Taler übrig sind, ein Synology 723+ NAS zu kaufen und damit dann mal ein bisschen den Haushalt auf Vordermann zu bringen. Sprich Paperless und so weiter drauf.&lt;/p&gt;
-&lt;p&gt;Nun, das wäre es auch erst mal.&lt;/p&gt;
-</description>
-    </item>
-    
-    
-    
-    <item>
-      <title>Matrix Docker Compose Install (&#43;TelegramBot)</title>
-      <link>http://localhost:1313/matrix-docker-compose-install-telegrambot/</link>
-      <pubDate>Thu, 09 Jun 2022 13:42:45 +0200</pubDate>
-      
-      <guid>http://localhost:1313/matrix-docker-compose-install-telegrambot/</guid>
-      <description>&lt;p&gt;Letztens surfte ich so durch&amp;rsquo;s Web und habe entdeckt, dass man andere Services wie Telegram oder Signal allerdings auch per Bot und Bridges in Matrix einbinden kann. Mein Spieltrieb war wieder geweckt..&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;logo.png&#34;&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;a href=&#34;http://localhost:1313/matrix-docker-compose-install-telegrambot/logo.png&#34;&gt;
-    &lt;picture&gt;
-    
-    &lt;source media=&#34;(max-width: 376px)&#34; 
-        srcset=&#34;http://localhost:1313/matrix-docker-compose-install-telegrambot/logo_hu2a0b084fc950f50ca0ae8b9624d1eb3b_13129_500x0_resize_q75_h2_box_3.webp&#34;&gt;
-
-    &lt;source media=&#34;(max-width: 992px)&#34; 
-        srcset=&#34;http://localhost:1313/matrix-docker-compose-install-telegrambot/logo_hu2a0b084fc950f50ca0ae8b9624d1eb3b_13129_800x0_resize_q75_h2_box_3.webp&#34;&gt;
-
-    &lt;source media=&#34;(max-width: 1400px)&#34; 
-        srcset=&#34;http://localhost:1313/matrix-docker-compose-install-telegrambot/logo_hu2a0b084fc950f50ca0ae8b9624d1eb3b_13129_1200x0_resize_q75_h2_box_3.webp&#34;&gt;
-
-    &lt;source media=&#34;(min-width: 1600px)&#34; 
-        srcset=&#34;http://localhost:1313/matrix-docker-compose-install-telegrambot/logo_hu2a0b084fc950f50ca0ae8b9624d1eb3b_13129_1500x0_resize_q75_h2_box_3.webp&#34;&gt;
-    
-    &lt;img 
- 
-   alt=&#34;Einige Updates sammelten sich auf dem WSUS an&#34; title=&#34;Einige Updates sammelten sich auf dem WSUS an&#34; src=&#34;http://localhost:1313/matrix-docker-compose-install-telegrambot/logo.png&#34; class=&#34;img-fluid lazyload&#34;&gt;
-
-&lt;/picture&gt;
-&lt;/a&gt;
-  
-  
-
-  
-&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Vor einiger Zeit hatte ich bereits schon einmal einen Matrix Server für mich und meine Freunde aufgesetzt, weil wir eine Alternative zum unverschlüsselten Telegram haben wollten für unseren Gruppenchat. Das ging leider etwas unter, da wir uns bereits auf Telegram breit gemacht hatten und irgendwie dann doch kein Interesse am Wechseln vorhanden war.&lt;/p&gt;
-&lt;p&gt;Ich hatte den Server leider zwischenzeitlich wieder platt gemacht.&lt;/p&gt;
-&lt;p&gt;Grundsätzlich schreibe ich die kleine Anleitung hier aber nur, weil ich mir viele Sachen erst zusammensuchen musste um Matrix zum Laufen zu bewegen.&lt;/p&gt;</description>
-    </item>
-    
-    
-    
-    <item>
-      <title>Ampler Stout 2019 - 2020 Spezifikationsliste</title>
-      <link>http://localhost:1313/ampler-stout-2019-2020-spezifikationsliste/</link>
-      <pubDate>Wed, 08 Jun 2022 10:40:46 +0200</pubDate>
-      
-      <guid>http://localhost:1313/ampler-stout-2019-2020-spezifikationsliste/</guid>
-      <description>&lt;p&gt;Kleiner Dump der Spezifikationsliste für mein Ampler Stout 2019. Einfach, damit ich es leichter wiederfinde. Vielleicht ja auch für Dich interessant :)&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Komponenten&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Rahmen&lt;/td&gt;
-&lt;td&gt;Aluminium 6061&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Gabel&lt;/td&gt;
-&lt;td&gt;Aluminium 1 1/8&amp;quot;, 12 mm Steckachse&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Kurbelgarnitur&lt;/td&gt;
-&lt;td&gt;Aluminium-Legierung 42T, 170 mm&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Tretlager&lt;/td&gt;
-&lt;td&gt;Abgedichtetes Tretlager mit Drehmomentsensor&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Antrieb&lt;/td&gt;
-&lt;td&gt;Shimano Deore RD-T6000 10-Gang&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Kasette&lt;/td&gt;
-&lt;td&gt;Shimano HG500 11-32&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Kette&lt;/td&gt;
-&lt;td&gt;Yaban SLA-H10 114L&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Bremsen&lt;/td&gt;
-&lt;td&gt;Shimano Deore T6000 hydraulische Scheibenbremsen&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Bremsbeläge&lt;/td&gt;
-&lt;td&gt;Shimano G02S&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Reifen&lt;/td&gt;
-&lt;td&gt;Continental Top Contact II, 42-622 mm&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Laufräder&lt;/td&gt;
-&lt;td&gt;28&amp;quot; Laufräder mit asymmetrischen 18 mm Felgen und gedichteten, industriegelagerten Naben&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Schutzbleche&lt;/td&gt;
-&lt;td&gt;Ampler Aluminium Schutzbleche, 60 mm&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Gewicht&lt;/td&gt;
-&lt;td&gt;17,2 kg&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Max. Unterstützung&lt;/td&gt;
-&lt;td&gt;25 km/h&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Reichweite&lt;/td&gt;
-&lt;td&gt;45-100 km je nach Gelände und Einstellung der Unterstützung, durchschnittliche Reichweite 70 km&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Batterie&lt;/td&gt;
-&lt;td&gt;48 V 336 Wh LG Li-ion Akku&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Motor&lt;/td&gt;
-&lt;td&gt;48 V 250 W Nabenmotor (Hinterrad)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Kontrollmodus&lt;/td&gt;
-&lt;td&gt;Präzise Pedal-Drehmoment spürende Motorsteuerung, 2 Motor-Unterstützungsstufen&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Konnektivität&lt;/td&gt;
-&lt;td&gt;Smartphone-Konnektivität ermöglicht u.a. die Änderung von Motoreinstellungen&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Ladegerät&lt;/td&gt;
-&lt;td&gt;3A Li-Ionen-Ladegerät mit Rosenberger Magnetstecker&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Ladezeit&lt;/td&gt;
-&lt;td&gt;2,5 Stunden (100%)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Lichter Vorne:&lt;/td&gt;
-&lt;td&gt;Busch+Müller IQ2 EYC&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Hinten:&lt;/td&gt;
-&lt;td&gt;LightSKIN in der Sattelstütze integrierte LED-Lichter&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;So. Passt.&lt;/p&gt;
-</description>
-    </item>
-    
-    
-    
-    <item>
-      <title>Satanic Temple Gathering &#43; Gegenprotest = Cringefest 9000</title>
-      <link>http://localhost:1313/satanic-temple-gathering--gegenprotest-cringefest-9000/</link>
-      <pubDate>Wed, 11 May 2022 13:52:06 +0200</pubDate>
-      
-      <guid>http://localhost:1313/satanic-temple-gathering--gegenprotest-cringefest-9000/</guid>
-      <description>&lt;p&gt;Wenn Andrew Callaghan (&lt;a href=&#34;https://www.youtube.com/channel/UCtqxG9IrHFU_ID1khGvx9sA&#34;&gt;All Gas no Brakes&lt;/a&gt;) irgendwo auftaucht und Leute bei Happenings interviewt, braucht man nicht lange bis man einen auf Facepalm macht.&lt;/p&gt;
-&lt;p&gt;Ich schätze den &lt;a href=&#34;https://de.wikipedia.org/wiki/The_Satanic_Temple&#34;&gt;Satanic Temple&lt;/a&gt; für dessen Sarkasmus aber bei ihrem Gathering und dem damit verbundenen Gegenprotest gehe ich auch komplett auf Cringefest 9000 steil.&lt;/p&gt;
-&lt;p&gt;Aber seht selbst. Und viel Spaß ;-)&lt;/p&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube-nocookie.com/embed/1AmOqQOOPn8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-</description>
-    </item>
-    
-    
-    
-    <item>
-      <title>Powershellscript ohne Fenster</title>
-      <link>http://localhost:1313/powershellscript-ohne-fenster/</link>
-      <pubDate>Thu, 17 Feb 2022 11:17:20 +0100</pubDate>
-      
-      <guid>http://localhost:1313/powershellscript-ohne-fenster/</guid>
-      <description>&lt;p&gt;Man kann einfach ein bisschen vbs-Code dazu benutzen um ein Powershellfenster vor Usern zu verstecken:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Dim objArguments
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Dim command
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;Set&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;objArguments &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; WScript.Arguments
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;command = &lt;span class=&#34;s2&#34;&gt;&amp;#34;powershell.exe -nologo -command &amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt; objArguments(0) &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;set&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;shell &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; CreateObject(&lt;span class=&#34;s2&#34;&gt;&amp;#34;WScript.Shell&amp;#34;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;shell.Run command,0
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Speichern wir das nun z.B. als Launchpwrshl.vbs können wir direkt ein Script als Argument[0] daran hängen:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; launchpwrshl.vbs meinscript.ps1
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Nützlich, wenn man ein Powershellscript als Aufgabe oder so laufen lassen will.&lt;/p&gt;
-</description>
-    </item>
-    
-    
-    
-    <item>
-      <title>Not Just Bikes &amp; Climate Town mit Städtebauvergleich</title>
-      <link>http://localhost:1313/not-just-bikes-climate-town-mit-st%C3%A4dtebauvergleich/</link>
-      <pubDate>Mon, 14 Feb 2022 09:22:10 +0100</pubDate>
-      
-      <guid>http://localhost:1313/not-just-bikes-climate-town-mit-st%C3%A4dtebauvergleich/</guid>
-      <description>&lt;p&gt;Also ihr solltet euch unbedingt mal diese Kollaboration von &lt;a href=&#34;https://www.youtube.com/channel/UC0intLFzLaudFG-xAvUEO-A&#34;&gt;Not Just Bikes&lt;/a&gt; und &lt;a href=&#34;https://www.youtube.com/channel/UCuVLG9pThvBABcYCm7pkNkA&#34;&gt;Climate Town&lt;/a&gt; in zwei Teilen ansehen. Die beiden verdeutlichen ziemlich genial die Unterschiede zwischen Amsterdam und im Prinzip den meisten verkackten US Städten:&lt;/p&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube-nocookie.com/embed/cO6txCZpbsQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube-nocookie.com/embed/SfsCniN7Nsc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-</description>
-    </item>
-    
-    
-    
-    <item>
-      <title>Warum gibts in Braunschweig nicht so eine Radtour?</title>
-      <link>http://localhost:1313/warum-gibts-in-braunschweig-nicht-so-eine-radtour/</link>
-      <pubDate>Thu, 03 Feb 2022 10:30:18 +0100</pubDate>
-      
-      <guid>http://localhost:1313/warum-gibts-in-braunschweig-nicht-so-eine-radtour/</guid>
-      <description>&lt;p&gt;Checkt mal dieses kleine Promovideo zu New Yorks &amp;ldquo;5 Boro Bike Tour&amp;rdquo;:&lt;/p&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube-nocookie.com/embed/as_9Pj_AD3A&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Und ich stelle mir so die Frage, warum haben wir hier ein Braunschweig (oder in Schland generell) nicht so eine coole Radtour?&lt;/p&gt;
-</description>
-    </item>
-    
-    
-    
-    <item>
-      <title>Hallo</title>
-      <link>http://localhost:1313/hallo/</link>
-      <pubDate>Mon, 31 Jan 2022 11:28:04 +0100</pubDate>
-      
-      <guid>http://localhost:1313/hallo/</guid>
-      <description>&lt;p&gt;Moin, moin aus Braunschweig. Hier zurück mit einer kleinen Website unter Hugo und das Ganze möglichst minimalistisch gehalten.
-Ich hatte nun ein wenig Zeit mit dem VPS von 1u1 Ionos zu spielen und hab mich letztendlich dazu entschieden einfach Hugo zu nehmen. Der Einfachheit halber.&lt;/p&gt;
-</description>
-    </item>
-    
-    
-    
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kinderkram on krinkko's</title><link>https://krinkko.github.io/tags/kinderkram/</link><description>Recent content in Kinderkram on krinkko's</description><generator>Hugo -- gohugo.io</generator><language>de-de</language><lastBuildDate>Mon, 26 Feb 2024 16:32:27 +0100</lastBuildDate><atom:link href="https://krinkko.github.io/tags/kinderkram/index.xml" rel="self" type="application/rss+xml"/><item><title>Schaukelaufbaublues</title><link>https://krinkko.github.io/schaukelaufbaublues/</link><pubDate>Mon, 26 Feb 2024 16:32:27 +0100</pubDate><guid>https://krinkko.github.io/schaukelaufbaublues/</guid><description>&lt;p>Eigentlich ist es ja ein etwas später Zug über unseren &amp;ldquo;neuen&amp;rdquo; Schrebergarten hier direkt mit dem Aufbau unserer brand neuen Kinderschaukel zu starten, aber was solls&amp;hellip;&lt;/p>
+&lt;p>Kurz vorweg: Ich hätte nicht gedacht, dass es so ein Akt ist ein Schaukelgestell aufzustellen, aber lest erst mal rein hier.&lt;/p>
+&lt;p>&lt;a href="DSC_0980.JPG">
+&lt;a href="https://krinkko.github.io/schaukelaufbaublues/DSC_0980.JPG">
+&lt;picture>
+&lt;source media="(max-width: 376px)"
+srcset="https://krinkko.github.io/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_500x0_resize_q75_h2_box.webp">
+&lt;source media="(max-width: 992px)"
+srcset="https://krinkko.github.io/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_800x0_resize_q75_h2_box.webp">
+&lt;source media="(max-width: 1400px)"
+srcset="https://krinkko.github.io/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_1200x0_resize_q75_h2_box.webp">
+&lt;source media="(min-width: 1600px)"
+srcset="https://krinkko.github.io/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_1500x0_resize_q75_h2_box.webp">
+&lt;img
+alt="Einige Updates sammelten sich auf dem WSUS an" title="Einige Updates sammelten sich auf dem WSUS an" src="https://krinkko.github.io/schaukelaufbaublues/DSC_0980.JPG" class="img-fluid lazyload">
+&lt;/picture>
+&lt;/a>
+&lt;/a>&lt;/p>
+&lt;p>Extra für Samstag Vormittag hatte ich einen guten Freund dazugeholt, um gemeinsam die Schaukel aufzubauen und früh am Morgen mahnte meine Frau noch: &amp;ldquo;Hast du alles Werkzeug?&amp;rdquo; Und ich nur so: &amp;ldquo;Jaja, ich hab alles&amp;rdquo; Alles ganz locker, dachte ich mir so. Also, hätte ich mal auf meine Frau gehört :D&lt;/p>
+&lt;p>Wir also im Garten am Auspacken und fangen an, die ersten Balken zusammenzuschrauben und ich merke irgendwann, dass die großen Schrauben zwischen so spezielle Plastik Unterlegscheiben mit Nässe- und Stoßschutz kommen. Konnte ich nicht mit dem Maulschlüssel festziehen. Im Garten umgeschaut, nirgendwo eine Nuß gefunden. Bisschen grantig geworden. Dann irgendwann eine 17er Nuß gefunden. War dann schon erleichtert. Kurz darauf dann festgestellt, dass die Nuß auf nix drauf passt und auch nix da ist.&lt;/p>
+&lt;p>Mein Kumpel meinte also: &amp;ldquo;Komm, fahr halt schnell zum Baumarkt&amp;rdquo; Ich also zum Baumarkt und einen Adapter für den Akkuschrauber besorgt. Zurück im Garten schon bisschen gefreut, dass es nun angehen kann. Und was passiert?&lt;/p>
+&lt;p>Der Akkuschrauber packt nicht genug Newtonmeter um die Schrauben ins Holz zu ballern.&lt;/p>
+&lt;p>Also noch mal zum Baumarkt und einen brandneuen Knarrenkasten geholt. Wieder zurück und eeeendlich loslegen.&lt;/p>
+&lt;p>Der Aufbau selbst hat dann schon ziemlich Spaß gemacht aber auch deutlich länger gedauert, als ich eigentlich gedacht habe. Es ging nicht wirklich was schief und irgendwann um 17 Uhr stand das Teil dann - fast fertig. Am nächsten Tag bin ich noch mal mit meiner Frau hin um einige Arbeiten abzuschließen wie die Schellen für die Schaukeln anzubringen. Meine kleinste konnte dann schon mal &amp;ldquo;anschaukeln&amp;rdquo; und es machte sichtlich Spaß &amp;#x1f601;&lt;/p></description></item><item><title>Update Februar 2024</title><link>https://krinkko.github.io/update-februar-2024/</link><pubDate>Mon, 26 Feb 2024 12:40:47 +0100</pubDate><guid>https://krinkko.github.io/update-februar-2024/</guid><description>&lt;p>Moin! Lang nix hier auf der Page gemacht. Ich habe eigentlich sogar vergessen, dass das Repo noch existiert. Allerdings brauchte ich auch mal wieder was zum Basteln, also bin ich mal wieder kurz zurückgekehrt.&lt;/p>
+&lt;p>In der Zwischenzeit hatte ich alle meine Webspace&amp;rsquo;s, Domains, etc. gekündigt. Gebrauchten konnte ich sie nicht und Zeit für Projekte habe ich ebenfalls nicht mehr. Mein Ziel ist es, irgendwann wenn mal ein paar Taler übrig sind, ein Synology 723+ NAS zu kaufen und damit dann mal ein bisschen den Haushalt auf Vordermann zu bringen. Sprich Paperless und so weiter drauf.&lt;/p>
+&lt;p>Nun, das wäre es auch erst mal.&lt;/p></description></item><item><title>Ampler Stout 2019 - 2020 Spezifikationsliste</title><link>https://krinkko.github.io/ampler-stout-2019-2020-spezifikationsliste/</link><pubDate>Wed, 08 Jun 2022 10:40:46 +0200</pubDate><guid>https://krinkko.github.io/ampler-stout-2019-2020-spezifikationsliste/</guid><description>&lt;p>Kleiner Dump der Spezifikationsliste für mein Ampler Stout 2019. Einfach, damit ich es leichter wiederfinde. Vielleicht ja auch für Dich interessant :)&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Komponenten&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Rahmen&lt;/td>
+&lt;td>Aluminium 6061&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Gabel&lt;/td>
+&lt;td>Aluminium 1 1/8&amp;quot;, 12 mm Steckachse&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Kurbelgarnitur&lt;/td>
+&lt;td>Aluminium-Legierung 42T, 170 mm&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Tretlager&lt;/td>
+&lt;td>Abgedichtetes Tretlager mit Drehmomentsensor&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Antrieb&lt;/td>
+&lt;td>Shimano Deore RD-T6000 10-Gang&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Kasette&lt;/td>
+&lt;td>Shimano HG500 11-32&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Kette&lt;/td>
+&lt;td>Yaban SLA-H10 114L&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bremsen&lt;/td>
+&lt;td>Shimano Deore T6000 hydraulische Scheibenbremsen&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Bremsbeläge&lt;/td>
+&lt;td>Shimano G02S&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Reifen&lt;/td>
+&lt;td>Continental Top Contact II, 42-622 mm&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Laufräder&lt;/td>
+&lt;td>28&amp;quot; Laufräder mit asymmetrischen 18 mm Felgen und gedichteten, industriegelagerten Naben&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Schutzbleche&lt;/td>
+&lt;td>Ampler Aluminium Schutzbleche, 60 mm&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Gewicht&lt;/td>
+&lt;td>17,2 kg&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Max. Unterstützung&lt;/td>
+&lt;td>25 km/h&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Reichweite&lt;/td>
+&lt;td>45-100 km je nach Gelände und Einstellung der Unterstützung, durchschnittliche Reichweite 70 km&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Batterie&lt;/td>
+&lt;td>48 V 336 Wh LG Li-ion Akku&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Motor&lt;/td>
+&lt;td>48 V 250 W Nabenmotor (Hinterrad)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Kontrollmodus&lt;/td>
+&lt;td>Präzise Pedal-Drehmoment spürende Motorsteuerung, 2 Motor-Unterstützungsstufen&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Konnektivität&lt;/td>
+&lt;td>Smartphone-Konnektivität ermöglicht u.a. die Änderung von Motoreinstellungen&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ladegerät&lt;/td>
+&lt;td>3A Li-Ionen-Ladegerät mit Rosenberger Magnetstecker&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ladezeit&lt;/td>
+&lt;td>2,5 Stunden (100%)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Lichter Vorne:&lt;/td>
+&lt;td>Busch+Müller IQ2 EYC&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Hinten:&lt;/td>
+&lt;td>LightSKIN in der Sattelstütze integrierte LED-Lichter&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>So. Passt.&lt;/p></description></item><item><title>Satanic Temple Gathering + Gegenprotest = Cringefest 9000</title><link>https://krinkko.github.io/satanic-temple-gathering--gegenprotest-cringefest-9000/</link><pubDate>Wed, 11 May 2022 13:52:06 +0200</pubDate><guid>https://krinkko.github.io/satanic-temple-gathering--gegenprotest-cringefest-9000/</guid><description>&lt;p>Wenn Andrew Callaghan (&lt;a href="https://www.youtube.com/channel/UCtqxG9IrHFU_ID1khGvx9sA">All Gas no Brakes&lt;/a>) irgendwo auftaucht und Leute bei Happenings interviewt, braucht man nicht lange bis man einen auf Facepalm macht.&lt;/p>
+&lt;p>Ich schätze den &lt;a href="https://de.wikipedia.org/wiki/The_Satanic_Temple">Satanic Temple&lt;/a> für dessen Sarkasmus aber bei ihrem Gathering und dem damit verbundenen Gegenprotest gehe ich auch komplett auf Cringefest 9000 steil.&lt;/p>
+&lt;p>Aber seht selbst. Und viel Spaß ;-)&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube-nocookie.com/embed/1AmOqQOOPn8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div></description></item><item><title>Powershellscript ohne Fenster</title><link>https://krinkko.github.io/powershellscript-ohne-fenster/</link><pubDate>Thu, 17 Feb 2022 11:17:20 +0100</pubDate><guid>https://krinkko.github.io/powershellscript-ohne-fenster/</guid><description>&lt;p>Man kann einfach ein bisschen vbs-Code dazu benutzen um ein Powershellfenster vor Usern zu verstecken:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-cmd" data-lang="cmd">&lt;span class="line">&lt;span class="cl">Dim objArguments
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Dim command
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">Set&lt;/span> &lt;span class="nv">objArguments &lt;/span>&lt;span class="p">=&lt;/span> WScript.Arguments
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">command = &lt;span class="s2">&amp;#34;powershell.exe -nologo -command &amp;#34;&lt;/span> &lt;span class="p">&amp;amp;&lt;/span> objArguments(0) &lt;span class="p">&amp;amp;&lt;/span> &lt;span class="s2">&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">set&lt;/span> &lt;span class="nv">shell &lt;/span>&lt;span class="p">=&lt;/span> CreateObject(&lt;span class="s2">&amp;#34;WScript.Shell&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">shell.Run command,0
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Speichern wir das nun z.B. als Launchpwrshl.vbs können wir direkt ein Script als Argument[0] daran hängen:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-cmd" data-lang="cmd">&lt;span class="line">&lt;span class="cl"> launchpwrshl.vbs meinscript.ps1
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Nützlich, wenn man ein Powershellscript als Aufgabe oder so laufen lassen will.&lt;/p></description></item><item><title>Not Just Bikes &amp; Climate Town mit Städtebauvergleich</title><link>https://krinkko.github.io/not-just-bikes-climate-town-mit-st%C3%A4dtebauvergleich/</link><pubDate>Mon, 14 Feb 2022 09:22:10 +0100</pubDate><guid>https://krinkko.github.io/not-just-bikes-climate-town-mit-st%C3%A4dtebauvergleich/</guid><description>&lt;p>Also ihr solltet euch unbedingt mal diese Kollaboration von &lt;a href="https://www.youtube.com/channel/UC0intLFzLaudFG-xAvUEO-A">Not Just Bikes&lt;/a> und &lt;a href="https://www.youtube.com/channel/UCuVLG9pThvBABcYCm7pkNkA">Climate Town&lt;/a> in zwei Teilen ansehen. Die beiden verdeutlichen ziemlich genial die Unterschiede zwischen Amsterdam und im Prinzip den meisten verkackten US Städten:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube-nocookie.com/embed/cO6txCZpbsQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube-nocookie.com/embed/SfsCniN7Nsc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div></description></item><item><title>Warum gibts in Braunschweig nicht so eine Radtour?</title><link>https://krinkko.github.io/warum-gibts-in-braunschweig-nicht-so-eine-radtour/</link><pubDate>Thu, 03 Feb 2022 10:30:18 +0100</pubDate><guid>https://krinkko.github.io/warum-gibts-in-braunschweig-nicht-so-eine-radtour/</guid><description>&lt;p>Checkt mal dieses kleine Promovideo zu New Yorks &amp;ldquo;5 Boro Bike Tour&amp;rdquo;:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube-nocookie.com/embed/as_9Pj_AD3A" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>Und ich stelle mir so die Frage, warum haben wir hier ein Braunschweig (oder in Schland generell) nicht so eine coole Radtour?&lt;/p></description></item><item><title>Hallo</title><link>https://krinkko.github.io/hallo/</link><pubDate>Mon, 31 Jan 2022 11:28:04 +0100</pubDate><guid>https://krinkko.github.io/hallo/</guid><description>&lt;p>Moin, moin aus Braunschweig. Hier zurück mit einer kleinen Website unter Hugo und das Ganze möglichst minimalistisch gehalten.
+Ich hatte nun ein wenig Zeit mit dem VPS von 1u1 Ionos zu spielen und hab mich letztendlich dazu entschieden einfach Hugo zu nehmen. Der Einfachheit halber.&lt;/p></description></item></channel></rss>
