@@ -2,6 +2,8 @@
 title: "Schaukelaufbaublues"
 date: 2024-02-26T16:32:27+01:00
 tags: ["Garten","Kinderkram"]
+images: 
+- DSC_0980.jpg
 ---
 
 Eigentlich ist es ja ein etwas später Zug über unseren "neuen" Schrebergarten hier direkt mit dem Aufbau unserer brand neuen Kinderschaukel zu starten, aber was solls...
