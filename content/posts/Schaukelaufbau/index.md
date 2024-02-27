@@ -2,7 +2,6 @@
 title: "Schaukelaufbaublues"
 date: 2024-02-26T16:32:27+01:00
 tags: ["Garten","Kinderkram"]
-draft: true
 ---
 
 Eigentlich ist es ja ein etwas später Zug über unseren "neuen" Schrebergarten hier direkt mit dem Aufbau unserer brand neuen Kinderschaukel zu starten, aber was solls...
@@ -19,3 +18,6 @@ Mein Kumpel meinte also: "Komm, fahr halt schnell zum Baumarkt" Ich also zum Bau
 
 Der Akkuschrauber packt nicht genug Newtonmeter um die Schrauben ins Holz zu ballern.
 
+Also noch mal zum Baumarkt und einen brandneuen Knarrenkasten geholt. Wieder zurück und eeeendlich loslegen.
+
+Der Aufbau selbst hat dann schon ziemlich Spaß gemacht aber auch deutlich länger gedauert, als ich eigentlich gedacht habe. Es ging nicht wirklich was schief und irgendwann um 17 Uhr stand das Teil dann - fast fertig. Am nächsten Tag bin ich noch mal mit meiner Frau hin um einige Arbeiten abzuschließen wie die Schellen für die Schaukeln anzubringen. Meine kleinste konnte dann schon mal "anschaukeln" und es machte sichtlich Spaß :grin:
