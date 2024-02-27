@@ -36,7 +36,7 @@ paginate = 5
     identifier = "archive"
     name = "archive"
     title = "archive"
-    url = "/posts-archive"
+    url = "/posts-archive/"
     weight = 30
 
   [[menu.second]]
