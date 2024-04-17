@@ -8,4 +8,4 @@ Vielleicht habt ihr ja von "Searxng" gehört. Das ist eine Metasuchmaschine, die
 
 <img src="searxng.svg">
 
-Wer daran interessiert ist, die Suchmaschine mal selbstverwaltet aufzusetzen, schaut einfach mal auf [Searxng Github](https://github.com/searxng/searxng) vorbei. Oder, ihr nehmt einfach [Gruble.de](https://www.gruble.de), eine fertige Instanz vom Admin von [Adminforge.de](https://www.adminforge.de). Letztere nehmen wir nun auch einfach mal raus, um Gruble (oder besser gesagt Searngx) auf unserem Firefox Mobile zu nutzen.
+Wer daran interessiert ist, die Suchmaschine mal selbstverwaltet aufzusetzen, schaut einfach mal auf [Searxng Github](https://github.com/searxng/searxng) vorbei. Oder ihr nehmt einfach [Gruble.de](https://www.gruble.de), eine fertige Instanz vom Admin von [Adminforge.de](https://www.adminforge.de). Letztere nehmen wir nun auch einfach mal raus, um Gruble (oder besser gesagt Searngx) auf unserem Firefox Mobile zu nutzen.
