@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Docker Compose on krinkko&#39;s</title>
-    <link>http://localhost:1313/tags/docker-compose/</link>
-    <description>Recent content in Docker Compose on krinkko&#39;s</description>
+    <title>Internet on krinkko&#39;s</title>
+    <link>http://localhost:1313/tags/internet/</link>
+    <description>Recent content in Internet on krinkko&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Thu, 09 Jun 2022 13:42:45 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 17 Apr 2024 15:10:04 +0200</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/docker-compose/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/internet/index.xml" rel="self" type="application/rss+xml" />
     
     
     
     <item>
-      <title>Searxng Als Standardbrowser</title>
+      <title>Searxng als Standardbrowser</title>
       <link>http://localhost:1313/searxng-als-standardbrowser/</link>
       <pubDate>Wed, 17 Apr 2024 15:10:04 +0200</pubDate>
       
       <guid>http://localhost:1313/searxng-als-standardbrowser/</guid>
-      <description></description>
+      <description>&lt;p&gt;Vielleicht habt ihr ja von &amp;ldquo;Searxng&amp;rdquo; gehört. Das ist eine Metasuchmaschine, die man selbst in sogenannten Instanzen betreiben und nutzen kann. Sie durchsucht andere Suchmaschinen nach Ergebnissen und stellt sich selbst als besonders Datenschutzfreundlich dar.&lt;/p&gt;
+</description>
     </item>
     
     
