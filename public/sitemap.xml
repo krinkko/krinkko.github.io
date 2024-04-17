@@ -2,127 +2,162 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://krinkko.github.io/tags/hip-hop/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-04-17T15:10:04+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-04-17T15:10:04+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/searxng-als-standardbrowser/</loc>
+    <lastmod>2024-04-17T15:10:04+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/autodesk/</loc>
+    <lastmod>2024-03-18T11:03:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/better-autodesk-deployment/</loc>
+    <lastmod>2024-03-18T11:03:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/software-deployment/</loc>
+    <lastmod>2024-03-18T11:03:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/sysadmin/</loc>
+    <lastmod>2024-03-18T11:03:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-03-18T11:03:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hip-hop/</loc>
     <lastmod>2024-02-28T15:55:53+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/</loc>
+    <loc>http://localhost:1313/tags/musik/</loc>
     <lastmod>2024-02-28T15:55:53+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/tags/musik/</loc>
+    <loc>http://localhost:1313/musikvideo-mastaace-marco-polo-get-shot/</loc>
     <lastmod>2024-02-28T15:55:53+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/musikvideo-mastaace-marco-polo-get-shot/</loc>
-    <lastmod>2024-02-28T15:55:53+01:00</lastmod>
-  </url><url>
-    <loc>https://krinkko.github.io/posts/</loc>
-    <lastmod>2024-02-28T15:55:53+01:00</lastmod>
-  </url><url>
-    <loc>https://krinkko.github.io/tags/</loc>
-    <lastmod>2024-02-28T15:55:53+01:00</lastmod>
-  </url><url>
-    <loc>https://krinkko.github.io/tags/garten/</loc>
+    <loc>http://localhost:1313/tags/garten/</loc>
     <lastmod>2024-02-26T16:32:27+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/tags/kinderkram/</loc>
+    <loc>http://localhost:1313/tags/kinderkram/</loc>
     <lastmod>2024-02-26T16:32:27+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/schaukelaufbaublues/</loc>
+    <loc>http://localhost:1313/schaukelaufbaublues/</loc>
     <lastmod>2024-02-26T16:32:27+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/tags/pers%C3%B6nliches/</loc>
+    <loc>http://localhost:1313/tags/pers%C3%B6nliches/</loc>
     <lastmod>2024-02-26T12:40:47+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/update-februar-2024/</loc>
+    <loc>http://localhost:1313/update-februar-2024/</loc>
     <lastmod>2024-02-26T12:40:47+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/tags/ampler/</loc>
+    <loc>http://localhost:1313/tags/docker-compose/</loc>
+    <lastmod>2022-06-09T13:42:45+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/element/</loc>
+    <lastmod>2022-06-09T13:42:45+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/installation/</loc>
+    <lastmod>2022-06-09T13:42:45+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/matrix/</loc>
+    <lastmod>2022-06-09T13:42:45+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/matrix-docker-compose-install-telegrambot/</loc>
+    <lastmod>2022-06-09T13:42:45+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/synapse/</loc>
+    <lastmod>2022-06-09T13:42:45+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ampler/</loc>
     <lastmod>2022-06-08T10:40:46+02:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/ampler-stout-2019-2020-spezifikationsliste/</loc>
+    <loc>http://localhost:1313/ampler-stout-2019-2020-spezifikationsliste/</loc>
     <lastmod>2022-06-08T10:40:46+02:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/tags/fahrrad/</loc>
+    <loc>http://localhost:1313/tags/fahrrad/</loc>
     <lastmod>2022-06-08T10:40:46+02:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/tags/spezifikationen/</loc>
+    <loc>http://localhost:1313/tags/spezifikationen/</loc>
     <lastmod>2022-06-08T10:40:46+02:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/tags/stout/</loc>
+    <loc>http://localhost:1313/tags/stout/</loc>
     <lastmod>2022-06-08T10:40:46+02:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/tags/andrew-callaghan/</loc>
+    <loc>http://localhost:1313/tags/andrew-callaghan/</loc>
     <lastmod>2022-05-11T13:52:06+02:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/tags/channel-5/</loc>
+    <loc>http://localhost:1313/tags/channel-5/</loc>
     <lastmod>2022-05-11T13:52:06+02:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/tags/religion/</loc>
+    <loc>http://localhost:1313/tags/religion/</loc>
     <lastmod>2022-05-11T13:52:06+02:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/tags/satanic-temple/</loc>
+    <loc>http://localhost:1313/tags/satanic-temple/</loc>
     <lastmod>2022-05-11T13:52:06+02:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/satanic-temple-gathering--gegenprotest-cringefest-9000/</loc>
+    <loc>http://localhost:1313/satanic-temple-gathering--gegenprotest-cringefest-9000/</loc>
     <lastmod>2022-05-11T13:52:06+02:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/tags/powershell/</loc>
+    <loc>http://localhost:1313/tags/powershell/</loc>
     <lastmod>2022-02-17T11:17:20+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/powershellscript-ohne-fenster/</loc>
+    <loc>http://localhost:1313/powershellscript-ohne-fenster/</loc>
     <lastmod>2022-02-17T11:17:20+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/tags/scripte/</loc>
+    <loc>http://localhost:1313/tags/scripte/</loc>
     <lastmod>2022-02-17T11:17:20+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/tags/scripting/</loc>
+    <loc>http://localhost:1313/tags/scripting/</loc>
     <lastmod>2022-02-17T11:17:20+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/tags/vbs/</loc>
+    <loc>http://localhost:1313/tags/vbs/</loc>
     <lastmod>2022-02-17T11:17:20+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/tags/climate-town/</loc>
+    <loc>http://localhost:1313/tags/climate-town/</loc>
     <lastmod>2022-02-14T09:22:10+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/tags/klima/</loc>
+    <loc>http://localhost:1313/tags/klima/</loc>
     <lastmod>2022-02-14T09:22:10+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/tags/klimawandel/</loc>
+    <loc>http://localhost:1313/tags/klimawandel/</loc>
     <lastmod>2022-02-14T09:22:10+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/tags/not-just-bikes/</loc>
+    <loc>http://localhost:1313/tags/not-just-bikes/</loc>
     <lastmod>2022-02-14T09:22:10+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/not-just-bikes-climate-town-mit-st%C3%A4dtebauvergleich/</loc>
+    <loc>http://localhost:1313/not-just-bikes-climate-town-mit-st%C3%A4dtebauvergleich/</loc>
     <lastmod>2022-02-14T09:22:10+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/tags/st%C3%A4dtebau/</loc>
+    <loc>http://localhost:1313/tags/st%C3%A4dtebau/</loc>
     <lastmod>2022-02-14T09:22:10+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/tags/stadtplanung/</loc>
+    <loc>http://localhost:1313/tags/stadtplanung/</loc>
     <lastmod>2022-02-14T09:22:10+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/tags/5-boro-bike-tour/</loc>
+    <loc>http://localhost:1313/tags/5-boro-bike-tour/</loc>
     <lastmod>2022-02-03T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/tags/new-york/</loc>
+    <loc>http://localhost:1313/tags/new-york/</loc>
     <lastmod>2022-02-03T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/tags/terry-barentsen/</loc>
+    <loc>http://localhost:1313/tags/terry-barentsen/</loc>
     <lastmod>2022-02-03T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/tags/tour/</loc>
+    <loc>http://localhost:1313/tags/tour/</loc>
     <lastmod>2022-02-03T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/warum-gibts-in-braunschweig-nicht-so-eine-radtour/</loc>
+    <loc>http://localhost:1313/warum-gibts-in-braunschweig-nicht-so-eine-radtour/</loc>
     <lastmod>2022-02-03T10:30:18+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/hallo/</loc>
+    <loc>http://localhost:1313/hallo/</loc>
     <lastmod>2022-01-31T11:28:04+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>https://krinkko.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://krinkko.github.io/posts-archive/</loc>
+    <loc>http://localhost:1313/links/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts-archive/</loc>
   </url>
 </urlset>

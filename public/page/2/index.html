@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="de"><head>
-	<meta name="generator" content="Hugo 0.123.4">
+	<meta name="generator" content="Hugo 0.125.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Braunschweig based sysadmin. Proud father of two and husband. I like hardcore punk, songwriters to rap. Open mind, open heart. LOVES bicycles &lt;3">
     
-    <link rel="shortcut icon" href="https://krinkko.github.io/favicon.ico">
-    <link rel="alternate" type="application/rss+xml" href="https://krinkko.github.io/index.xml" title="krinkko's">
+    <link rel="shortcut icon" href="http://localhost:1313/favicon.ico">
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="krinkko's">
     
     <link rel="stylesheet" href="/css/style.min.css">
 
     <script language="javascript" type="text/javascript"  src="/js/lazysizes.min.js"></script>
 
-    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="krinko&#39;s"/>
-<meta name="twitter:description" content="Braunschweig based sysadmin. Proud father of two and husband. I like hardcore punk, songwriters to rap. Open mind, open heart. LOVES bicycles &lt;3"/>
+    <meta name="twitter:card" content="summary"><meta name="twitter:title" content="krinko&#39;s">
+<meta name="twitter:description" content="Braunschweig based sysadmin. Proud father of two and husband. I like hardcore punk, songwriters to rap. Open mind, open heart. LOVES bicycles &lt;3">
 
-    <meta property="og:title" content="krinko&#39;s" />
-<meta property="og:description" content="Braunschweig based sysadmin. Proud father of two and husband. I like hardcore punk, songwriters to rap. Open mind, open heart. LOVES bicycles &lt;3" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://krinkko.github.io/" />
-
+    <meta property="og:url" content="http://localhost:1313/">
+  <meta property="og:site_name" content="krinkko&#39;s">
+  <meta property="og:title" content="krinko&#39;s">
+  <meta property="og:description" content="Braunschweig based sysadmin. Proud father of two and husband. I like hardcore punk, songwriters to rap. Open mind, open heart. LOVES bicycles &lt;3">
+  <meta property="og:locale" content="de-de">
+  <meta property="og:type" content="website">
 
 
     <title>krinko&#39;s</title>
@@ -32,7 +33,7 @@
         </p>
         <p class="headerauthor_desc"></p>
     </div>
-    <h2><a href="https://krinkko.github.io/">krinkko&#39;s</a></h2>
+    <h2><a href="http://localhost:1313/">krinkko&#39;s</a></h2>
     <nav>
         <ul>
             <li>
@@ -54,18 +55,254 @@
     
 	<article class="article-frontpage">
     <header id="post-header">
-        <h1><a href="https://krinkko.github.io/powershellscript-ohne-fenster/">Powershellscript ohne Fenster</a></h1><div>
+        <h1><a href="http://localhost:1313/matrix-docker-compose-install-telegrambot/">Matrix Docker Compose Install (&#43;TelegramBot)</a></h1><div>
+                
+                <time>09.06.2022</time>
+                <ul>    
+            
+                <li><a href="http://localhost:1313/tags/matrix/">Matrix</a></li>
+            
+                <li><a href="http://localhost:1313/tags/synapse/">Synapse</a></li>
+            
+                <li><a href="http://localhost:1313/tags/element/">Element</a></li>
+            
+                <li><a href="http://localhost:1313/tags/installation/">Installation</a></li>
+            
+                <li><a href="http://localhost:1313/tags/docker-compose/">Docker Compose</a></li>
+            
+            </ul>
+            
+            </div></header><p>Letztens surfte ich so durch&rsquo;s Web und habe entdeckt, dass man andere Services wie Telegram oder Signal allerdings auch per Bot und Bridges in Matrix einbinden kann. Mein Spieltrieb war wieder geweckt..</p>
+<p><a href="logo.png">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="/matrix-docker-compose-install-telegrambot/logo.png">
+    <picture>
+    
+    <source media="(max-width: 376px)" 
+        srcset="/matrix-docker-compose-install-telegrambot/logo_hu2a0b084fc950f50ca0ae8b9624d1eb3b_13129_500x0_resize_q75_h2_box_3.webp">
+
+    <source media="(max-width: 992px)" 
+        srcset="/matrix-docker-compose-install-telegrambot/logo_hu2a0b084fc950f50ca0ae8b9624d1eb3b_13129_800x0_resize_q75_h2_box_3.webp">
+
+    <source media="(max-width: 1400px)" 
+        srcset="/matrix-docker-compose-install-telegrambot/logo_hu2a0b084fc950f50ca0ae8b9624d1eb3b_13129_1200x0_resize_q75_h2_box_3.webp">
+
+    <source media="(min-width: 1600px)" 
+        srcset="/matrix-docker-compose-install-telegrambot/logo_hu2a0b084fc950f50ca0ae8b9624d1eb3b_13129_1500x0_resize_q75_h2_box_3.webp">
+    
+    <img 
+ 
+   alt="Einige Updates sammelten sich auf dem WSUS an" title="Einige Updates sammelten sich auf dem WSUS an" src="http://localhost:1313/matrix-docker-compose-install-telegrambot/logo.png" class="img-fluid lazyload">
+
+</picture>
+</a>
+  
+  
+
+  
+</a></p>
+<p>Vor einiger Zeit hatte ich bereits schon einmal einen Matrix Server für mich und meine Freunde aufgesetzt, weil wir eine Alternative zum unverschlüsselten Telegram haben wollten für unseren Gruppenchat. Das ging leider etwas unter, da wir uns bereits auf Telegram breit gemacht hatten und irgendwie dann doch kein Interesse am Wechseln vorhanden war.</p>
+<p>Ich hatte den Server leider zwischenzeitlich wieder platt gemacht.</p>
+<p>Grundsätzlich schreibe ich die kleine Anleitung hier aber nur, weil ich mir viele Sachen erst zusammensuchen musste um Matrix zum Laufen zu bewegen.</p></article>
+    
+	<article class="article-frontpage">
+    <header id="post-header">
+        <h1><a href="http://localhost:1313/ampler-stout-2019-2020-spezifikationsliste/">Ampler Stout 2019 - 2020 Spezifikationsliste</a></h1><div>
+                
+                <time>08.06.2022</time>
+                <ul>    
+            
+                <li><a href="http://localhost:1313/tags/fahrrad/">Fahrrad</a></li>
+            
+                <li><a href="http://localhost:1313/tags/ampler/">Ampler</a></li>
+            
+                <li><a href="http://localhost:1313/tags/stout/">Stout</a></li>
+            
+                <li><a href="http://localhost:1313/tags/spezifikationen/">Spezifikationen</a></li>
+            
+            </ul>
+            
+            </div></header><p>Kleiner Dump der Spezifikationsliste für mein Ampler Stout 2019. Einfach, damit ich es leichter wiederfinde. Vielleicht ja auch für Dich interessant :)</p>
+<table>
+<thead>
+<tr>
+<th>Komponenten</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rahmen</td>
+<td>Aluminium 6061</td>
+</tr>
+<tr>
+<td>Gabel</td>
+<td>Aluminium 1 1/8&quot;, 12 mm Steckachse</td>
+</tr>
+<tr>
+<td>Kurbelgarnitur</td>
+<td>Aluminium-Legierung 42T, 170 mm</td>
+</tr>
+<tr>
+<td>Tretlager</td>
+<td>Abgedichtetes Tretlager mit Drehmomentsensor</td>
+</tr>
+<tr>
+<td>Antrieb</td>
+<td>Shimano Deore RD-T6000 10-Gang</td>
+</tr>
+<tr>
+<td>Kasette</td>
+<td>Shimano HG500 11-32</td>
+</tr>
+<tr>
+<td>Kette</td>
+<td>Yaban SLA-H10 114L</td>
+</tr>
+<tr>
+<td>Bremsen</td>
+<td>Shimano Deore T6000 hydraulische Scheibenbremsen</td>
+</tr>
+<tr>
+<td>Bremsbeläge</td>
+<td>Shimano G02S</td>
+</tr>
+<tr>
+<td>Reifen</td>
+<td>Continental Top Contact II, 42-622 mm</td>
+</tr>
+<tr>
+<td>Laufräder</td>
+<td>28&quot; Laufräder mit asymmetrischen 18 mm Felgen und gedichteten, industriegelagerten Naben</td>
+</tr>
+<tr>
+<td>Schutzbleche</td>
+<td>Ampler Aluminium Schutzbleche, 60 mm</td>
+</tr>
+<tr>
+<td>Gewicht</td>
+<td>17,2 kg</td>
+</tr>
+<tr>
+<td>Max. Unterstützung</td>
+<td>25 km/h</td>
+</tr>
+<tr>
+<td>Reichweite</td>
+<td>45-100 km je nach Gelände und Einstellung der Unterstützung, durchschnittliche Reichweite 70 km</td>
+</tr>
+<tr>
+<td>Batterie</td>
+<td>48 V 336 Wh LG Li-ion Akku</td>
+</tr>
+<tr>
+<td>Motor</td>
+<td>48 V 250 W Nabenmotor (Hinterrad)</td>
+</tr>
+<tr>
+<td>Kontrollmodus</td>
+<td>Präzise Pedal-Drehmoment spürende Motorsteuerung, 2 Motor-Unterstützungsstufen</td>
+</tr>
+<tr>
+<td>Konnektivität</td>
+<td>Smartphone-Konnektivität ermöglicht u.a. die Änderung von Motoreinstellungen</td>
+</tr>
+<tr>
+<td>Ladegerät</td>
+<td>3A Li-Ionen-Ladegerät mit Rosenberger Magnetstecker</td>
+</tr>
+<tr>
+<td>Ladezeit</td>
+<td>2,5 Stunden (100%)</td>
+</tr>
+<tr>
+<td>Lichter Vorne:</td>
+<td>Busch+Müller IQ2 EYC</td>
+</tr>
+<tr>
+<td>Hinten:</td>
+<td>LightSKIN in der Sattelstütze integrierte LED-Lichter</td>
+</tr>
+</tbody>
+</table>
+<p>So. Passt.</p>
+</article>
+    
+	<article class="article-frontpage">
+    <header id="post-header">
+        <h1><a href="http://localhost:1313/satanic-temple-gathering--gegenprotest-cringefest-9000/">Satanic Temple Gathering &#43; Gegenprotest = Cringefest 9000</a></h1><div>
+                
+                <time>11.05.2022</time>
+                <ul>    
+            
+                <li><a href="http://localhost:1313/tags/satanic-temple/">Satanic Temple</a></li>
+            
+                <li><a href="http://localhost:1313/tags/channel-5/">Channel 5</a></li>
+            
+                <li><a href="http://localhost:1313/tags/andrew-callaghan/">Andrew Callaghan</a></li>
+            
+                <li><a href="http://localhost:1313/tags/religion/">Religion</a></li>
+            
+            </ul>
+            
+            </div></header><p>Wenn Andrew Callaghan (<a href="https://www.youtube.com/channel/UCtqxG9IrHFU_ID1khGvx9sA">All Gas no Brakes</a>) irgendwo auftaucht und Leute bei Happenings interviewt, braucht man nicht lange bis man einen auf Facepalm macht.</p>
+<p>Ich schätze den <a href="https://de.wikipedia.org/wiki/The_Satanic_Temple">Satanic Temple</a> für dessen Sarkasmus aber bei ihrem Gathering und dem damit verbundenen Gegenprotest gehe ich auch komplett auf Cringefest 9000 steil.</p>
+<p>Aber seht selbst. Und viel Spaß ;-)</p>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/1AmOqQOOPn8?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="Satanic Temple Gathering"
+      ></iframe>
+    </div>
+
+</article>
+    
+	<article class="article-frontpage">
+    <header id="post-header">
+        <h1><a href="http://localhost:1313/powershellscript-ohne-fenster/">Powershellscript ohne Fenster</a></h1><div>
                 
                 <time>17.02.2022</time>
                 <ul>    
             
-                <li><a href="https://krinkko.github.io/tags/powershell/">Powershell</a></li>
+                <li><a href="http://localhost:1313/tags/powershell/">Powershell</a></li>
             
-                <li><a href="https://krinkko.github.io/tags/scripting/">Scripting</a></li>
+                <li><a href="http://localhost:1313/tags/scripting/">Scripting</a></li>
             
-                <li><a href="https://krinkko.github.io/tags/scripte/">Scripte</a></li>
+                <li><a href="http://localhost:1313/tags/scripte/">Scripte</a></li>
             
-                <li><a href="https://krinkko.github.io/tags/vbs/">Vbs</a></li>
+                <li><a href="http://localhost:1313/tags/vbs/">Vbs</a></li>
             
             </ul>
             
@@ -83,79 +320,43 @@
     
 	<article class="article-frontpage">
     <header id="post-header">
-        <h1><a href="https://krinkko.github.io/not-just-bikes-climate-town-mit-st%C3%A4dtebauvergleich/">Not Just Bikes &amp; Climate Town mit Städtebauvergleich</a></h1><div>
+        <h1><a href="http://localhost:1313/not-just-bikes-climate-town-mit-st%C3%A4dtebauvergleich/">Not Just Bikes &amp; Climate Town mit Städtebauvergleich</a></h1><div>
                 
                 <time>14.02.2022</time>
                 <ul>    
             
-                <li><a href="https://krinkko.github.io/tags/stadtplanung/">Stadtplanung</a></li>
+                <li><a href="http://localhost:1313/tags/stadtplanung/">Stadtplanung</a></li>
             
-                <li><a href="https://krinkko.github.io/tags/klima/">Klima</a></li>
+                <li><a href="http://localhost:1313/tags/klima/">Klima</a></li>
             
-                <li><a href="https://krinkko.github.io/tags/klimawandel/">Klimawandel</a></li>
+                <li><a href="http://localhost:1313/tags/klimawandel/">Klimawandel</a></li>
             
-                <li><a href="https://krinkko.github.io/tags/st%C3%A4dtebau/">Städtebau</a></li>
+                <li><a href="http://localhost:1313/tags/st%C3%A4dtebau/">Städtebau</a></li>
             
-                <li><a href="https://krinkko.github.io/tags/not-just-bikes/">Not Just Bikes</a></li>
+                <li><a href="http://localhost:1313/tags/not-just-bikes/">Not Just Bikes</a></li>
             
-                <li><a href="https://krinkko.github.io/tags/climate-town/">Climate Town</a></li>
+                <li><a href="http://localhost:1313/tags/climate-town/">Climate Town</a></li>
             
             </ul>
             
             </div></header><p>Also ihr solltet euch unbedingt mal diese Kollaboration von <a href="https://www.youtube.com/channel/UC0intLFzLaudFG-xAvUEO-A">Not Just Bikes</a> und <a href="https://www.youtube.com/channel/UCuVLG9pThvBABcYCm7pkNkA">Climate Town</a> in zwei Teilen ansehen. Die beiden verdeutlichen ziemlich genial die Unterschiede zwischen Amsterdam und im Prinzip den meisten verkackten US Städten:</p>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube-nocookie.com/embed/cO6txCZpbsQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/cO6txCZpbsQ?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="Dutch Cities are Better for the Environment (and my sanity)"
+      ></iframe>
+    </div>
 
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube-nocookie.com/embed/SfsCniN7Nsc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/SfsCniN7Nsc?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="The Suburbs Are Bleeding America Dry | Climate Town (feat. Not Just Bikes)"
+      ></iframe>
+    </div>
 
 </article>
-    
-	<article class="article-frontpage">
-    <header id="post-header">
-        <h1><a href="https://krinkko.github.io/warum-gibts-in-braunschweig-nicht-so-eine-radtour/">Warum gibts in Braunschweig nicht so eine Radtour?</a></h1><div>
-                
-                <time>03.02.2022</time>
-                <ul>    
-            
-                <li><a href="https://krinkko.github.io/tags/fahrrad/">Fahrrad</a></li>
-            
-                <li><a href="https://krinkko.github.io/tags/tour/">Tour</a></li>
-            
-                <li><a href="https://krinkko.github.io/tags/terry-barentsen/">Terry Barentsen</a></li>
-            
-                <li><a href="https://krinkko.github.io/tags/new-york/">New York</a></li>
-            
-                <li><a href="https://krinkko.github.io/tags/5-boro-bike-tour/">5 Boro Bike Tour</a></li>
-            
-            </ul>
-            
-            </div></header><p>Checkt mal dieses kleine Promovideo zu New Yorks &ldquo;5 Boro Bike Tour&rdquo;:</p>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube-nocookie.com/embed/as_9Pj_AD3A" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-
-<p>Und ich stelle mir so die Frage, warum haben wir hier ein Braunschweig (oder in Schland generell) nicht so eine coole Radtour?</p>
-</article>
-    
-	<article class="article-frontpage">
-    <header id="post-header">
-        <h1><a href="https://krinkko.github.io/hallo/">Hallo</a></h1><div>
-                
-                <time>31.01.2022</time>
-                
-            </div></header><p>Moin, moin aus Braunschweig. Hier zurück mit einer kleinen Website unter Hugo und das Ganze möglichst minimalistisch gehalten.
-Ich hatte nun ein wenig Zeit mit dem VPS von 1u1 Ionos zu spielen und hab mich letztendlich dazu entschieden einfach Hugo zu nehmen. Der Einfachheit halber.</p>
-</article>
-    
-	<article class="article-frontpage">
-    <header id="post-header">
-        <h1><a href="https://krinkko.github.io/posts-archive/">Posts Archive</a></h1></header></article>
 
 
 
@@ -194,11 +395,29 @@ Ich hatte nun ein wenig Zeit mit dem VPS von 1u1 Ionos zu spielen und hab mich l
       </a>
     </li>
     
+    <li class="pagination__item">
+      <a href="/page/3/" class="pagination__link">
+        3
+      </a>
+    </li>
+    
 
     
     
+    <li class="pagination__item pagination__item--next">
+      <a href="/page/3/" class="pagination__link pagination__link--next">
+        »
+      </a>
+    </li>
+    
 
     
+    
+    <li class="pagination__item pagination__item--last">
+      <a class="pagination__link pagination__link--last" href="/page/3/">
+        »»
+      </a>
+    </li>
     
 
   </ul>
