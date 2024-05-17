@@ -1,4 +1,11 @@
 <header id="banner">
+    <div class="headerauthor">
+        <p class="headerauthor_pic">
+            {{ $image := resources.Get "images/123sawd.jpg" }}
+            <img src="{{ $image.RelPermalink }}">
+        </p>
+        <p class="headerauthor_desc"></p>
+    </div>
     <h2><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h2>
     <nav>
         <ul>
@@ -10,4 +17,5 @@
         </ul>
     </nav>
     <p><small>{{ .Site.Params.Description }}</small></p>
+    
 </header>

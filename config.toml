@@ -32,6 +32,13 @@ paginate = 5
     url = "/about/"
     weight = 20
 
+  [[menu.main]]
+    identifier = "archive"
+    name = "archive"
+    title = "archive"
+    url = "/posts-archive/"
+    weight = 30
+
   [[menu.second]]
     identifier = "impressum"
     name = "impressum"
