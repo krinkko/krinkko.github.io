@@ -2,53 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Persönliches on krinkko&#39;s</title>
-    <link>http://localhost:1313/tags/pers%C3%B6nliches/</link>
+    <link>https://krinkko.github.io/tags/pers%C3%B6nliches/</link>
     <description>Recent content in Persönliches on krinkko&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <lastBuildDate>Mon, 26 Feb 2024 12:40:47 +0100</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/pers%C3%B6nliches/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    
-    <item>
-      <title>Searxng Als Standardbrowser</title>
-      <link>http://localhost:1313/searxng-als-standardbrowser/</link>
-      <pubDate>Wed, 17 Apr 2024 15:10:04 +0200</pubDate>
-      
-      <guid>http://localhost:1313/searxng-als-standardbrowser/</guid>
-      <description></description>
-    </item>
-    
-    
-    
-    <item>
-      <title>Better AutoDesk Deployment</title>
-      <link>http://localhost:1313/better-autodesk-deployment/</link>
-      <pubDate>Mon, 18 Mar 2024 11:03:00 +0100</pubDate>
-      
-      <guid>http://localhost:1313/better-autodesk-deployment/</guid>
-      <description>&lt;p&gt;Es ist wieder so weit für einen kleinen meinungsschwangeren Tutorialartikel zum Thema &amp;ldquo;AutoDesk für Sysadmins&amp;rdquo;. Wir wissen alle, dass nach der Einführung von AutoDesk ODIS Modern Installer irgendwie alles verschlimmbessert (neuDeutsch: Enshittyfied) wurde.&lt;/p&gt;
-&lt;p&gt;Zunächst kann man bei AutoDesk im Manage Portal zwei stabile Installationsmethoden erstellen: Install oder Deployment.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Install&lt;/b&gt; bietet den Typischen installer, der zwar mit dem Parameter &lt;i&gt;-q&lt;/i&gt; bedient werden kann, was sich aber nur auf den Download der Daten auswirkt. Nimmt man den Parameter also mit, so wird nur der Download abgeschlossen. Der Installer hört danach auf. Für ein Deployment also nicht so geeignet. ABER, später hierzu mehr.&lt;/p&gt;
-</description>
-    </item>
+	<atom:link href="https://krinkko.github.io/tags/pers%C3%B6nliches/index.xml" rel="self" type="application/rss+xml" />
     
     
     
     <item>
       <title>Musikvideo: MastaAce &amp; Marco Polo - Get Shot</title>
-      <link>http://localhost:1313/musikvideo-mastaace-marco-polo-get-shot/</link>
+      <link>https://krinkko.github.io/musikvideo-mastaace-marco-polo-get-shot/</link>
       <pubDate>Wed, 28 Feb 2024 15:55:53 +0100</pubDate>
       
-      <guid>http://localhost:1313/musikvideo-mastaace-marco-polo-get-shot/</guid>
+      <guid>https://krinkko.github.io/musikvideo-mastaace-marco-polo-get-shot/</guid>
       <description>&lt;p&gt;Immer mal wieder gesucht und endlich wieder gefunden: Masta Ace mit Marco Polo - Get Shot. Enjoy!&lt;/p&gt;
 
 
     
     &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/AeQMS6UnFUU?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;Masta Ace &amp; Marco Polo – Get Shot (Official Video)&#34;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/AeQMS6UnFUU?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
       &gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
@@ -59,10 +34,10 @@
     
     <item>
       <title>Schaukelaufbaublues</title>
-      <link>http://localhost:1313/schaukelaufbaublues/</link>
+      <link>https://krinkko.github.io/schaukelaufbaublues/</link>
       <pubDate>Mon, 26 Feb 2024 16:32:27 +0100</pubDate>
       
-      <guid>http://localhost:1313/schaukelaufbaublues/</guid>
+      <guid>https://krinkko.github.io/schaukelaufbaublues/</guid>
       <description>&lt;p&gt;Eigentlich ist es ja ein etwas später Zug über unseren &amp;ldquo;neuen&amp;rdquo; Schrebergarten hier direkt mit dem Aufbau unserer brand neuen Kinderschaukel zu starten, aber was solls&amp;hellip;&lt;/p&gt;
 &lt;p&gt;Kurz vorweg: Ich hätte nicht gedacht, dass es so ein Akt ist ein Schaukelgestell aufzustellen, aber lest erst mal rein hier.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;DSC_0980.JPG&#34;&gt;
@@ -98,24 +73,24 @@
 
 
 
-&lt;a href=&#34;http://localhost:1313/schaukelaufbaublues/DSC_0980.JPG&#34;&gt;
+&lt;a href=&#34;https://krinkko.github.io/schaukelaufbaublues/DSC_0980.JPG&#34;&gt;
     &lt;picture&gt;
     
     &lt;source media=&#34;(max-width: 376px)&#34; 
-        srcset=&#34;http://localhost:1313/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_500x0_resize_q75_h2_box.webp&#34;&gt;
+        srcset=&#34;https://krinkko.github.io/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_500x0_resize_q75_h2_box.webp&#34;&gt;
 
     &lt;source media=&#34;(max-width: 992px)&#34; 
-        srcset=&#34;http://localhost:1313/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_800x0_resize_q75_h2_box.webp&#34;&gt;
+        srcset=&#34;https://krinkko.github.io/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_800x0_resize_q75_h2_box.webp&#34;&gt;
 
     &lt;source media=&#34;(max-width: 1400px)&#34; 
-        srcset=&#34;http://localhost:1313/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_1200x0_resize_q75_h2_box.webp&#34;&gt;
+        srcset=&#34;https://krinkko.github.io/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_1200x0_resize_q75_h2_box.webp&#34;&gt;
 
     &lt;source media=&#34;(min-width: 1600px)&#34; 
-        srcset=&#34;http://localhost:1313/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_1500x0_resize_q75_h2_box.webp&#34;&gt;
+        srcset=&#34;https://krinkko.github.io/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_1500x0_resize_q75_h2_box.webp&#34;&gt;
     
     &lt;img 
  
-   alt=&#34;Einige Updates sammelten sich auf dem WSUS an&#34; title=&#34;Einige Updates sammelten sich auf dem WSUS an&#34; src=&#34;http://localhost:1313/schaukelaufbaublues/DSC_0980.JPG&#34; class=&#34;img-fluid lazyload&#34;&gt;
+   alt=&#34;Einige Updates sammelten sich auf dem WSUS an&#34; title=&#34;Einige Updates sammelten sich auf dem WSUS an&#34; src=&#34;https://krinkko.github.io/schaukelaufbaublues/DSC_0980.JPG&#34; class=&#34;img-fluid lazyload&#34;&gt;
 
 &lt;/picture&gt;
 &lt;/a&gt;
@@ -137,10 +112,10 @@
     
     <item>
       <title>Update Februar 2024</title>
-      <link>http://localhost:1313/update-februar-2024/</link>
+      <link>https://krinkko.github.io/update-februar-2024/</link>
       <pubDate>Mon, 26 Feb 2024 12:40:47 +0100</pubDate>
       
-      <guid>http://localhost:1313/update-februar-2024/</guid>
+      <guid>https://krinkko.github.io/update-februar-2024/</guid>
       <description>&lt;p&gt;Moin! Lang nix hier auf der Page gemacht. Ich habe eigentlich sogar vergessen, dass das Repo noch existiert. Allerdings brauchte ich auch mal wieder was zum Basteln, also bin ich mal wieder kurz zurückgekehrt.&lt;/p&gt;
 &lt;p&gt;In der Zwischenzeit hatte ich alle meine Webspace&amp;rsquo;s, Domains, etc. gekündigt. Gebrauchten konnte ich sie nicht und Zeit für Projekte habe ich ebenfalls nicht mehr. Mein Ziel ist es, irgendwann wenn mal ein paar Taler übrig sind, ein Synology 723+ NAS zu kaufen und damit dann mal ein bisschen den Haushalt auf Vordermann zu bringen. Sprich Paperless und so weiter drauf.&lt;/p&gt;
 &lt;p&gt;Nun, das wäre es auch erst mal.&lt;/p&gt;
@@ -150,84 +125,11 @@
     
     
     <item>
-      <title>Matrix Docker Compose Install (&#43;TelegramBot)</title>
-      <link>http://localhost:1313/matrix-docker-compose-install-telegrambot/</link>
-      <pubDate>Thu, 09 Jun 2022 13:42:45 +0200</pubDate>
-      
-      <guid>http://localhost:1313/matrix-docker-compose-install-telegrambot/</guid>
-      <description>&lt;p&gt;Letztens surfte ich so durch&amp;rsquo;s Web und habe entdeckt, dass man andere Services wie Telegram oder Signal allerdings auch per Bot und Bridges in Matrix einbinden kann. Mein Spieltrieb war wieder geweckt..&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;logo.png&#34;&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;a href=&#34;http://localhost:1313/matrix-docker-compose-install-telegrambot/logo.png&#34;&gt;
-    &lt;picture&gt;
-    
-    &lt;source media=&#34;(max-width: 376px)&#34; 
-        srcset=&#34;http://localhost:1313/matrix-docker-compose-install-telegrambot/logo_hu2a0b084fc950f50ca0ae8b9624d1eb3b_13129_500x0_resize_q75_h2_box_3.webp&#34;&gt;
-
-    &lt;source media=&#34;(max-width: 992px)&#34; 
-        srcset=&#34;http://localhost:1313/matrix-docker-compose-install-telegrambot/logo_hu2a0b084fc950f50ca0ae8b9624d1eb3b_13129_800x0_resize_q75_h2_box_3.webp&#34;&gt;
-
-    &lt;source media=&#34;(max-width: 1400px)&#34; 
-        srcset=&#34;http://localhost:1313/matrix-docker-compose-install-telegrambot/logo_hu2a0b084fc950f50ca0ae8b9624d1eb3b_13129_1200x0_resize_q75_h2_box_3.webp&#34;&gt;
-
-    &lt;source media=&#34;(min-width: 1600px)&#34; 
-        srcset=&#34;http://localhost:1313/matrix-docker-compose-install-telegrambot/logo_hu2a0b084fc950f50ca0ae8b9624d1eb3b_13129_1500x0_resize_q75_h2_box_3.webp&#34;&gt;
-    
-    &lt;img 
- 
-   alt=&#34;Einige Updates sammelten sich auf dem WSUS an&#34; title=&#34;Einige Updates sammelten sich auf dem WSUS an&#34; src=&#34;http://localhost:1313/matrix-docker-compose-install-telegrambot/logo.png&#34; class=&#34;img-fluid lazyload&#34;&gt;
-
-&lt;/picture&gt;
-&lt;/a&gt;
-  
-  
-
-  
-&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Vor einiger Zeit hatte ich bereits schon einmal einen Matrix Server für mich und meine Freunde aufgesetzt, weil wir eine Alternative zum unverschlüsselten Telegram haben wollten für unseren Gruppenchat. Das ging leider etwas unter, da wir uns bereits auf Telegram breit gemacht hatten und irgendwie dann doch kein Interesse am Wechseln vorhanden war.&lt;/p&gt;
-&lt;p&gt;Ich hatte den Server leider zwischenzeitlich wieder platt gemacht.&lt;/p&gt;
-&lt;p&gt;Grundsätzlich schreibe ich die kleine Anleitung hier aber nur, weil ich mir viele Sachen erst zusammensuchen musste um Matrix zum Laufen zu bewegen.&lt;/p&gt;</description>
-    </item>
-    
-    
-    
-    <item>
       <title>Ampler Stout 2019 - 2020 Spezifikationsliste</title>
-      <link>http://localhost:1313/ampler-stout-2019-2020-spezifikationsliste/</link>
+      <link>https://krinkko.github.io/ampler-stout-2019-2020-spezifikationsliste/</link>
       <pubDate>Wed, 08 Jun 2022 10:40:46 +0200</pubDate>
       
-      <guid>http://localhost:1313/ampler-stout-2019-2020-spezifikationsliste/</guid>
+      <guid>https://krinkko.github.io/ampler-stout-2019-2020-spezifikationsliste/</guid>
       <description>&lt;p&gt;Kleiner Dump der Spezifikationsliste für mein Ampler Stout 2019. Einfach, damit ich es leichter wiederfinde. Vielleicht ja auch für Dich interessant :)&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -339,10 +241,10 @@
     
     <item>
       <title>Satanic Temple Gathering &#43; Gegenprotest = Cringefest 9000</title>
-      <link>http://localhost:1313/satanic-temple-gathering--gegenprotest-cringefest-9000/</link>
+      <link>https://krinkko.github.io/satanic-temple-gathering--gegenprotest-cringefest-9000/</link>
       <pubDate>Wed, 11 May 2022 13:52:06 +0200</pubDate>
       
-      <guid>http://localhost:1313/satanic-temple-gathering--gegenprotest-cringefest-9000/</guid>
+      <guid>https://krinkko.github.io/satanic-temple-gathering--gegenprotest-cringefest-9000/</guid>
       <description>&lt;p&gt;Wenn Andrew Callaghan (&lt;a href=&#34;https://www.youtube.com/channel/UCtqxG9IrHFU_ID1khGvx9sA&#34;&gt;All Gas no Brakes&lt;/a&gt;) irgendwo auftaucht und Leute bei Happenings interviewt, braucht man nicht lange bis man einen auf Facepalm macht.&lt;/p&gt;
 &lt;p&gt;Ich schätze den &lt;a href=&#34;https://de.wikipedia.org/wiki/The_Satanic_Temple&#34;&gt;Satanic Temple&lt;/a&gt; für dessen Sarkasmus aber bei ihrem Gathering und dem damit verbundenen Gegenprotest gehe ich auch komplett auf Cringefest 9000 steil.&lt;/p&gt;
 &lt;p&gt;Aber seht selbst. Und viel Spaß ;-)&lt;/p&gt;
@@ -350,11 +252,7 @@
 
     
     &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-<<<<<<< HEAD
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/1AmOqQOOPn8?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
-=======
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/1AmOqQOOPn8?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;Satanic Temple Gathering&#34;
->>>>>>> 642240198c990d50d35e31ca2371a348352a162a
       &gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
@@ -365,10 +263,10 @@
     
     <item>
       <title>Powershellscript ohne Fenster</title>
-      <link>http://localhost:1313/powershellscript-ohne-fenster/</link>
+      <link>https://krinkko.github.io/powershellscript-ohne-fenster/</link>
       <pubDate>Thu, 17 Feb 2022 11:17:20 +0100</pubDate>
       
-      <guid>http://localhost:1313/powershellscript-ohne-fenster/</guid>
+      <guid>https://krinkko.github.io/powershellscript-ohne-fenster/</guid>
       <description>&lt;p&gt;Man kann einfach ein bisschen vbs-Code dazu benutzen um ein Powershellfenster vor Usern zu verstecken:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cmd&#34; data-lang=&#34;cmd&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Dim objArguments
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Dim command
@@ -386,20 +284,16 @@
     
     <item>
       <title>Not Just Bikes &amp; Climate Town mit Städtebauvergleich</title>
-      <link>http://localhost:1313/not-just-bikes-climate-town-mit-st%C3%A4dtebauvergleich/</link>
+      <link>https://krinkko.github.io/not-just-bikes-climate-town-mit-st%C3%A4dtebauvergleich/</link>
       <pubDate>Mon, 14 Feb 2022 09:22:10 +0100</pubDate>
       
-      <guid>http://localhost:1313/not-just-bikes-climate-town-mit-st%C3%A4dtebauvergleich/</guid>
+      <guid>https://krinkko.github.io/not-just-bikes-climate-town-mit-st%C3%A4dtebauvergleich/</guid>
       <description>&lt;p&gt;Also ihr solltet euch unbedingt mal diese Kollaboration von &lt;a href=&#34;https://www.youtube.com/channel/UC0intLFzLaudFG-xAvUEO-A&#34;&gt;Not Just Bikes&lt;/a&gt; und &lt;a href=&#34;https://www.youtube.com/channel/UCuVLG9pThvBABcYCm7pkNkA&#34;&gt;Climate Town&lt;/a&gt; in zwei Teilen ansehen. Die beiden verdeutlichen ziemlich genial die Unterschiede zwischen Amsterdam und im Prinzip den meisten verkackten US Städten:&lt;/p&gt;
 
 
     
     &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-<<<<<<< HEAD
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/cO6txCZpbsQ?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
-=======
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/cO6txCZpbsQ?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;Dutch Cities are Better for the Environment (and my sanity)&#34;
->>>>>>> 642240198c990d50d35e31ca2371a348352a162a
       &gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
@@ -407,11 +301,7 @@
 
     
     &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-<<<<<<< HEAD
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/SfsCniN7Nsc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
-=======
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/SfsCniN7Nsc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;The Suburbs Are Bleeding America Dry | Climate Town (feat. Not Just Bikes)&#34;
->>>>>>> 642240198c990d50d35e31ca2371a348352a162a
       &gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
@@ -422,20 +312,16 @@
     
     <item>
       <title>Warum gibts in Braunschweig nicht so eine Radtour?</title>
-      <link>http://localhost:1313/warum-gibts-in-braunschweig-nicht-so-eine-radtour/</link>
+      <link>https://krinkko.github.io/warum-gibts-in-braunschweig-nicht-so-eine-radtour/</link>
       <pubDate>Thu, 03 Feb 2022 10:30:18 +0100</pubDate>
       
-      <guid>http://localhost:1313/warum-gibts-in-braunschweig-nicht-so-eine-radtour/</guid>
+      <guid>https://krinkko.github.io/warum-gibts-in-braunschweig-nicht-so-eine-radtour/</guid>
       <description>&lt;p&gt;Checkt mal dieses kleine Promovideo zu New Yorks &amp;ldquo;5 Boro Bike Tour&amp;rdquo;:&lt;/p&gt;
 
 
     
     &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-<<<<<<< HEAD
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/as_9Pj_AD3A?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
-=======
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/as_9Pj_AD3A?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;Too Hot for the 5 Boro Bike Tour&#34;
->>>>>>> 642240198c990d50d35e31ca2371a348352a162a
       &gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
@@ -447,10 +333,10 @@
     
     <item>
       <title>Hallo</title>
-      <link>http://localhost:1313/hallo/</link>
+      <link>https://krinkko.github.io/hallo/</link>
       <pubDate>Mon, 31 Jan 2022 11:28:04 +0100</pubDate>
       
-      <guid>http://localhost:1313/hallo/</guid>
+      <guid>https://krinkko.github.io/hallo/</guid>
       <description>&lt;p&gt;Moin, moin aus Braunschweig. Hier zurück mit einer kleinen Website unter Hugo und das Ganze möglichst minimalistisch gehalten.
 Ich hatte nun ein wenig Zeit mit dem VPS von 1u1 Ionos zu spielen und hab mich letztendlich dazu entschieden einfach Hugo zu nehmen. Der Einfachheit halber.&lt;/p&gt;
 </description>
@@ -460,14 +346,12 @@ Ich hatte nun ein wenig Zeit mit dem VPS von 1u1 Ionos zu spielen und hab mich l
     
     
     
-    
-    
     <item>
       <title>Posts Archive</title>
-      <link>http://localhost:1313/posts-archive/</link>
+      <link>https://krinkko.github.io/posts-archive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts-archive/</guid>
+      <guid>https://krinkko.github.io/posts-archive/</guid>
       <description></description>
     </item>
     
