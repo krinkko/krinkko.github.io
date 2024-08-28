@@ -55,6 +55,37 @@
     
 	<article class="article-frontpage">
     <header id="post-header">
+        <h1><a href="https://krinkko.github.io/hp-image-assistant-commandline-mit-powershell/">HP Image Assistant Commandline Mit Powershell</a></h1><div>
+                
+                <time>28.08.2024</time>
+                <ul>    
+            
+                <li><a href="https://krinkko.github.io/tags/powershell/">Powershell</a></li>
+            
+            </ul>
+            
+            </div></header><p>Nachdem ich mich nun den Vormittag mit der an sich tollen Idee der Remoteausführung von <a href="https://ftp.ext.hp.com/pub/caps-softpaq/cmit/HPIA.html">HP Image Assistant</a> via Powershell auseinandergesetzt habe, hier mal meine 2ct dazu.</p>
+<p>Ich hatte vor ein Script zu machen, welches mir erst einmal ausliest welche Treiber und Programme für ein bestimmtes Gerät verfügbar sind und welche Windows Update vielleicht nicht gesehen hat. Es gibt danach eine .html-Datei aus, in der die fehlenden oder aktualisierbaren Komponenten aufgelistet werden.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># Prüfe erst mal den UNC-Pfad zum Installer</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="nb">Test-Path</span> <span class="n">-Path</span> <span class="s2">&#34;\\MEINPFAD\HP\hp-hpia-5.2.1.exe&#34;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c">#Entpacke HPIA nach C:\</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Start-Process</span> <span class="s2">&#34;\\MEINPFAD\HP\hp-hpia-5.2.1.exe&#34;</span> <span class="n">-ArgumentList</span> <span class="s2">&#34;/s /e /f </span><span class="se">`&#34;</span><span class="s2">C:\HPIA\HP Image Assistant</span><span class="se">`&#34;</span><span class="s2">&#34;</span> <span class="n">-wait</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c"># Prüfe mal, ob ein LOG-Verzeichnis bereits vorliegt auf einem UNC-Pfad</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="o">-not</span> <span class="p">(</span><span class="nb">Test-Path</span> <span class="n">-Path</span> <span class="s2">&#34;\\MEINPFAD\Logs\HPIA\</span><span class="p">$(</span><span class="nv">$env:COMPUTERNAME</span><span class="p">)</span><span class="s2">\&#34;</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c"># Wenn kein Logverzeichnis da ist, erschaffe eins</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">new-item</span> <span class="n">-Path</span> <span class="s2">&#34;\\MEINPFAD\Logs\HPIA\</span><span class="nv">$env:COMPUTERNAME</span><span class="s2">\&#34;</span> <span class="n">-ItemType</span> <span class="n">Directory</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c"># Führe HPIA im Anaylsemodus aus und erstelle ein Logfile im angegebenen Ordner</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&amp;</span> <span class="s2">&#34;C:\HPIA\HP Image Assistant\HPImageAssistant.exe&#34;</span> <span class="p">/</span><span class="n">Silent</span> <span class="p">/</span><span class="n">Operation</span><span class="p">`</span><span class="err">:</span><span class="n">Analyze</span> <span class="p">/</span><span class="n">Action</span><span class="p">`</span><span class="err">:</span><span class="n">List</span> <span class="p">/</span><span class="n">reportfolder</span><span class="p">`</span><span class="err">:</span><span class="s2">&#34;\\MEINPFAD\Logs\HPIA\</span><span class="p">$(</span><span class="nv">$env:computername</span><span class="p">)</span><span class="s2">\&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Wie man sieht musste ich via Powershell in den Argumenten von HPImageAssistant.exe dann die Doppelpunkte escapen. Dies ging leider auch nur so, da die EXE unter der Nutzung von <code>Start-Process</code> ebenfalls einen Frameworkfehler geworfen hat.</p>
+<p><b>Update 28.08.2024:</b> Da der Spaß mit Analyze nun funktioniert, wäre es natürlich noch an der Zeit einige Scriptparameter hinzuzufügen, die uns im Anschluss eine Installation der Treiber ermöglichen. Stay tuned&hellip;</p>
+</article>
+    
+	<article class="article-frontpage">
+    <header id="post-header">
         <h1><a href="https://krinkko.github.io/schaukelaufbaublues/">Schaukelaufbaublues</a></h1><div>
                 
                 <time>26.02.2024</time>
@@ -302,35 +333,6 @@
       ></iframe>
     </div>
 
-</article>
-    
-	<article class="article-frontpage">
-    <header id="post-header">
-        <h1><a href="https://krinkko.github.io/powershellscript-ohne-fenster/">Powershellscript ohne Fenster</a></h1><div>
-                
-                <time>17.02.2022</time>
-                <ul>    
-            
-                <li><a href="https://krinkko.github.io/tags/powershell/">Powershell</a></li>
-            
-                <li><a href="https://krinkko.github.io/tags/scripting/">Scripting</a></li>
-            
-                <li><a href="https://krinkko.github.io/tags/scripte/">Scripte</a></li>
-            
-                <li><a href="https://krinkko.github.io/tags/vbs/">Vbs</a></li>
-            
-            </ul>
-            
-            </div></header><p>Man kann einfach ein bisschen vbs-Code dazu benutzen um ein Powershellfenster vor Usern zu verstecken:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl">Dim objArguments
-</span></span><span class="line"><span class="cl">Dim command
-</span></span><span class="line"><span class="cl"><span class="k">Set</span> <span class="nv">objArguments </span><span class="p">=</span> WScript.Arguments
-</span></span><span class="line"><span class="cl">command = <span class="s2">&#34;powershell.exe -nologo -command &#34;</span> <span class="p">&amp;</span> objArguments(0) <span class="p">&amp;</span> <span class="s2">&#34;&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nv">shell </span><span class="p">=</span> CreateObject(<span class="s2">&#34;WScript.Shell&#34;</span>)
-</span></span><span class="line"><span class="cl">shell.Run command,0
-</span></span></code></pre></div><p>Speichern wir das nun z.B. als Launchpwrshl.vbs können wir direkt ein Script als Argument[0] daran hängen:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl"> launchpwrshl.vbs meinscript.ps1
-</span></span></code></pre></div><p>Nützlich, wenn man ein Powershellscript als Aufgabe oder so laufen lassen will.</p>
 </article>
 
 

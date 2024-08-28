@@ -2,11 +2,8 @@
 title: "HP Image Assistant Commandline Mit Powershell"
 date: 2024-08-28T11:24:30+02:00
 tags: ["Powershell"]
-draft: true
+draft: false
 ---
-
-<i>Work in progress...</i>
-
 Nachdem ich mich nun den Vormittag mit der an sich tollen Idee der Remoteausführung von [HP Image Assistant](https://ftp.ext.hp.com/pub/caps-softpaq/cmit/HPIA.html) via Powershell auseinandergesetzt habe, hier mal meine 2ct dazu.
 
 Ich hatte vor ein Script zu machen, welches mir erst einmal ausliest welche Treiber und Programme für ein bestimmtes Gerät verfügbar sind und welche Windows Update vielleicht nicht gesehen hat. Es gibt danach eine .html-Datei aus, in der die fehlenden oder aktualisierbaren Komponenten aufgelistet werden.
