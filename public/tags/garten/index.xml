@@ -9,6 +9,7 @@
     <lastBuildDate>Mon, 26 Feb 2024 16:32:27 +0100</lastBuildDate>
     
 	<atom:link href="https://krinkko.github.io/tags/garten/index.xml" rel="self" type="application/rss+xml" />
+<<<<<<< HEAD
     
     
     
@@ -29,6 +30,8 @@
 
 </description>
     </item>
+=======
+>>>>>>> 027dee256335b7b35b00e2739688a8a8f60fbbe5
     
     
     
@@ -77,6 +80,7 @@
     &lt;picture&gt;
     
     &lt;source media=&#34;(max-width: 376px)&#34; 
+<<<<<<< HEAD
         srcset=&#34;https://krinkko.github.io/schaukelaufbaublues/DSC_0980_hu4539300387038210399.webp&#34;&gt;
 
     &lt;source media=&#34;(max-width: 992px)&#34; 
@@ -87,6 +91,18 @@
 
     &lt;source media=&#34;(min-width: 1600px)&#34; 
         srcset=&#34;https://krinkko.github.io/schaukelaufbaublues/DSC_0980_hu12582711403972086866.webp&#34;&gt;
+=======
+        srcset=&#34;https://krinkko.github.io/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_500x0_resize_q75_h2_box.webp&#34;&gt;
+
+    &lt;source media=&#34;(max-width: 992px)&#34; 
+        srcset=&#34;https://krinkko.github.io/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_800x0_resize_q75_h2_box.webp&#34;&gt;
+
+    &lt;source media=&#34;(max-width: 1400px)&#34; 
+        srcset=&#34;https://krinkko.github.io/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_1200x0_resize_q75_h2_box.webp&#34;&gt;
+
+    &lt;source media=&#34;(min-width: 1600px)&#34; 
+        srcset=&#34;https://krinkko.github.io/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_1500x0_resize_q75_h2_box.webp&#34;&gt;
+>>>>>>> 027dee256335b7b35b00e2739688a8a8f60fbbe5
     
     &lt;img 
  

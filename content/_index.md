@@ -1,3 +1,3 @@
 ---
-title: "krinko's"
+title: "krinkko's"
 ---
