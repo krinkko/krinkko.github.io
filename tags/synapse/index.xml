@@ -13,12 +13,27 @@
     
     
     <item>
-      <title>Searxng Als Standardbrowser</title>
+      <title>HP Image Assistant Commandline Mit Powershell</title>
+      <link>http://localhost:1313/hp-image-assistant-commandline-mit-powershell/</link>
+      <pubDate>Wed, 28 Aug 2024 11:24:30 +0200</pubDate>
+      
+      <guid>http://localhost:1313/hp-image-assistant-commandline-mit-powershell/</guid>
+      <description>&lt;p&gt;Nachdem ich mich nun den Vormittag mit der an sich tollen Idee der Remoteausführung von HP Image Assistant via Powershell auseinandergesetzt habe, hier mal meine 2ct dazu.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Searxng als Standardbrowser</title>
       <link>http://localhost:1313/searxng-als-standardbrowser/</link>
       <pubDate>Wed, 17 Apr 2024 15:10:04 +0200</pubDate>
       
       <guid>http://localhost:1313/searxng-als-standardbrowser/</guid>
-      <description></description>
+      <description>&lt;p&gt;Vielleicht habt ihr ja von &amp;ldquo;Searxng&amp;rdquo; gehört. Das ist eine Metasuchmaschine, die man selbst in sogenannten Instanzen betreiben und nutzen kann. Sie durchsucht andere Suchmaschinen nach Ergebnissen und stellt sich selbst als besonders Datenschutzfreundlich dar.&lt;/p&gt;
+&lt;img src=&#34;searxng.svg&#34;&gt;
+&lt;p&gt;Wer daran interessiert ist, die Suchmaschine mal selbstverwaltet aufzusetzen, schaut einfach mal auf &lt;a href=&#34;https://github.com/searxng/searxng&#34;&gt;Searxng Github&lt;/a&gt; vorbei. Oder ihr nehmt einfach &lt;a href=&#34;https://www.gruble.de&#34;&gt;Gruble.de&lt;/a&gt;, eine fertige Instanz vom Admin von &lt;a href=&#34;https://www.adminforge.de&#34;&gt;Adminforge.de&lt;/a&gt;. Letztere nehmen wir nun auch einfach mal raus, um Gruble (oder besser gesagt Searngx) auf unserem Firefox Mobile zu nutzen.&lt;/p&gt;
+</description>
     </item>
     
     
@@ -48,7 +63,7 @@
 
     
     &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/AeQMS6UnFUU?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;Masta Ace &amp; Marco Polo – Get Shot (Official Video)&#34;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/AeQMS6UnFUU?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
       &gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
@@ -102,16 +117,16 @@
     &lt;picture&gt;
     
     &lt;source media=&#34;(max-width: 376px)&#34; 
-        srcset=&#34;http://localhost:1313/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_500x0_resize_q75_h2_box.webp&#34;&gt;
+        srcset=&#34;http://localhost:1313/schaukelaufbaublues/DSC_0980_hu4539300387038210399.webp&#34;&gt;
 
     &lt;source media=&#34;(max-width: 992px)&#34; 
-        srcset=&#34;http://localhost:1313/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_800x0_resize_q75_h2_box.webp&#34;&gt;
+        srcset=&#34;http://localhost:1313/schaukelaufbaublues/DSC_0980_hu5871238761846582380.webp&#34;&gt;
 
     &lt;source media=&#34;(max-width: 1400px)&#34; 
-        srcset=&#34;http://localhost:1313/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_1200x0_resize_q75_h2_box.webp&#34;&gt;
+        srcset=&#34;http://localhost:1313/schaukelaufbaublues/DSC_0980_hu7271317092220874718.webp&#34;&gt;
 
     &lt;source media=&#34;(min-width: 1600px)&#34; 
-        srcset=&#34;http://localhost:1313/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_1500x0_resize_q75_h2_box.webp&#34;&gt;
+        srcset=&#34;http://localhost:1313/schaukelaufbaublues/DSC_0980_hu12582711403972086866.webp&#34;&gt;
     
     &lt;img 
  
@@ -193,16 +208,16 @@
     &lt;picture&gt;
     
     &lt;source media=&#34;(max-width: 376px)&#34; 
-        srcset=&#34;http://localhost:1313/matrix-docker-compose-install-telegrambot/logo_hu2a0b084fc950f50ca0ae8b9624d1eb3b_13129_500x0_resize_q75_h2_box_3.webp&#34;&gt;
+        srcset=&#34;http://localhost:1313/matrix-docker-compose-install-telegrambot/logo_hu17145862786923193034.webp&#34;&gt;
 
     &lt;source media=&#34;(max-width: 992px)&#34; 
-        srcset=&#34;http://localhost:1313/matrix-docker-compose-install-telegrambot/logo_hu2a0b084fc950f50ca0ae8b9624d1eb3b_13129_800x0_resize_q75_h2_box_3.webp&#34;&gt;
+        srcset=&#34;http://localhost:1313/matrix-docker-compose-install-telegrambot/logo_hu11331753291077444398.webp&#34;&gt;
 
     &lt;source media=&#34;(max-width: 1400px)&#34; 
-        srcset=&#34;http://localhost:1313/matrix-docker-compose-install-telegrambot/logo_hu2a0b084fc950f50ca0ae8b9624d1eb3b_13129_1200x0_resize_q75_h2_box_3.webp&#34;&gt;
+        srcset=&#34;http://localhost:1313/matrix-docker-compose-install-telegrambot/logo_hu567086259015311634.webp&#34;&gt;
 
     &lt;source media=&#34;(min-width: 1600px)&#34; 
-        srcset=&#34;http://localhost:1313/matrix-docker-compose-install-telegrambot/logo_hu2a0b084fc950f50ca0ae8b9624d1eb3b_13129_1500x0_resize_q75_h2_box_3.webp&#34;&gt;
+        srcset=&#34;http://localhost:1313/matrix-docker-compose-install-telegrambot/logo_hu8467830981922172644.webp&#34;&gt;
     
     &lt;img 
  
@@ -350,7 +365,7 @@
 
     
     &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/1AmOqQOOPn8?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;Satanic Temple Gathering&#34;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/1AmOqQOOPn8?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
       &gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
@@ -391,7 +406,7 @@
 
     
     &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/cO6txCZpbsQ?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;Dutch Cities are Better for the Environment (and my sanity)&#34;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/cO6txCZpbsQ?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
       &gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
@@ -399,7 +414,7 @@
 
     
     &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/SfsCniN7Nsc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;The Suburbs Are Bleeding America Dry | Climate Town (feat. Not Just Bikes)&#34;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/SfsCniN7Nsc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
       &gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
@@ -419,7 +434,7 @@
 
     
     &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/as_9Pj_AD3A?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;Too Hot for the 5 Boro Bike Tour&#34;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube-nocookie.com/embed/as_9Pj_AD3A?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
       &gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
