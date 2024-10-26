@@ -13,6 +13,52 @@
     
     
     <item>
+      <title>Yubikey SmartCard Slot Problem</title>
+      <link>https://krinkko.github.io/yubikey-smartcard-slot-problem/</link>
+      <pubDate>Wed, 23 Oct 2024 07:17:00 +0200</pubDate>
+      
+      <guid>https://krinkko.github.io/yubikey-smartcard-slot-problem/</guid>
+      <description>&lt;p&gt;Vor ein paar Jahren sind wir in der Firma auf Yubikeys gewechselt und sind vor allem auch ganz angetan von der Policy, dass sich ein Windows-Client sperrt wenn ein User den Key herauszieht. Das PKI-Management zu den Smartcards ist so eher meh, aber ich will euch hier kurz ein Problem beschreiben, welches der Verwendung von Yubikey als Smartcard unter Windows inne wohnt:&lt;/p&gt;
+&lt;p&gt;Der Yubikey hat 4 Slots. Einer davon, Slot 9a, ist für die SC Authentifizierung vorgesehen. Nun haben wir die Smartcards schon einige Jahre im Einsatz und das Certificate Renewal steht bei einigen Usern an. Und hier kommt das Problem: Ist das Certificate in 9a abgelaufen (oder droht abzulaufen), so fordert der User ein neues an, gibt seine PIN ein, Registrierung erfolgreich - aber kann sich dennoch nicht einloggen. Warum?&lt;/p&gt;
+&lt;p&gt;Das Certificate kann nicht in Slot 9a überschrieben werden.&lt;/p&gt;
+&lt;p&gt;Ich hab mal beim Support nachgefragt und das ist tatsächlich so auch nicht möglich. User sollten vor dem Renewal das Certificate auf 9a von Hand löschen und dann ein neues Cert beantragen. Das ist ein derber Fallstrick.&lt;/p&gt;
+&lt;p&gt;Da bleibe ich mal ein wenig am Ball und sehe was man da noch tun kann.&lt;/p&gt;
+&lt;p&gt;Ansonsten müsste ich meine Leitung davon überzeugen auf Windows Hello for Business und FIDO2 umzusatteln. Dann fehlt aber ihre geliebte SC Removal Policy.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>HP Image Assistant Commandline Mit Powershell</title>
+      <link>https://krinkko.github.io/hp-image-assistant-commandline-mit-powershell/</link>
+      <pubDate>Wed, 28 Aug 2024 11:24:30 +0200</pubDate>
+      
+      <guid>https://krinkko.github.io/hp-image-assistant-commandline-mit-powershell/</guid>
+      <description>&lt;p&gt;Nachdem ich mich nun den Vormittag mit der an sich tollen Idee der Remoteausführung von &lt;a href=&#34;https://ftp.ext.hp.com/pub/caps-softpaq/cmit/HPIA.html&#34;&gt;HP Image Assistant&lt;/a&gt; via Powershell auseinandergesetzt habe, hier mal meine 2ct dazu.&lt;/p&gt;
+&lt;p&gt;Ich hatte vor ein Script zu machen, welches mir erst einmal ausliest welche Treiber und Programme für ein bestimmtes Gerät verfügbar sind und welche Windows Update vielleicht nicht gesehen hat. Es gibt danach eine .html-Datei aus, in der die fehlenden oder aktualisierbaren Komponenten aufgelistet werden.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;# Prüfe erst mal den UNC-Pfad zum Installer&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;Test-Path&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-Path&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;\\MEINPFAD\HP\hp-hpia-5.2.1.exe&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c&#34;&gt;#Entpacke HPIA nach C:\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;Start-Process&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;\\MEINPFAD\HP\hp-hpia-5.2.1.exe&amp;#34;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-ArgumentList&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;/s /e /f &lt;/span&gt;&lt;span class=&#34;se&#34;&gt;`&amp;#34;&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;C:\HPIA\HP Image Assistant&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;`&amp;#34;&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-wait&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c&#34;&gt;# Prüfe mal, ob ein LOG-Verzeichnis bereits vorliegt auf einem UNC-Pfad&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-not&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;Test-Path&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-Path&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;\\MEINPFAD\Logs\HPIA\&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;$(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$env:COMPUTERNAME&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;\&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;c&#34;&gt;# Wenn kein Logverzeichnis da ist, erschaffe eins&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nb&#34;&gt;new-item&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-Path&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;\\MEINPFAD\Logs\HPIA\&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$env:COMPUTERNAME&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;\&amp;#34;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-ItemType&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Directory&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c&#34;&gt;# Führe HPIA im Anaylsemodus aus und erstelle ein Logfile im angegebenen Ordner&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;C:\HPIA\HP Image Assistant\HPImageAssistant.exe&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Silent&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Operation&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;`&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Analyze&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Action&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;`&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;List&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;reportfolder&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;`&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;\\MEINPFAD\Logs\HPIA\&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;$(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$env:computername&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;\&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Wie man sieht musste ich via Powershell in den Argumenten von HPImageAssistant.exe dann die Doppelpunkte escapen. Dies ging leider auch nur so, da die EXE unter der Nutzung von &lt;code&gt;Start-Process&lt;/code&gt; ebenfalls einen Frameworkfehler geworfen hat.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Update 28.08.2024:&lt;/b&gt; Da der Spaß mit Analyze nun funktioniert, wäre es natürlich noch an der Zeit einige Scriptparameter hinzuzufügen, die uns im Anschluss eine Installation der Treiber ermöglichen. Stay tuned&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
       <title>Schaukelaufbaublues</title>
       <link>https://krinkko.github.io/schaukelaufbaublues/</link>
       <pubDate>Mon, 26 Feb 2024 16:32:27 +0100</pubDate>
@@ -57,16 +103,16 @@
     &lt;picture&gt;
     
     &lt;source media=&#34;(max-width: 376px)&#34; 
-        srcset=&#34;https://krinkko.github.io/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_500x0_resize_q75_h2_box.webp&#34;&gt;
+        srcset=&#34;https://krinkko.github.io/schaukelaufbaublues/DSC_0980_hu4539300387038210399.webp&#34;&gt;
 
     &lt;source media=&#34;(max-width: 992px)&#34; 
-        srcset=&#34;https://krinkko.github.io/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_800x0_resize_q75_h2_box.webp&#34;&gt;
+        srcset=&#34;https://krinkko.github.io/schaukelaufbaublues/DSC_0980_hu5871238761846582380.webp&#34;&gt;
 
     &lt;source media=&#34;(max-width: 1400px)&#34; 
-        srcset=&#34;https://krinkko.github.io/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_1200x0_resize_q75_h2_box.webp&#34;&gt;
+        srcset=&#34;https://krinkko.github.io/schaukelaufbaublues/DSC_0980_hu7271317092220874718.webp&#34;&gt;
 
     &lt;source media=&#34;(min-width: 1600px)&#34; 
-        srcset=&#34;https://krinkko.github.io/schaukelaufbaublues/DSC_0980_huaa44da834f36f86e440c6bfcb708e53d_562579_1500x0_resize_q75_h2_box.webp&#34;&gt;
+        srcset=&#34;https://krinkko.github.io/schaukelaufbaublues/DSC_0980_hu12582711403972086866.webp&#34;&gt;
     
     &lt;img 
  

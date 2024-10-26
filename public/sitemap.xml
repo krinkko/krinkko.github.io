@@ -2,11 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://krinkko.github.io/tags/administration/</loc>
+    <lastmod>2024-10-23T07:17:00+02:00</lastmod>
+  </url><url>
     <loc>https://krinkko.github.io/</loc>
-    <lastmod>2024-04-17T15:10:04+02:00</lastmod>
+    <lastmod>2024-10-23T07:17:00+02:00</lastmod>
   </url><url>
     <loc>https://krinkko.github.io/posts/</loc>
-    <lastmod>2024-04-17T15:10:04+02:00</lastmod>
+    <lastmod>2024-10-23T07:17:00+02:00</lastmod>
+  </url><url>
+    <loc>https://krinkko.github.io/tags/smartcards/</loc>
+    <lastmod>2024-10-23T07:17:00+02:00</lastmod>
+  </url><url>
+    <loc>https://krinkko.github.io/tags/</loc>
+    <lastmod>2024-10-23T07:17:00+02:00</lastmod>
+  </url><url>
+    <loc>https://krinkko.github.io/tags/yubikey/</loc>
+    <lastmod>2024-10-23T07:17:00+02:00</lastmod>
+  </url><url>
+    <loc>https://krinkko.github.io/yubikey-smartcard-slot-problem/</loc>
+    <lastmod>2024-10-23T07:17:00+02:00</lastmod>
+  </url><url>
+    <loc>https://krinkko.github.io/hp-image-assistant-commandline-mit-powershell/</loc>
+    <lastmod>2024-08-28T11:24:30+02:00</lastmod>
+  </url><url>
+    <loc>https://krinkko.github.io/tags/powershell/</loc>
+    <lastmod>2024-08-28T11:24:30+02:00</lastmod>
   </url><url>
     <loc>https://krinkko.github.io/tags/garten/</loc>
     <lastmod>2024-02-26T16:32:27+01:00</lastmod>
@@ -15,9 +36,6 @@
     <lastmod>2024-02-26T16:32:27+01:00</lastmod>
   </url><url>
     <loc>https://krinkko.github.io/schaukelaufbaublues/</loc>
-    <lastmod>2024-02-26T16:32:27+01:00</lastmod>
-  </url><url>
-    <loc>https://krinkko.github.io/tags/</loc>
     <lastmod>2024-02-26T16:32:27+01:00</lastmod>
   </url><url>
     <loc>https://krinkko.github.io/tags/pers%C3%B6nliches/</loc>
@@ -55,9 +73,6 @@
   </url><url>
     <loc>https://krinkko.github.io/satanic-temple-gathering--gegenprotest-cringefest-9000/</loc>
     <lastmod>2022-05-11T13:52:06+02:00</lastmod>
-  </url><url>
-    <loc>https://krinkko.github.io/tags/powershell/</loc>
-    <lastmod>2022-02-17T11:17:20+01:00</lastmod>
   </url><url>
     <loc>https://krinkko.github.io/powershellscript-ohne-fenster/</loc>
     <lastmod>2022-02-17T11:17:20+01:00</lastmod>
