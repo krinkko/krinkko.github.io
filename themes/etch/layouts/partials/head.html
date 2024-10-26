@@ -14,7 +14,6 @@
 
     {{ $resources = $resources | append (resources.Get "css/main.css") -}}
     {{ $resources = $resources | append (resources.Get "css/lightbox.css") -}}
-
     {{ $resources = $resources | append (resources.Get "css/min770px.css") -}}
 
     {{ $dark := .Site.Params.dark | default "auto" -}}
@@ -22,14 +21,14 @@
         {{ $resources = $resources | append (resources.Get "css/dark.css" | resources.ExecuteAsTemplate "dark.css" .) -}}
     {{ end -}}
 
-    {{ if .Site.Params.highlight -}}
-        {{ $resources = $resources | append (resources.Get "css/syntax.css") -}}
-    {{ end -}}
 
     {{ $css := $resources | resources.Concat "css/style.css" | minify }}
-    {{ printf `<link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
-
+    
+    <link rel="stylesheet" href="{{ "/css/prism.css" | urlize | relURL }}" />
     <script language="javascript" type="text/javascript"  src="{{ "/js/lazysizes.min.js" | urlize | relURL }}"></script>
+    <script language="javascript" type="text/javascript"  src="{{ "/js/prism.js" | urlize | relURL }}"></script>
+
+    {{ printf `<link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
 
     {{ template "_internal/twitter_cards.html" . }}
     {{ template "_internal/opengraph.html" . }}

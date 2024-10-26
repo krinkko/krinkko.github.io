@@ -59,7 +59,7 @@ paginate = 5
   [privacy.googleAnalytics]
     anonymizeIP = false
     disable = true
-    respectDoNotTrack = false
+    respectDoNotTrack = true
     useSessionStorage = false
   [privacy.instagram]
     disable = false

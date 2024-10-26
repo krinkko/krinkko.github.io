@@ -1,4 +1,4 @@
-@media (min-width: 770px) {
+@media (min-width: 1024px) {
 body {
     width: 1024px;
     line-height: 1.7;
@@ -48,8 +48,6 @@ main#content figure img {
 }
 
 main#content pre {
-    width: 108%;
-    margin-left: -3.8%;
     padding: 1.5rem 2.2rem;
 }
 }
