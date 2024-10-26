@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html itemscope itemtype="http://schema.org/WebPage" lang="de-de">
-  <head>
-    
+<html lang="de"><head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-    <meta name="robots" content="noodp" />
-    <title>HP Image Assistant Commandline Mit Powershell - krinkko&#39;s</title><meta name="author" content="">
-<meta name="description" content="Nachdem ich mich nun den Vormittag mit der an sich tollen Idee der Remoteausführung von HP Image Assistant via Powershell auseinandergesetzt habe, hier mal meine 2ct dazu.
-Ich hatte vor ein Script zu machen, welches mir erst einmal ausliest welche Treiber und Programme für ein bestimmtes Gerät verfügbar sind und welche Windows Update vielleicht nicht gesehen hat. Es gibt danach eine .html-Datei aus, in der die fehlenden oder aktualisierbaren Komponenten aufgelistet werden.
-"><meta name="keywords" content='Powershell'>
-  <meta itemprop="name" content="HP Image Assistant Commandline Mit Powershell">
-  <meta itemprop="description" content="Nachdem ich mich nun den Vormittag mit der an sich tollen Idee der Remoteausführung von HP Image Assistant via Powershell auseinandergesetzt habe, hier mal meine 2ct dazu.
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Braunschweig based sysadmin. Proud father of two and husband. I like hardcore punk, songwriters to rap. Open mind, open heart. LOVES bicycles &lt;3">
+    
+    <link rel="shortcut icon" href="https://krinkko.github.io/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <script language="javascript" type="text/javascript"  src="/js/lazysizes.min.js"></script>
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="HP Image Assistant Commandline Mit Powershell">
+  <meta name="twitter:description" content="Nachdem ich mich nun den Vormittag mit der an sich tollen Idee der Remoteausführung von HP Image Assistant via Powershell auseinandergesetzt habe, hier mal meine 2ct dazu.
 Ich hatte vor ein Script zu machen, welches mir erst einmal ausliest welche Treiber und Programme für ein bestimmtes Gerät verfügbar sind und welche Windows Update vielleicht nicht gesehen hat. Es gibt danach eine .html-Datei aus, in der die fehlenden oder aktualisierbaren Komponenten aufgelistet werden.">
-  <meta itemprop="datePublished" content="2024-08-28T11:24:30+02:00">
-  <meta itemprop="dateModified" content="2024-08-28T11:24:30+02:00">
-  <meta itemprop="wordCount" content="216">
-  <meta itemprop="keywords" content="Powershell"><meta property="og:url" content="https://krinkko.github.io/hp-image-assistant-commandline-mit-powershell/">
+
+    <meta property="og:url" content="https://krinkko.github.io/hp-image-assistant-commandline-mit-powershell/">
   <meta property="og:site_name" content="krinkko&#39;s">
   <meta property="og:title" content="HP Image Assistant Commandline Mit Powershell">
   <meta property="og:description" content="Nachdem ich mich nun den Vormittag mit der an sich tollen Idee der Remoteausführung von HP Image Assistant via Powershell auseinandergesetzt habe, hier mal meine 2ct dazu.
@@ -27,105 +28,45 @@ Ich hatte vor ein Script zu machen, welches mir erst einmal ausliest welche Trei
     <meta property="article:modified_time" content="2024-08-28T11:24:30+02:00">
     <meta property="article:tag" content="Powershell">
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="HP Image Assistant Commandline Mit Powershell">
-  <meta name="twitter:description" content="Nachdem ich mich nun den Vormittag mit der an sich tollen Idee der Remoteausführung von HP Image Assistant via Powershell auseinandergesetzt habe, hier mal meine 2ct dazu.
-Ich hatte vor ein Script zu machen, welches mir erst einmal ausliest welche Treiber und Programme für ein bestimmtes Gerät verfügbar sind und welche Windows Update vielleicht nicht gesehen hat. Es gibt danach eine .html-Datei aus, in der die fehlenden oder aktualisierbaren Komponenten aufgelistet werden.">
-<meta name="application-name" content="FixIt">
-<meta name="apple-mobile-web-app-title" content="FixIt"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="https://krinkko.github.io/hp-image-assistant-commandline-mit-powershell/" title="HP Image Assistant Commandline Mit Powershell - krinkko&#39;s" /><link rel="prev" type="text/html" href="https://krinkko.github.io/schaukelaufbaublues/" title="Schaukelaufbaublues" /><link rel="next" type="text/html" href="https://krinkko.github.io/yubikey-smartcard-slot-problem/" title="Yubikey SmartCard Slot Problem" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "BlogPosting",
-    "headline": "HP Image Assistant Commandline Mit Powershell",
-    "inLanguage": "de-de",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https:\/\/krinkko.github.io\/hp-image-assistant-commandline-mit-powershell\/"
-    },"genre": "posts","keywords": "Powershell","wordcount":  216 ,
-    "url": "https:\/\/krinkko.github.io\/hp-image-assistant-commandline-mit-powershell\/","datePublished": "2024-08-28T11:24:30+02:00","dateModified": "2024-08-28T11:24:30+02:00","publisher": {
-      "@type": "Organization",
-      "name": ""},"author": {
-        "@type": "Person",
-        "name": "Autor"
-      },"description": ""
-  }
-  </script><script src="/js/head/color-scheme.min.js"></script></head>
-  <body data-header-desktop="sticky" data-header-mobile="auto"><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
-  <div class="header-wrapper">
-    <div class="header-title">
-      <a href="/" title="krinkko&#39;s"><span class="header-title-text">krinkko&#39;s</span></a><span class="header-subtitle"></span></div>
-    <nav>
-      <ul class="menu"><li class="menu-item">
-              <a
-                class="menu-link"
-                href="/"
-                title="posts"
-                
-              >posts</a></li><li class="menu-item">
-              <a
-                class="menu-link"
-                href="/about/"
-                title="about"
-                
-              >about</a></li><li class="menu-item">
-              <a
-                class="menu-link"
-                href="/posts-archive/"
-                title="archive"
-                
-              >archive</a></li><li class="menu-item delimiter"></li><li class="menu-item theme-switch" title="Darstellung ändern">
-          <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
-        </li></ul>
-    </nav>
-  </div>
-</header><header class="mobile animate__faster" id="header-mobile">
-  <div class="header-container">
-    <div class="header-wrapper">
-      <div class="header-title">
-        <a href="/" title="krinkko&#39;s"><span class="header-title-text">krinkko&#39;s</span></a><span class="header-subtitle"></span></div>
-      <div class="menu-toggle" id="menu-toggle-mobile">
-        <span></span><span></span><span></span>
-      </div>
-    </div>
-    <nav>
-      <ul class="menu" id="menu-mobile"><li
-              class="menu-item"
-            ><a
-                  class="menu-link"
-                  href="/"
-                  title="posts"
-                  
-                >posts</a></li><li
-              class="menu-item"
-            ><a
-                  class="menu-link"
-                  href="/about/"
-                  title="about"
-                  
-                >about</a></li><li
-              class="menu-item"
-            ><a
-                  class="menu-link"
-                  href="/posts-archive/"
-                  title="archive"
-                  
-                >archive</a></li><li class="menu-item menu-system">
-          <span class="menu-system-item theme-switch" title="Darstellung ändern"><i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></span></li>
-      </ul>
-    </nav>
-  </div>
-</header><main class="container"><aside class="aside-collection animate__animated animate__fadeIn animate__faster" aria-label=""></aside>
 
-  <article class="page single">
-    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>HP Image Assistant Commandline Mit Powershell</span>
-      </h1></div><div class="post-meta">
-      <div class="post-meta-line"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
-      Anonymous</span></span></div><div class="post-meta-line"><span title="veröffentlicht an 2024-08-28 11:24:30"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2024-08-28">2024-08-28</time></span>&nbsp;<span title="216 Wörter"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i></span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>2 Minuten</span>&nbsp;</div>
-    </div><div class="content" id="content"><p>Nachdem ich mich nun den Vormittag mit der an sich tollen Idee der Remoteausführung von <a href="https://ftp.ext.hp.com/pub/caps-softpaq/cmit/HPIA.html"target="_blank" rel="external nofollow noopener noreferrer">HP Image Assistant</a> via Powershell auseinandergesetzt habe, hier mal meine 2ct dazu.</p>
+    <title>HP Image Assistant Commandline Mit Powershell</title>
+</head>
+<body><header id="banner">
+    <div class="headerauthor">
+        <p class="headerauthor_pic">
+            
+            <img src="/images/123sawd.jpg">
+        </p>
+        <p class="headerauthor_desc"></p>
+    </div>
+    <h2><a href="https://krinkko.github.io/">krinkko&#39;s</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/" title="posts">posts</a>
+            </li><li>
+                <a href="/about/" title="about">about</a>
+            </li><li>
+                <a href="/posts-archive/" title="archive">archive</a>
+            </li>
+        </ul>
+    </nav>
+    <p><small>Braunschweig based sysadmin. Proud father of two and husband. I like hardcore punk, songwriters to rap. Open mind, open heart. LOVES bicycles &lt;3</small></p>
+    
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>HP Image Assistant Commandline Mit Powershell</h1><div>
+                
+                <time>28.08.2024</time>
+                <ul>    
+            
+                <li><a href="https://krinkko.github.io/tags/powershell/">Powershell</a></li>
+            
+            </ul>
+            
+            </div></header><p>Nachdem ich mich nun den Vormittag mit der an sich tollen Idee der Remoteausführung von <a href="https://ftp.ext.hp.com/pub/caps-softpaq/cmit/HPIA.html">HP Image Assistant</a> via Powershell auseinandergesetzt habe, hier mal meine 2ct dazu.</p>
 <p>Ich hatte vor ein Script zu machen, welches mir erst einmal ausliest welche Treiber und Programme für ein bestimmtes Gerät verfügbar sind und welche Windows Update vielleicht nicht gesehen hat. Es gibt danach eine .html-Datei aus, in der die fehlenden oder aktualisierbaren Komponenten aufgelistet werden.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># Prüfe erst mal den UNC-Pfad zum Installer</span>
 </span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="nb">Test-Path</span> <span class="n">-Path</span> <span class="s2">&#34;\\MEINPFAD\HP\hp-hpia-5.2.1.exe&#34;</span><span class="p">)</span> <span class="p">{</span>
@@ -140,43 +81,31 @@ Ich hatte vor ein Script zu machen, welches mir erst einmal ausliest welche Trei
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="c"># Führe HPIA im Anaylsemodus aus und erstelle ein Logfile im angegebenen Ordner</span>
 </span></span><span class="line"><span class="cl">    <span class="p">&amp;</span> <span class="s2">&#34;C:\HPIA\HP Image Assistant\HPImageAssistant.exe&#34;</span> <span class="p">/</span><span class="n">Silent</span> <span class="p">/</span><span class="n">Operation</span><span class="p">`</span><span class="err">:</span><span class="n">Analyze</span> <span class="p">/</span><span class="n">Action</span><span class="p">`</span><span class="err">:</span><span class="n">List</span> <span class="p">/</span><span class="n">reportfolder</span><span class="p">`</span><span class="err">:</span><span class="s2">&#34;\\MEINPFAD\Logs\HPIA\</span><span class="p">$(</span><span class="nv">$env:computername</span><span class="p">)</span><span class="s2">\&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div><p>Wie man sieht musste ich via Powershell in den Argumenten von HPImageAssistant.exe dann die Doppelpunkte escapen. Dies ging leider auch nur so, da die EXE unter der Nutzung von <code>Start-Process</code> ebenfalls einen Frameworkfehler geworfen hat.</p>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Wie man sieht musste ich via Powershell in den Argumenten von HPImageAssistant.exe dann die Doppelpunkte escapen. Dies ging leider auch nur so, da die EXE unter der Nutzung von <code>Start-Process</code> ebenfalls einen Frameworkfehler geworfen hat.</p>
 <p><b>Update 28.08.2024:</b> Da der Spaß mit Analyze nun funktioniert, wäre es natürlich noch an der Zeit einige Scriptparameter hinzuzufügen, die uns im Anschluss eine Installation der Treiber ermöglichen. Stay tuned&hellip;</p>
-</div><div class="post-footer" id="post-footer">
-  <div class="post-info">
-    <div class="post-info-line">
-      <div class="post-info-mod">
-        <span title="Aktualisiert am 2024-08-28 11:24:30">Aktualisiert am 2024-08-28&nbsp;</span>
-      </div><div class="post-info-license">
-            <span><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span>
-          </div></div><div class="post-info-line">
-        <div class="post-info-md"></div>
-        <div class="post-info-share">
-          <span><a href="javascript:void(0);" title="Teilen auf X" data-sharer="twitter" data-url="https://krinkko.github.io/hp-image-assistant-commandline-mit-powershell/" data-title="HP Image Assistant Commandline Mit Powershell" data-hashtags="Powershell"><i class="fa-brands fa-x-twitter fa-fw" aria-hidden="true"></i></a>
-  <a href="javascript:void(0);" title="Teilen auf Facebook" data-sharer="facebook" data-url="https://krinkko.github.io/hp-image-assistant-commandline-mit-powershell/" data-hashtag="Powershell"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
-  <a href="javascript:void(0);" title="Teilen auf 微博" data-sharer="weibo" data-url="https://krinkko.github.io/hp-image-assistant-commandline-mit-powershell/" data-title="HP Image Assistant Commandline Mit Powershell"><i class="fa-brands fa-weibo fa-fw" aria-hidden="true"></i></a>
-  </span>
-        </div>
-      </div></div>
-
-  <div class="post-info-more">
-    <section class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href="/tags/powershell/" class="post-tag" title="Tags - Powershell">Powershell</a></section>
-    <section>
-      <span><a href="javascript:void(0);" onclick="window.history.back();">Zurück</a></span>&nbsp;|&nbsp;<span><a href="/">Startseite</a></span>
-    </section>
-  </div><div class="post-nav"><a href="/schaukelaufbaublues/" class="post-nav-item" rel="prev" title="Schaukelaufbaublues"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>Schaukelaufbaublues</a><a href="/yubikey-smartcard-slot-problem/" class="post-nav-item" rel="next" title="Yubikey SmartCard Slot Problem">Yubikey SmartCard Slot Problem<i class="fa-solid fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
-</div>
 </article>
+<section id="related-content">
 
-  <aside class="toc" id="toc-auto" aria-label="Inhalt"></aside></main><footer class="footer">
-    <div class="footer-container"><div class="footer-line powered">Realisiert durch <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.135.0"><img class="hugo-icon" src="/images/hugo.min.svg" alt="Hugo logo" /> Hugo</a> | Thema - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.3.13"><img class="fixit-icon" src="/images/fixit.min.svg" alt="FixIt logo" /> FixIt</a>
-        </div><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
-            <span itemprop="copyrightYear">2024</span><span class="author" itemprop="copyrightHolder">
-              <a href="/"></a></span></div></div>
-  </footer></div><div class="widgets"><div class="fixed-buttons animate__faster d-none"><div class="fixed-button back-to-top" role="button" aria-label="Nach oben"><i class="fa-solid fa-arrow-up fa-fw" aria-hidden="true"></i><span class="variant-numeric d-none">0%</span>
-        </div></div><div id="mask"></div><noscript>
-    <div class="noscript-warning"></div>
-  </noscript>
-</div><link rel="preload" href="/lib/katex/katex.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/lib/katex/katex.min.css"></noscript><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script src="/lib/sharer/sharer.min.js" async defer></script><script src="/lib/katex/katex.min.js" defer></script><script src="/lib/katex/auto-render.min.js" defer></script><script src="/lib/katex/copy-tex.min.js" defer></script><script src="/lib/katex/mhchem.min.js" defer></script><script src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script>window.config={"code":{"copyTitle":"In Zwischenablage kopieren","editLockTitle":"Bearbeitbaren Codeblock sperren","editUnLockTitle":"Bearbeiten des Codeblocks entsperren","editable":true,"maxShownLines":10},"comment":{"enable":false},"cookieconsent":{"content":{"dismiss":"Zustimmen","link":"Erfahren Sie mehr","message":"Diese Website verwendet Cookies, um Ihre Erfahrung zu verbessern."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"version":"v0.3.13"};</script><script src="/js/theme.min.js" defer></script></body>
+<h3>Passend dazu?</h3>
+<ul>
+	
+	<li><a href="/powershellscript-ohne-fenster/">Powershellscript ohne Fenster</a></li>
+	
+</ul>
+</section>
+
+        </main><footer id="footer">
+    © 2024 d381blog
+
+    <nav>
+        <ul>
+            <li>
+                <a href="/impressum/" title="impressum">impressum</a>
+            </li>
+        </ul>
+    </nav>
+</footer>
+
+<script defer language="javascript" type="text/javascript"  src="/js/lightbox2.js"></script></body>
 </html>

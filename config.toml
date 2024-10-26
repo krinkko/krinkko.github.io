@@ -1,6 +1,6 @@
 baseURL = "https://krinkko.github.io"
 title = "krinkko's"
-theme = "fixit"
+theme = "etch"
 themesDir = "themes"
 languageCode = "de-de"
 defaultContentLanguage = "de"
