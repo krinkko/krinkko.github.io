@@ -31,4 +31,5 @@ allowfullscreen
 title="YouTube Video"
 >
 &lt;/iframe>
-&lt;/div></description></item></channel></rss>
+&lt;/div></description></item><item><title>Hallo</title><link>https://krinkko.github.io/hallo/</link><pubDate>Mon, 31 Jan 2022 11:28:04 +0100</pubDate><guid>https://krinkko.github.io/hallo/</guid><description>&lt;p>Moin, moin aus Braunschweig. Hier zurück mit einer kleinen Website unter Hugo und das Ganze möglichst minimalistisch gehalten.
+Ich hatte nun ein wenig Zeit mit dem VPS von 1u1 Ionos zu spielen und hab mich letztendlich dazu entschieden einfach Hugo zu nehmen. Der Einfachheit halber.&lt;/p></description></item></channel></rss>
