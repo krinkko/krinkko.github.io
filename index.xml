@@ -4,8 +4,8 @@
 &lt;p>Ich hab mal beim Support nachgefragt und das ist tatsächlich so auch nicht möglich. User sollten vor dem Renewal das Certificate auf 9a von Hand löschen und dann ein neues Cert beantragen. Das ist ein derber Fallstrick.&lt;/p>
 &lt;p>Da bleibe ich mal ein wenig am Ball und sehe was man da noch tun kann.&lt;/p>
 &lt;p>Ansonsten müsste ich meine Leitung davon überzeugen auf Windows Hello for Business und FIDO2 umzusatteln. Dann fehlt aber ihre geliebte SC Removal Policy.&lt;/p>
-&lt;h2 id="update-28102024">Update 28.10.2024:&lt;/h2>
-&lt;p>Der Yubico Support hatte mir nun geantwortet. Dabei einige Details zu dieser Sache und warum man sich durchaus überlegen sollte lieber FIDO2 oder sowas zu nutzen.&lt;/p>
+&lt;h2 id="update-28102024">Update 28.10.2024:
+&lt;/h2>&lt;p>Der Yubico Support hatte mir nun geantwortet. Dabei einige Details zu dieser Sache und warum man sich durchaus überlegen sollte lieber FIDO2 oder sowas zu nutzen.&lt;/p>
 &lt;blockquote>
 Hi Krinkkerz,
 &lt;p>Good question!&lt;/p>
@@ -22,7 +22,8 @@ Hi Krinkkerz,
 &lt;p>Kind regards,
 Michael
 Customer Support Specialist | Yubico&lt;/p>
-&lt;/blockquote></description></item><item><title>HP Image Assistant Commandline Mit Powershell</title><link>https://krinkko.github.io/hp-image-assistant-commandline-mit-powershell/</link><pubDate>Wed, 28 Aug 2024 11:24:30 +0200</pubDate><guid>https://krinkko.github.io/hp-image-assistant-commandline-mit-powershell/</guid><description>&lt;p>Nachdem ich mich nun den Vormittag mit der an sich tollen Idee der Remoteausführung von &lt;a href="https://ftp.ext.hp.com/pub/caps-softpaq/cmit/HPIA.html">HP Image Assistant&lt;/a> via Powershell auseinandergesetzt habe, hier mal meine 2ct dazu.&lt;/p>
+&lt;/blockquote></description></item><item><title>HP Image Assistant Commandline Mit Powershell</title><link>https://krinkko.github.io/hp-image-assistant-commandline-mit-powershell/</link><pubDate>Wed, 28 Aug 2024 11:24:30 +0200</pubDate><guid>https://krinkko.github.io/hp-image-assistant-commandline-mit-powershell/</guid><description>&lt;p>Nachdem ich mich nun den Vormittag mit der an sich tollen Idee der Remoteausführung von &lt;a class="link" href="https://ftp.ext.hp.com/pub/caps-softpaq/cmit/HPIA.html" target="_blank" rel="noopener"
+>HP Image Assistant&lt;/a> via Powershell auseinandergesetzt habe, hier mal meine 2ct dazu.&lt;/p>
 &lt;p>Ich hatte vor ein Script zu machen, welches mir erst einmal ausliest welche Treiber und Programme für ein bestimmtes Gerät verfügbar sind und welche Windows Update vielleicht nicht gesehen hat. Es gibt danach eine .html-Datei aus, in der die fehlenden oder aktualisierbaren Komponenten aufgelistet werden.&lt;/p>
 &lt;p>&lt;b>Update 28.10.2024:&lt;/b> Die aktuelle Form des Scrips:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="line">&lt;span class="cl">&lt;span class="k">param&lt;/span> &lt;span class="p">(&lt;/span>
@@ -156,22 +157,16 @@ Customer Support Specialist | Yubico&lt;/p>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">Stop-Transcript&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Schaukelaufbaublues</title><link>https://krinkko.github.io/schaukelaufbaublues/</link><pubDate>Mon, 26 Feb 2024 16:32:27 +0100</pubDate><guid>https://krinkko.github.io/schaukelaufbaublues/</guid><description>&lt;p>Eigentlich ist es ja ein etwas später Zug über unseren &amp;ldquo;neuen&amp;rdquo; Schrebergarten hier direkt mit dem Aufbau unserer brand neuen Kinderschaukel zu starten, aber was solls&amp;hellip;&lt;/p>
 &lt;p>Kurz vorweg: Ich hätte nicht gedacht, dass es so ein Akt ist ein Schaukelgestell aufzustellen, aber lest erst mal rein hier.&lt;/p>
-&lt;p>&lt;a href="DSC_0980.JPG">
-&lt;a href="https://krinkko.github.io/schaukelaufbaublues/DSC_0980.JPG">
-&lt;picture>
-&lt;source media="(max-width: 376px)"
-srcset="https://krinkko.github.io/schaukelaufbaublues/DSC_0980_hu4539300387038210399.webp">
-&lt;source media="(max-width: 992px)"
-srcset="https://krinkko.github.io/schaukelaufbaublues/DSC_0980_hu5871238761846582380.webp">
-&lt;source media="(max-width: 1400px)"
-srcset="https://krinkko.github.io/schaukelaufbaublues/DSC_0980_hu7271317092220874718.webp">
-&lt;source media="(min-width: 1600px)"
-srcset="https://krinkko.github.io/schaukelaufbaublues/DSC_0980_hu12582711403972086866.webp">
-&lt;img
-alt="Einige Updates sammelten sich auf dem WSUS an" title="Einige Updates sammelten sich auf dem WSUS an" src="https://krinkko.github.io/schaukelaufbaublues/DSC_0980.JPG" class="img-fluid lazyload">
-&lt;/picture>
-&lt;/a>
-&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="DSC_0980.JPG" >&lt;img src="https://krinkko.github.io/schaukelaufbaublues/DSC_0980.JPG"
+width="1024"
+height="768"
+srcset="https://krinkko.github.io/schaukelaufbaublues/DSC_0980_hu2608590952907558833.JPG 480w, https://krinkko.github.io/schaukelaufbaublues/DSC_0980_hu8568872896616558195.JPG 1024w"
+loading="lazy"
+alt="Einige Updates sammelten sich auf dem WSUS an"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/a>&lt;/p>
 &lt;p>Extra für Samstag Vormittag hatte ich einen guten Freund dazugeholt, um gemeinsam die Schaukel aufzubauen und früh am Morgen mahnte meine Frau noch: &amp;ldquo;Hast du alles Werkzeug?&amp;rdquo; Und ich nur so: &amp;ldquo;Jaja, ich hab alles&amp;rdquo; Alles ganz locker, dachte ich mir so. Also, hätte ich mal auf meine Frau gehört :D&lt;/p>
 &lt;p>Wir also im Garten am Auspacken und fangen an, die ersten Balken zusammenzuschrauben und ich merke irgendwann, dass die großen Schrauben zwischen so spezielle Plastik Unterlegscheiben mit Nässe- und Stoßschutz kommen. Konnte ich nicht mit dem Maulschlüssel festziehen. Im Garten umgeschaut, nirgendwo eine Nuß gefunden. Bisschen grantig geworden. Dann irgendwann eine 17er Nuß gefunden. War dann schon erleichtert. Kurz darauf dann festgestellt, dass die Nuß auf nix drauf passt und auch nix da ist.&lt;/p>
 &lt;p>Mein Kumpel meinte also: &amp;ldquo;Komm, fahr halt schnell zum Baumarkt&amp;rdquo; Ich also zum Baumarkt und einen Adapter für den Akkuschrauber besorgt. Zurück im Garten schon bisschen gefreut, dass es nun angehen kann. Und was passiert?&lt;/p>
@@ -282,12 +277,18 @@ alt="Einige Updates sammelten sich auf dem WSUS an" title="Einige Updates sammel
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>So. Passt.&lt;/p></description></item><item><title>Satanic Temple Gathering + Gegenprotest = Cringefest 9000</title><link>https://krinkko.github.io/satanic-temple-gathering--gegenprotest-cringefest-9000/</link><pubDate>Wed, 11 May 2022 13:52:06 +0200</pubDate><guid>https://krinkko.github.io/satanic-temple-gathering--gegenprotest-cringefest-9000/</guid><description>&lt;p>Wenn Andrew Callaghan (&lt;a href="https://www.youtube.com/channel/UCtqxG9IrHFU_ID1khGvx9sA">All Gas no Brakes&lt;/a>) irgendwo auftaucht und Leute bei Happenings interviewt, braucht man nicht lange bis man einen auf Facepalm macht.&lt;/p>
-&lt;p>Ich schätze den &lt;a href="https://de.wikipedia.org/wiki/The_Satanic_Temple">Satanic Temple&lt;/a> für dessen Sarkasmus aber bei ihrem Gathering und dem damit verbundenen Gegenprotest gehe ich auch komplett auf Cringefest 9000 steil.&lt;/p>
+&lt;p>So. Passt.&lt;/p></description></item><item><title>Satanic Temple Gathering + Gegenprotest = Cringefest 9000</title><link>https://krinkko.github.io/satanic-temple-gathering--gegenprotest-cringefest-9000/</link><pubDate>Wed, 11 May 2022 13:52:06 +0200</pubDate><guid>https://krinkko.github.io/satanic-temple-gathering--gegenprotest-cringefest-9000/</guid><description>&lt;p>Wenn Andrew Callaghan (&lt;a class="link" href="https://www.youtube.com/channel/UCtqxG9IrHFU_ID1khGvx9sA" target="_blank" rel="noopener"
+>All Gas no Brakes&lt;/a>) irgendwo auftaucht und Leute bei Happenings interviewt, braucht man nicht lange bis man einen auf Facepalm macht.&lt;/p>
+&lt;p>Ich schätze den &lt;a class="link" href="https://de.wikipedia.org/wiki/The_Satanic_Temple" target="_blank" rel="noopener"
+>Satanic Temple&lt;/a> für dessen Sarkasmus aber bei ihrem Gathering und dem damit verbundenen Gegenprotest gehe ich auch komplett auf Cringefest 9000 steil.&lt;/p>
 &lt;p>Aber seht selbst. Und viel Spaß ;-)&lt;/p>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/1AmOqQOOPn8?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
->&lt;/iframe>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube-nocookie.com/embed/1AmOqQOOPn8"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
 &lt;/div></description></item><item><title>Powershellscript ohne Fenster</title><link>https://krinkko.github.io/powershellscript-ohne-fenster/</link><pubDate>Thu, 17 Feb 2022 11:17:20 +0100</pubDate><guid>https://krinkko.github.io/powershellscript-ohne-fenster/</guid><description>&lt;p>Man kann einfach ein bisschen vbs-Code dazu benutzen um ein Powershellfenster vor Usern zu verstecken:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-cmd" data-lang="cmd">&lt;span class="line">&lt;span class="cl">Dim objArguments
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Dim command
@@ -297,18 +298,35 @@ alt="Einige Updates sammelten sich auf dem WSUS an" title="Einige Updates sammel
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">shell.Run command,0
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Speichern wir das nun z.B. als Launchpwrshl.vbs können wir direkt ein Script als Argument[0] daran hängen:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-cmd" data-lang="cmd">&lt;span class="line">&lt;span class="cl"> launchpwrshl.vbs meinscript.ps1
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Nützlich, wenn man ein Powershellscript als Aufgabe oder so laufen lassen will.&lt;/p></description></item><item><title>Not Just Bikes &amp; Climate Town mit Städtebauvergleich</title><link>https://krinkko.github.io/not-just-bikes-climate-town-mit-st%C3%A4dtebauvergleich/</link><pubDate>Mon, 14 Feb 2022 09:22:10 +0100</pubDate><guid>https://krinkko.github.io/not-just-bikes-climate-town-mit-st%C3%A4dtebauvergleich/</guid><description>&lt;p>Also ihr solltet euch unbedingt mal diese Kollaboration von &lt;a href="https://www.youtube.com/channel/UC0intLFzLaudFG-xAvUEO-A">Not Just Bikes&lt;/a> und &lt;a href="https://www.youtube.com/channel/UCuVLG9pThvBABcYCm7pkNkA">Climate Town&lt;/a> in zwei Teilen ansehen. Die beiden verdeutlichen ziemlich genial die Unterschiede zwischen Amsterdam und im Prinzip den meisten verkackten US Städten:&lt;/p>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/cO6txCZpbsQ?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
->&lt;/iframe>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Nützlich, wenn man ein Powershellscript als Aufgabe oder so laufen lassen will.&lt;/p></description></item><item><title>Not Just Bikes &amp; Climate Town mit Städtebauvergleich</title><link>https://krinkko.github.io/not-just-bikes-climate-town-mit-st%C3%A4dtebauvergleich/</link><pubDate>Mon, 14 Feb 2022 09:22:10 +0100</pubDate><guid>https://krinkko.github.io/not-just-bikes-climate-town-mit-st%C3%A4dtebauvergleich/</guid><description>&lt;p>Also ihr solltet euch unbedingt mal diese Kollaboration von &lt;a class="link" href="https://www.youtube.com/channel/UC0intLFzLaudFG-xAvUEO-A" target="_blank" rel="noopener"
+>Not Just Bikes&lt;/a> und &lt;a class="link" href="https://www.youtube.com/channel/UCuVLG9pThvBABcYCm7pkNkA" target="_blank" rel="noopener"
+>Climate Town&lt;/a> in zwei Teilen ansehen. Die beiden verdeutlichen ziemlich genial die Unterschiede zwischen Amsterdam und im Prinzip den meisten verkackten US Städten:&lt;/p>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube-nocookie.com/embed/cO6txCZpbsQ"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
 &lt;/div>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/SfsCniN7Nsc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
->&lt;/iframe>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube-nocookie.com/embed/SfsCniN7Nsc"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
 &lt;/div></description></item><item><title>Warum gibts in Braunschweig nicht so eine Radtour?</title><link>https://krinkko.github.io/warum-gibts-in-braunschweig-nicht-so-eine-radtour/</link><pubDate>Thu, 03 Feb 2022 10:30:18 +0100</pubDate><guid>https://krinkko.github.io/warum-gibts-in-braunschweig-nicht-so-eine-radtour/</guid><description>&lt;p>Checkt mal dieses kleine Promovideo zu New Yorks &amp;ldquo;5 Boro Bike Tour&amp;rdquo;:&lt;/p>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/as_9Pj_AD3A?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
->&lt;/iframe>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube-nocookie.com/embed/as_9Pj_AD3A"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
 &lt;/div>
 &lt;p>Und ich stelle mir so die Frage, warum haben wir hier ein Braunschweig (oder in Schland generell) nicht so eine coole Radtour?&lt;/p></description></item><item><title>Hallo</title><link>https://krinkko.github.io/hallo/</link><pubDate>Mon, 31 Jan 2022 11:28:04 +0100</pubDate><guid>https://krinkko.github.io/hallo/</guid><description>&lt;p>Moin, moin aus Braunschweig. Hier zurück mit einer kleinen Website unter Hugo und das Ganze möglichst minimalistisch gehalten.
-Ich hatte nun ein wenig Zeit mit dem VPS von 1u1 Ionos zu spielen und hab mich letztendlich dazu entschieden einfach Hugo zu nehmen. Der Einfachheit halber.&lt;/p></description></item><item><title>Posts Archive</title><link>https://krinkko.github.io/posts-archive/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://krinkko.github.io/posts-archive/</guid><description/></item></channel></rss>
+Ich hatte nun ein wenig Zeit mit dem VPS von 1u1 Ionos zu spielen und hab mich letztendlich dazu entschieden einfach Hugo zu nehmen. Der Einfachheit halber.&lt;/p></description></item><item><title>About</title><link>https://krinkko.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://krinkko.github.io/about/</guid><description>&lt;p>Hallo Welt! Der &lt;em>d381blog&lt;/em> ist ein Miniblog von &lt;a class="link" href="https://twitter.com/krinkkooooo" target="_blank" rel="noopener"
+>Dion&lt;/a>, also von mir, auf dem ich meistens experimentiere und vielleicht auch ein bisschen was zu Musik, Adminkram, Fahrrädern und dem Dasein als Papa schreiben werde. Hauptsächlich allerdings Experimente.&lt;/p>
+&lt;p>Ich hatte in der Vergangenheit schon einige Blogprojekte, die immer mal umgezogen oder verstummt sind und daher habe ich mich dieses Mal dazu entschieden das Ganze hier so klein wie möglich zu bauen - und so kam ich dann doch noch zu Hugo, dem static site generator. Und das Design stimmt in Sachen Minimalismus dann schon damit überein.&lt;/p>
+&lt;p>Also&amp;hellip;haltet die Ohren steif.&lt;/p></description></item></channel></rss>
