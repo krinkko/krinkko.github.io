@@ -93,23 +93,137 @@
             
             </div></header><p>Nachdem ich mich nun den Vormittag mit der an sich tollen Idee der Remoteausführung von <a href="https://ftp.ext.hp.com/pub/caps-softpaq/cmit/HPIA.html">HP Image Assistant</a> via Powershell auseinandergesetzt habe, hier mal meine 2ct dazu.</p>
 <p>Ich hatte vor ein Script zu machen, welches mir erst einmal ausliest welche Treiber und Programme für ein bestimmtes Gerät verfügbar sind und welche Windows Update vielleicht nicht gesehen hat. Es gibt danach eine .html-Datei aus, in der die fehlenden oder aktualisierbaren Komponenten aufgelistet werden.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># Prüfe erst mal den UNC-Pfad zum Installer</span>
-</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="nb">Test-Path</span> <span class="n">-Path</span> <span class="s2">&#34;\\MEINPFAD\HP\hp-hpia-5.2.1.exe&#34;</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="c">#Entpacke HPIA nach C:\</span>
-</span></span><span class="line"><span class="cl">    <span class="nb">Start-Process</span> <span class="s2">&#34;\\MEINPFAD\HP\hp-hpia-5.2.1.exe&#34;</span> <span class="n">-ArgumentList</span> <span class="s2">&#34;/s /e /f </span><span class="se">`&#34;</span><span class="s2">C:\HPIA\HP Image Assistant</span><span class="se">`&#34;</span><span class="s2">&#34;</span> <span class="n">-wait</span>
+<p><b>Update 28.10.2024:</b> Die aktuelle Form des Scrips:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="k">param</span> <span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="p">[</span><span class="no">bool</span><span class="p">]</span><span class="nv">$analyse</span> <span class="p">=</span> <span class="mf">1</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="p">[</span><span class="no">bool</span><span class="p">]</span><span class="nv">$update</span> <span class="p">=</span> <span class="mf">0</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="p">[</span><span class="no">bool</span><span class="p">]</span><span class="nv">$silent</span> <span class="p">=</span> <span class="mf">1</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c"># Prüfe mal, ob ein LOG-Verzeichnis bereits vorliegt auf einem UNC-Pfad</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="o">-not</span> <span class="p">(</span><span class="nb">Test-Path</span> <span class="n">-Path</span> <span class="s2">&#34;\\MEINPFAD\Logs\HPIA\</span><span class="p">$(</span><span class="nv">$env:COMPUTERNAME</span><span class="p">)</span><span class="s2">\&#34;</span><span class="p">))</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="c"># Wenn kein Logverzeichnis da ist, erschaffe eins</span>
-</span></span><span class="line"><span class="cl">        <span class="nb">new-item</span> <span class="n">-Path</span> <span class="s2">&#34;\\MEINPFAD\Logs\HPIA\</span><span class="nv">$env:COMPUTERNAME</span><span class="s2">\&#34;</span> <span class="n">-ItemType</span> <span class="n">Directory</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="nb">Start-Transcript</span> <span class="n">-Path</span> <span class="s2">&#34;C:\hpia\logs\hpia-script.log&#34;</span> <span class="n">-Force</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="c"># Führe HPIA im Anaylsemodus aus und erstelle ein Logfile im angegebenen Ordner</span>
-</span></span><span class="line"><span class="cl">    <span class="p">&amp;</span> <span class="s2">&#34;C:\HPIA\HP Image Assistant\HPImageAssistant.exe&#34;</span> <span class="p">/</span><span class="n">Silent</span> <span class="p">/</span><span class="n">Operation</span><span class="p">`</span><span class="err">:</span><span class="n">Analyze</span> <span class="p">/</span><span class="n">Action</span><span class="p">`</span><span class="err">:</span><span class="n">List</span> <span class="p">/</span><span class="n">reportfolder</span><span class="p">`</span><span class="err">:</span><span class="s2">&#34;\\MEINPFAD\Logs\HPIA\</span><span class="p">$(</span><span class="nv">$env:computername</span><span class="p">)</span><span class="s2">\&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="kd">function</span><span class="w"> </span><span class="nb">Write-Log</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">param</span> <span class="p">(</span>
+</span></span><span class="line"><span class="cl">        <span class="p">[</span><span class="no">string</span><span class="p">]</span><span class="nv">$Message</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="p">[</span><span class="no">string</span><span class="p">]</span><span class="nv">$LogFile</span> <span class="p">=</span> <span class="s2">&#34;C:\HPIA\Logs\HPIA_analyze.log&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="p">[</span><span class="no">string</span><span class="p">]</span><span class="nv">$LogLevel</span> <span class="p">=</span> <span class="s2">&#34;INFO&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c"># Ensure the log directory exists</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$logDir</span> <span class="p">=</span> <span class="p">[</span><span class="no">System.IO.Path</span><span class="p">]::</span><span class="n">GetDirectoryName</span><span class="p">(</span><span class="nv">$LogFile</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="o">-not</span> <span class="p">(</span><span class="nb">Test-Path</span> <span class="n">-Path</span> <span class="nv">$logDir</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">New-Item</span> <span class="n">-ItemType</span> <span class="n">Directory</span> <span class="n">-Path</span> <span class="nv">$logDir</span> <span class="n">-Force</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c"># Create a timestamp</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$timestamp</span> <span class="p">=</span> <span class="nb">Get-Date</span> <span class="n">-Format</span> <span class="s2">&#34;yyyy-MM-dd HH:mm:ss&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c"># Format the log message</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$logMessage</span> <span class="p">=</span> <span class="s2">&#34;</span><span class="nv">$timestamp</span><span class="s2"> [</span><span class="nv">$LogLevel</span><span class="s2">] - </span><span class="nv">$Message</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c"># Write the log message to the log file</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Add-Content</span> <span class="n">-Path</span> <span class="nv">$LogFile</span> <span class="n">-Value</span> <span class="nv">$logMessage</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><p>Wie man sieht musste ich via Powershell in den Argumenten von HPImageAssistant.exe dann die Doppelpunkte escapen. Dies ging leider auch nur so, da die EXE unter der Nutzung von <code>Start-Process</code> ebenfalls einen Frameworkfehler geworfen hat.</p>
-<p><b>Update 28.08.2024:</b> Da der Spaß mit Analyze nun funktioniert, wäre es natürlich noch an der Zeit einige Scriptparameter hinzuzufügen, die uns im Anschluss eine Installation der Treiber ermöglichen. Stay tuned&hellip;</p>
-</article>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nv">$logpath</span> <span class="p">=</span> <span class="s2">&#34;C:\HPIA\Logs\&#34;</span> <span class="c">#Oder Netzwerkpfad</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="nb">Test-Path</span> <span class="n">-Path</span> <span class="n">D:</span><span class="p">\)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$downloadfolder</span> <span class="p">=</span> <span class="s2">&#34;D:\MEINPFAD\Treiber&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$downloadfolder</span> <span class="p">=</span> <span class="s2">&#34;C:\HPIA\Downloads\&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="nb">Test-Path</span> <span class="n">-Path</span> <span class="s1">&#39;C:\HPIA\HP Image Assistant\HPImageAssistant.exe&#39;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$assistantfilepath</span> <span class="p">=</span> <span class="s1">&#39;C:\HPIA\HP Image Assistant\HPImageAssistant.exe&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$assistantversion</span> <span class="p">=</span> <span class="s2">&#34;5.3.0.506&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$currentversion</span> <span class="p">=</span> <span class="p">(</span><span class="nb">Get-Command</span> <span class="nv">$assistantfilepath</span><span class="p">).</span><span class="py">FileVersionInfo</span><span class="p">.</span><span class="py">FileVersion</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$currentversion</span> <span class="o">-lt</span> <span class="nv">$assistantversion</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">       <span class="k">if</span> <span class="p">(</span><span class="nb">Test-Path</span> <span class="n">-Path</span> <span class="s2">&#34;NETWORKPATH\HP\hp-hpia-5.3.0.exe&#34;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">Start-Process</span> <span class="s2">&#34;NETWORKPATH\HP\hp-hpia-5.3.0.exe&#34;</span> <span class="n">-ArgumentList</span> <span class="s2">&#34;/s /e /f </span><span class="se">`&#34;</span><span class="s2">C:\HPIA\HP Image Assistant</span><span class="se">`&#34;</span><span class="s2">&#34;</span> <span class="n">-wait</span>
+</span></span><span class="line"><span class="cl">       <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nb">Test-Path</span> <span class="n">-Path</span> <span class="s2">&#34;NETWORKPATH\HP\hp-hpia-5.3.0.exe&#34;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">Start-Process</span> <span class="s2">&#34;NETWORKPATH\HP\hp-hpia-5.3.0.exe&#34;</span> <span class="n">-ArgumentList</span> <span class="s2">&#34;/s /e /f </span><span class="se">`&#34;</span><span class="s2">C:\HPIA\HP Image Assistant</span><span class="se">`&#34;</span><span class="s2">&#34;</span> <span class="n">-wait</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="o">-not</span> <span class="p">(</span><span class="nb">Test-Path</span> <span class="n">-Path</span> <span class="nv">$logpath</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nv">$reportfolder</span> <span class="p">=</span> <span class="nb">new-item</span> <span class="n">-Path</span> <span class="s2">&#34;</span><span class="p">$(</span><span class="nv">$logpath</span><span class="p">)</span><span class="s2">&#34;</span> <span class="n">-ItemType</span> <span class="n">Directory</span> <span class="n">-ErrorAction</span> <span class="k">Continue</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">catch</span> <span class="p">{</span> <span class="nb">Write-Host</span> <span class="s2">&#34;Error.&#34;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$analyse</span> <span class="o">-eq</span> <span class="vm">$true</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$args</span> <span class="p">=</span> <span class="vm">@</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">            <span class="s2">&#34;/Operation:Analyze&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="s2">&#34;/Silent&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="s2">&#34;/AutoCleanup&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="s2">&#34;/Action:List&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">            <span class="s2">&#34;/reportfolder:</span><span class="p">$(</span><span class="nv">$logpath</span><span class="p">)</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">Start-Process</span> <span class="s2">&#34;C:\HPIA\HP Image Assistant\HPImageAssistant.exe&#34;</span> <span class="n">-argumentlist</span> <span class="nv">$args</span> <span class="n">-wait</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nv">$update</span> <span class="o">-eq</span> <span class="vm">$true</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nv">$silent</span> <span class="o">-eq</span> <span class="vm">$true</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$args</span> <span class="p">=</span> <span class="vm">@</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">                <span class="s2">&#34;/Auto&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="s2">&#34;/Category:All&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="s2">&#34;/selection:all&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="s2">&#34;/AutoCleanup&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="s2">&#34;/Silent&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="s2">&#34;/reportfolder:</span><span class="p">$(</span><span class="nv">$logpath</span><span class="p">)</span><span class="s2">&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="s2">&#34;/SoftpaqDownloadFolder:</span><span class="p">$(</span><span class="nv">$downloadfolder</span><span class="p">)</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$args</span> <span class="p">=</span> <span class="vm">@</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">                <span class="s2">&#34;/Auto&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="s2">&#34;/Category:All&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="s2">&#34;/selection:all&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="s2">&#34;/AutoCleanup&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="s2">&#34;/Noninteractive&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="s2">&#34;/reportfolder:</span><span class="p">$(</span><span class="nv">$logpath</span><span class="p">)</span><span class="s2">&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="s2">&#34;/SoftpaqDownloadFolder:</span><span class="p">$(</span><span class="nv">$downloadfolder</span><span class="p">)</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="k">try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="nv">$updateresult</span> <span class="p">=</span> <span class="nb">Start-Process</span> <span class="s2">&#34;C:\HPIA\HP Image Assistant\HPImageAssistant.exe&#34;</span> <span class="n">-argumentlist</span> <span class="nv">$args</span> <span class="n">-wait</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">write-log</span> <span class="n">-message</span> <span class="s2">&#34;</span><span class="p">$(</span><span class="nv">$updateresult</span><span class="p">)</span><span class="s2">&#34;</span> <span class="n">-errorcode</span> <span class="s2">&#34;INFO&#34;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span> <span class="k">catch</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="nv">$errorcode</span> <span class="p">=</span> <span class="nv">$_</span>
+</span></span><span class="line"><span class="cl">		<span class="nb">Write-Log</span> <span class="n">-Message</span> <span class="s2">&#34;</span><span class="p">$(</span><span class="nv">$errorcode</span><span class="p">)</span><span class="s2">&#34;</span> <span class="n">-errorcode</span> <span class="s2">&#34;ERROR&#34;</span> <span class="n">-LogFile</span> <span class="s2">&#34;</span><span class="p">$(</span><span class="nv">$logpath</span><span class="p">)</span><span class="s2">\HPIA-analyze.log&#34;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c"># Energiespareinstellungen normalisieren</span>
+</span></span><span class="line"><span class="cl">        <span class="c">#Aktiviert wieder das Ausbalancierte Schema</span>
+</span></span><span class="line"><span class="cl">        <span class="n">powercfg</span> <span class="p">/</span><span class="n">SETDCVALUEINDEX</span> <span class="n">SCHEME_CURRENT</span> <span class="n">2a737441</span><span class="p">-</span><span class="mf">1930</span><span class="p">-</span><span class="mf">4402</span><span class="p">-</span><span class="n">8d77-b2bebba308a3</span> <span class="n">48e6b7a6</span><span class="p">-</span><span class="n">50f5</span><span class="p">-</span><span class="mf">4782</span><span class="n">-a5d4</span><span class="p">-</span><span class="n">53bb8f07e226</span> <span class="mf">0</span> <span class="c"># Selective USB Energiesparen Batteriebetrieben</span>
+</span></span><span class="line"><span class="cl">        <span class="n">powercfg</span> <span class="p">/</span><span class="n">SETACVALUEINDEX</span> <span class="n">SCHEME_CURRENT</span> <span class="n">2a737441</span><span class="p">-</span><span class="mf">1930</span><span class="p">-</span><span class="mf">4402</span><span class="p">-</span><span class="n">8d77-b2bebba308a3</span> <span class="n">48e6b7a6</span><span class="p">-</span><span class="n">50f5</span><span class="p">-</span><span class="mf">4782</span><span class="n">-a5d4</span><span class="p">-</span><span class="n">53bb8f07e226</span> <span class="mf">0</span> <span class="c"># Selective USB Energiesparen am Ladegerät</span>
+</span></span><span class="line"><span class="cl">        <span class="n">powercfg</span> <span class="p">/</span><span class="n">change</span> <span class="nb">monitor-timeout</span><span class="n">-ac</span> <span class="mf">0</span>
+</span></span><span class="line"><span class="cl">        <span class="n">powercfg</span> <span class="p">/</span><span class="n">change</span> <span class="nb">monitor-timeout</span><span class="n">-dc</span> <span class="mf">20</span>
+</span></span><span class="line"><span class="cl">        <span class="n">powercfg</span> <span class="p">/</span><span class="n">change</span> <span class="nb">standby-timeout</span><span class="n">-dc</span> <span class="mf">60</span>
+</span></span><span class="line"><span class="cl">        <span class="n">powercfg</span> <span class="p">/</span><span class="n">change</span> <span class="nb">standby-timeout</span><span class="n">-ac</span> <span class="mf">0</span>
+</span></span><span class="line"><span class="cl">        <span class="n">powercfg</span> <span class="p">/</span><span class="n">S</span> <span class="n">SCHEME_CURRENT</span>
+</span></span><span class="line"><span class="cl">        <span class="n">powercfg</span> <span class="p">/</span><span class="nb">h </span><span class="n">off</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="nv">$latest</span> <span class="p">=</span> <span class="nb">get-childitem</span> <span class="n">-path</span> <span class="n">C:</span><span class="p">\</span><span class="n">hpia</span><span class="p">\</span><span class="n">logs</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{</span><span class="nv">$_</span><span class="p">.</span><span class="py">Name</span> <span class="o">-Like</span> <span class="s2">&#34;*Readme*&#34;</span><span class="p">}</span> <span class="p">|</span> <span class="nb">Sort-Object</span> <span class="n">LastAccessTime</span> <span class="n">-Descending</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">-First</span> <span class="mf">1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="nv">$mailadmin</span> <span class="p">=</span> <span class="s2">&#34;adminmail@bla.de&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$mailfrom</span> <span class="p">=</span> <span class="s2">&#34;noreply@bla.de&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$mailserver</span> <span class="p">=</span> <span class="s2">&#34;smtp.server.de&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$mailsubject</span> <span class="p">=</span> <span class="s2">&#34;HP Image Assistant Log for </span><span class="p">$(</span><span class="nv">$env:computername</span><span class="p">)</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="nv">$mailbody</span> <span class="p">=</span> <span class="s2">&#34;See HP Image Assistant Log attached to this email.&#34;</span> 
+</span></span><span class="line"><span class="cl">        <span class="k">try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">Send-MailMessage</span> <span class="n">-BodyAsHtml</span> <span class="n">-body</span> <span class="nv">$mailbody</span> <span class="n">-To</span> <span class="nv">$mailadmin</span> <span class="n">-From</span> <span class="nv">$mailfrom</span> <span class="n">-Encoding</span> <span class="n">UTF8</span> <span class="n">-SmtpServer</span> <span class="nv">$mailserver</span> <span class="n">-Subject</span> <span class="nv">$mailsubject</span> <span class="n">-Attachments</span> <span class="s2">&#34;</span><span class="p">$(</span><span class="nv">$latest</span><span class="p">.</span><span class="n">FullName</span><span class="p">)</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span> <span class="k">catch</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nv">$errorcode</span> <span class="p">=</span> <span class="nv">$_</span>
+</span></span><span class="line"><span class="cl">            <span class="nb">write-host</span> <span class="s2">&#34;ERROR: </span><span class="nv">$errorcode</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>       
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">Stop-Transcript</span>
+</span></span></code></pre></div></article>
     
 	<article class="article-frontpage">
     <header id="post-header">
@@ -228,106 +342,106 @@
             
             </div></header><p>Kleiner Dump der Spezifikationsliste für mein Ampler Stout 2019. Einfach, damit ich es leichter wiederfinde. Vielleicht ja auch für Dich interessant :)</p>
 <table>
-  <thead>
-      <tr>
-          <th style="text-align: left">Komponenten</th>
-          <th style="text-align: left"></th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left">Rahmen</td>
-          <td style="text-align: left">Aluminium 6061</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Gabel</td>
-          <td style="text-align: left">Aluminium 1 1/8&quot;, 12 mm Steckachse</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Kurbelgarnitur</td>
-          <td style="text-align: left">Aluminium-Legierung 42T, 170 mm</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Tretlager</td>
-          <td style="text-align: left">Abgedichtetes Tretlager mit Drehmomentsensor</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Antrieb</td>
-          <td style="text-align: left">Shimano Deore RD-T6000 10-Gang</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Kasette</td>
-          <td style="text-align: left">Shimano HG500 11-32</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Kette</td>
-          <td style="text-align: left">Yaban SLA-H10 114L</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Bremsen</td>
-          <td style="text-align: left">Shimano Deore T6000 hydraulische Scheibenbremsen</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Bremsbeläge</td>
-          <td style="text-align: left">Shimano G02S</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Reifen</td>
-          <td style="text-align: left">Continental Top Contact II, 42-622 mm</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Laufräder</td>
-          <td style="text-align: left">28&quot; Laufräder mit asymmetrischen 18 mm Felgen und gedichteten, industriegelagerten Naben</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Schutzbleche</td>
-          <td style="text-align: left">Ampler Aluminium Schutzbleche, 60 mm</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Gewicht</td>
-          <td style="text-align: left">17,2 kg</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Max. Unterstützung</td>
-          <td style="text-align: left">25 km/h</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Reichweite</td>
-          <td style="text-align: left">45-100 km je nach Gelände und Einstellung der Unterstützung, durchschnittliche Reichweite 70 km</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Batterie</td>
-          <td style="text-align: left">48 V 336 Wh LG Li-ion Akku</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Motor</td>
-          <td style="text-align: left">48 V 250 W Nabenmotor (Hinterrad)</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Kontrollmodus</td>
-          <td style="text-align: left">Präzise Pedal-Drehmoment spürende Motorsteuerung, 2 Motor-Unterstützungsstufen</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Konnektivität</td>
-          <td style="text-align: left">Smartphone-Konnektivität ermöglicht u.a. die Änderung von Motoreinstellungen</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Ladegerät</td>
-          <td style="text-align: left">3A Li-Ionen-Ladegerät mit Rosenberger Magnetstecker</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Ladezeit</td>
-          <td style="text-align: left">2,5 Stunden (100%)</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Lichter Vorne:</td>
-          <td style="text-align: left">Busch+Müller IQ2 EYC</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Hinten:</td>
-          <td style="text-align: left">LightSKIN in der Sattelstütze integrierte LED-Lichter</td>
-      </tr>
-  </tbody>
+<thead>
+<tr>
+<th>Komponenten</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rahmen</td>
+<td>Aluminium 6061</td>
+</tr>
+<tr>
+<td>Gabel</td>
+<td>Aluminium 1 1/8&quot;, 12 mm Steckachse</td>
+</tr>
+<tr>
+<td>Kurbelgarnitur</td>
+<td>Aluminium-Legierung 42T, 170 mm</td>
+</tr>
+<tr>
+<td>Tretlager</td>
+<td>Abgedichtetes Tretlager mit Drehmomentsensor</td>
+</tr>
+<tr>
+<td>Antrieb</td>
+<td>Shimano Deore RD-T6000 10-Gang</td>
+</tr>
+<tr>
+<td>Kasette</td>
+<td>Shimano HG500 11-32</td>
+</tr>
+<tr>
+<td>Kette</td>
+<td>Yaban SLA-H10 114L</td>
+</tr>
+<tr>
+<td>Bremsen</td>
+<td>Shimano Deore T6000 hydraulische Scheibenbremsen</td>
+</tr>
+<tr>
+<td>Bremsbeläge</td>
+<td>Shimano G02S</td>
+</tr>
+<tr>
+<td>Reifen</td>
+<td>Continental Top Contact II, 42-622 mm</td>
+</tr>
+<tr>
+<td>Laufräder</td>
+<td>28&quot; Laufräder mit asymmetrischen 18 mm Felgen und gedichteten, industriegelagerten Naben</td>
+</tr>
+<tr>
+<td>Schutzbleche</td>
+<td>Ampler Aluminium Schutzbleche, 60 mm</td>
+</tr>
+<tr>
+<td>Gewicht</td>
+<td>17,2 kg</td>
+</tr>
+<tr>
+<td>Max. Unterstützung</td>
+<td>25 km/h</td>
+</tr>
+<tr>
+<td>Reichweite</td>
+<td>45-100 km je nach Gelände und Einstellung der Unterstützung, durchschnittliche Reichweite 70 km</td>
+</tr>
+<tr>
+<td>Batterie</td>
+<td>48 V 336 Wh LG Li-ion Akku</td>
+</tr>
+<tr>
+<td>Motor</td>
+<td>48 V 250 W Nabenmotor (Hinterrad)</td>
+</tr>
+<tr>
+<td>Kontrollmodus</td>
+<td>Präzise Pedal-Drehmoment spürende Motorsteuerung, 2 Motor-Unterstützungsstufen</td>
+</tr>
+<tr>
+<td>Konnektivität</td>
+<td>Smartphone-Konnektivität ermöglicht u.a. die Änderung von Motoreinstellungen</td>
+</tr>
+<tr>
+<td>Ladegerät</td>
+<td>3A Li-Ionen-Ladegerät mit Rosenberger Magnetstecker</td>
+</tr>
+<tr>
+<td>Ladezeit</td>
+<td>2,5 Stunden (100%)</td>
+</tr>
+<tr>
+<td>Lichter Vorne:</td>
+<td>Busch+Müller IQ2 EYC</td>
+</tr>
+<tr>
+<td>Hinten:</td>
+<td>LightSKIN in der Sattelstütze integrierte LED-Lichter</td>
+</tr>
+</tbody>
 </table>
 <p>So. Passt.</p>
 </article>
