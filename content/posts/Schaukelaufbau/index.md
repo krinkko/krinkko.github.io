@@ -6,7 +6,7 @@ images:
 - DSC_0980.jpg
 image: DSC_0980.jpg
 description: "Ein schöner Tag um mit einem Freund eine Schaukel für meine Kids aufzubauen. Oder?"
-categories: ["IRL","Garten","Papa sein"]
+categories: ["IRL","Gardening","Papa sein"]
 ---
 
 Eigentlich ist es ja ein etwas später Zug über unseren "neuen" Schrebergarten hier direkt mit dem Aufbau unserer brand neuen Kinderschaukel zu starten, aber was solls...
