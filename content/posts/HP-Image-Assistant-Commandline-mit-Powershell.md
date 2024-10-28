@@ -1,7 +1,7 @@
 ---
 title: "HP Image Assistant Commandline Mit Powershell"
 date: 2024-08-28T11:24:30+02:00
-tags: ["Scripting","HP","Device Management"]
+tags: ["Scripting","HP","Device Management","Powershell"]
 categories: "Adminkram"
 draft: false
 description: "HP hat einen Image Assistant, den man mehr oder weniger bequem der Commandline nutzen kann."
