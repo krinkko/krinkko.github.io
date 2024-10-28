@@ -2,7 +2,7 @@
 title: "Yubikey SmartCard Slot Problem"
 date: 2024-10-23T07:17:00+02:00
 tags: ["Yubikey","Smartcards","Administration"]
-categories: ["Sysadmin"]
+categories: ["Adminkram"]
 description: "Yubikeys haben einige Slots. Das ist nicht immer praktisch."
 draft: false
 ---
