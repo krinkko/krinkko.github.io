@@ -4,13 +4,14 @@ date: 2024-02-26T16:32:27+01:00
 tags: ["Garten","Kinderkram"]
 images: 
 - DSC_0980.jpg
+desciption: "Ein schöner Tag um mit einem Freund eine Schaukel für meine Kids aufzubauen. Oder?"
 ---
 
 Eigentlich ist es ja ein etwas später Zug über unseren "neuen" Schrebergarten hier direkt mit dem Aufbau unserer brand neuen Kinderschaukel zu starten, aber was solls...
 
 Kurz vorweg: Ich hätte nicht gedacht, dass es so ein Akt ist ein Schaukelgestell aufzustellen, aber lest erst mal rein hier.
 
-[![Einige Updates sammelten sich auf dem WSUS an](DSC_0980.JPG)](DSC_0980.JPG)
+[![Da steht die Schaukel also](DSC_0980.JPG)](DSC_0980.JPG)
 
 Extra für Samstag Vormittag hatte ich einen guten Freund dazugeholt, um gemeinsam die Schaukel aufzubauen und früh am Morgen mahnte meine Frau noch: "Hast du alles Werkzeug?" Und ich nur so: "Jaja, ich hab alles" Alles ganz locker, dachte ich mir so. Also, hätte ich mal auf meine Frau gehört :D
 
