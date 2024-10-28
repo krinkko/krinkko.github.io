@@ -16,7 +16,9 @@ Da bleibe ich mal ein wenig am Ball und sehe was man da noch tun kann.
 
 Ansonsten müsste ich meine Leitung davon überzeugen auf Windows Hello for Business und FIDO2 umzusatteln. Dann fehlt aber ihre geliebte SC Removal Policy.
 
-<b>Update 28.10.2024:</b> Der Yubico Support hatte mir nun geantwortet. Dabei einige Details zu dieser Sache und warum man sich durchaus überlegen sollte lieber FIDO2 oder sowas zu nutzen.
+## Update 28.10.2024:
+
+Der Yubico Support hatte mir nun geantwortet. Dabei einige Details zu dieser Sache und warum man sich durchaus überlegen sollte lieber FIDO2 oder sowas zu nutzen.
 
 <blockquote>
 Hi Krinkkerz,
