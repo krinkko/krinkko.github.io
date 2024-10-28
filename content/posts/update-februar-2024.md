@@ -1,8 +1,8 @@
 ---
 title: "Update Februar 2024"
 date: 2024-02-26T12:40:47+01:00
-tags: ["Persönliches"]
-categories: "Blogging"
+tags: ["Persönliches","Blog"]
+categories: "Diverses"
 draft: false
 ---
 Moin! Lang nix hier auf der Page gemacht. Ich habe eigentlich sogar vergessen, dass das Repo noch existiert. Allerdings brauchte ich auch mal wieder was zum Basteln, also bin ich mal wieder kurz zurückgekehrt. 

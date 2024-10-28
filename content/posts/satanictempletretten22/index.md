@@ -1,8 +1,9 @@
 ---
 title: "Satanic Temple Gathering + Gegenprotest = Cringefest 9000"
 date: 2022-05-11T13:52:06+02:00
-tags: ["Satanic Temple","Channel 5","Andrew Callaghan","Religion"]
+tags: ["Satanic Temple","Channel 5","Andrew Callaghan","Religion","Netzkultur"]
 draft: false
+categories: "Diverses"
 ---
 Wenn Andrew Callaghan ([All Gas no Brakes](https://www.youtube.com/channel/UCtqxG9IrHFU_ID1khGvx9sA)) irgendwo auftaucht und Leute bei Happenings interviewt, braucht man nicht lange bis man einen auf Facepalm macht.
 
