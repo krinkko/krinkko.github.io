@@ -4,6 +4,7 @@ date: 2022-06-08T10:40:46+02:00
 tags: ["Fahrrad","Ampler","Stout","Spezifikationen"]
 draft: false
 categories: "Fahrradkultur"
+image: DSC_0098.JPG
 ---
 Kleiner Dump der Spezifikationsliste für mein Ampler Stout 2019. Einfach, damit ich es leichter wiederfinde. Vielleicht ja auch für Dich interessant :)
 
