@@ -1,4 +1,272 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Powershell on krinkko's</title><link>https://krinkko.github.io/tags/powershell/</link><description>Recent content in Powershell on krinkko's</description><generator>Hugo -- gohugo.io</generator><language>de-de</language><lastBuildDate>Thu, 17 Feb 2022 11:17:20 +0100</lastBuildDate><atom:link href="https://krinkko.github.io/tags/powershell/index.xml" rel="self" type="application/rss+xml"/><item><title>Powershellscript ohne Fenster</title><link>https://krinkko.github.io/powershellscript-ohne-fenster/</link><pubDate>Thu, 17 Feb 2022 11:17:20 +0100</pubDate><guid>https://krinkko.github.io/powershellscript-ohne-fenster/</guid><description>&lt;p>Man kann einfach ein bisschen vbs-Code dazu benutzen um ein Powershellfenster vor Usern zu verstecken:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Powershell on krinkko's</title><link>https://krinkko.github.io/tags/powershell/</link><description>Recent content in Powershell on krinkko's</description><generator>Hugo -- gohugo.io</generator><language>de-de</language><lastBuildDate>Wed, 28 Aug 2024 11:24:30 +0200</lastBuildDate><atom:link href="https://krinkko.github.io/tags/powershell/index.xml" rel="self" type="application/rss+xml"/><item><title>HP Image Assistant Commandline Mit Powershell</title><link>https://krinkko.github.io/hp-image-assistant-commandline-mit-powershell/</link><pubDate>Wed, 28 Aug 2024 11:24:30 +0200</pubDate><guid>https://krinkko.github.io/hp-image-assistant-commandline-mit-powershell/</guid><description>&lt;p>Nachdem ich mich nun den Vormittag mit der an sich tollen Idee der Remoteausführung von &lt;a class="link" href="https://ftp.ext.hp.com/pub/caps-softpaq/cmit/HPIA.html" target="_blank" rel="noopener"
+>HP Image Assistant&lt;/a> via Powershell auseinandergesetzt habe, hier mal meine 2ct dazu.&lt;/p>
+&lt;p>Ich hatte vor ein Script zu machen, welches mir erst einmal ausliest welche Treiber und Programme für ein bestimmtes Gerät verfügbar sind und welche Windows Update vielleicht nicht gesehen hat. Es gibt danach eine .html-Datei aus, in der die fehlenden oder aktualisierbaren Komponenten aufgelistet werden.&lt;/p>
+&lt;p>&lt;b>Update 28.10.2024:&lt;/b> Die aktuelle Form des Scrips:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt"> 10
+&lt;/span>&lt;span class="lnt"> 11
+&lt;/span>&lt;span class="lnt"> 12
+&lt;/span>&lt;span class="lnt"> 13
+&lt;/span>&lt;span class="lnt"> 14
+&lt;/span>&lt;span class="lnt"> 15
+&lt;/span>&lt;span class="lnt"> 16
+&lt;/span>&lt;span class="lnt"> 17
+&lt;/span>&lt;span class="lnt"> 18
+&lt;/span>&lt;span class="lnt"> 19
+&lt;/span>&lt;span class="lnt"> 20
+&lt;/span>&lt;span class="lnt"> 21
+&lt;/span>&lt;span class="lnt"> 22
+&lt;/span>&lt;span class="lnt"> 23
+&lt;/span>&lt;span class="lnt"> 24
+&lt;/span>&lt;span class="lnt"> 25
+&lt;/span>&lt;span class="lnt"> 26
+&lt;/span>&lt;span class="lnt"> 27
+&lt;/span>&lt;span class="lnt"> 28
+&lt;/span>&lt;span class="lnt"> 29
+&lt;/span>&lt;span class="lnt"> 30
+&lt;/span>&lt;span class="lnt"> 31
+&lt;/span>&lt;span class="lnt"> 32
+&lt;/span>&lt;span class="lnt"> 33
+&lt;/span>&lt;span class="lnt"> 34
+&lt;/span>&lt;span class="lnt"> 35
+&lt;/span>&lt;span class="lnt"> 36
+&lt;/span>&lt;span class="lnt"> 37
+&lt;/span>&lt;span class="lnt"> 38
+&lt;/span>&lt;span class="lnt"> 39
+&lt;/span>&lt;span class="lnt"> 40
+&lt;/span>&lt;span class="lnt"> 41
+&lt;/span>&lt;span class="lnt"> 42
+&lt;/span>&lt;span class="lnt"> 43
+&lt;/span>&lt;span class="lnt"> 44
+&lt;/span>&lt;span class="lnt"> 45
+&lt;/span>&lt;span class="lnt"> 46
+&lt;/span>&lt;span class="lnt"> 47
+&lt;/span>&lt;span class="lnt"> 48
+&lt;/span>&lt;span class="lnt"> 49
+&lt;/span>&lt;span class="lnt"> 50
+&lt;/span>&lt;span class="lnt"> 51
+&lt;/span>&lt;span class="lnt"> 52
+&lt;/span>&lt;span class="lnt"> 53
+&lt;/span>&lt;span class="lnt"> 54
+&lt;/span>&lt;span class="lnt"> 55
+&lt;/span>&lt;span class="lnt"> 56
+&lt;/span>&lt;span class="lnt"> 57
+&lt;/span>&lt;span class="lnt"> 58
+&lt;/span>&lt;span class="lnt"> 59
+&lt;/span>&lt;span class="lnt"> 60
+&lt;/span>&lt;span class="lnt"> 61
+&lt;/span>&lt;span class="lnt"> 62
+&lt;/span>&lt;span class="lnt"> 63
+&lt;/span>&lt;span class="lnt"> 64
+&lt;/span>&lt;span class="lnt"> 65
+&lt;/span>&lt;span class="lnt"> 66
+&lt;/span>&lt;span class="lnt"> 67
+&lt;/span>&lt;span class="lnt"> 68
+&lt;/span>&lt;span class="lnt"> 69
+&lt;/span>&lt;span class="lnt"> 70
+&lt;/span>&lt;span class="lnt"> 71
+&lt;/span>&lt;span class="lnt"> 72
+&lt;/span>&lt;span class="lnt"> 73
+&lt;/span>&lt;span class="lnt"> 74
+&lt;/span>&lt;span class="lnt"> 75
+&lt;/span>&lt;span class="lnt"> 76
+&lt;/span>&lt;span class="lnt"> 77
+&lt;/span>&lt;span class="lnt"> 78
+&lt;/span>&lt;span class="lnt"> 79
+&lt;/span>&lt;span class="lnt"> 80
+&lt;/span>&lt;span class="lnt"> 81
+&lt;/span>&lt;span class="lnt"> 82
+&lt;/span>&lt;span class="lnt"> 83
+&lt;/span>&lt;span class="lnt"> 84
+&lt;/span>&lt;span class="lnt"> 85
+&lt;/span>&lt;span class="lnt"> 86
+&lt;/span>&lt;span class="lnt"> 87
+&lt;/span>&lt;span class="lnt"> 88
+&lt;/span>&lt;span class="lnt"> 89
+&lt;/span>&lt;span class="lnt"> 90
+&lt;/span>&lt;span class="lnt"> 91
+&lt;/span>&lt;span class="lnt"> 92
+&lt;/span>&lt;span class="lnt"> 93
+&lt;/span>&lt;span class="lnt"> 94
+&lt;/span>&lt;span class="lnt"> 95
+&lt;/span>&lt;span class="lnt"> 96
+&lt;/span>&lt;span class="lnt"> 97
+&lt;/span>&lt;span class="lnt"> 98
+&lt;/span>&lt;span class="lnt"> 99
+&lt;/span>&lt;span class="lnt">100
+&lt;/span>&lt;span class="lnt">101
+&lt;/span>&lt;span class="lnt">102
+&lt;/span>&lt;span class="lnt">103
+&lt;/span>&lt;span class="lnt">104
+&lt;/span>&lt;span class="lnt">105
+&lt;/span>&lt;span class="lnt">106
+&lt;/span>&lt;span class="lnt">107
+&lt;/span>&lt;span class="lnt">108
+&lt;/span>&lt;span class="lnt">109
+&lt;/span>&lt;span class="lnt">110
+&lt;/span>&lt;span class="lnt">111
+&lt;/span>&lt;span class="lnt">112
+&lt;/span>&lt;span class="lnt">113
+&lt;/span>&lt;span class="lnt">114
+&lt;/span>&lt;span class="lnt">115
+&lt;/span>&lt;span class="lnt">116
+&lt;/span>&lt;span class="lnt">117
+&lt;/span>&lt;span class="lnt">118
+&lt;/span>&lt;span class="lnt">119
+&lt;/span>&lt;span class="lnt">120
+&lt;/span>&lt;span class="lnt">121
+&lt;/span>&lt;span class="lnt">122
+&lt;/span>&lt;span class="lnt">123
+&lt;/span>&lt;span class="lnt">124
+&lt;/span>&lt;span class="lnt">125
+&lt;/span>&lt;span class="lnt">126
+&lt;/span>&lt;span class="lnt">127
+&lt;/span>&lt;span class="lnt">128
+&lt;/span>&lt;span class="lnt">129
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="line">&lt;span class="cl">&lt;span class="k">param&lt;/span> &lt;span class="p">(&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>&lt;span class="no">bool&lt;/span>&lt;span class="p">]&lt;/span>&lt;span class="nv">$analyse&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mf">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>&lt;span class="no">bool&lt;/span>&lt;span class="p">]&lt;/span>&lt;span class="nv">$update&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mf">0&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>&lt;span class="no">bool&lt;/span>&lt;span class="p">]&lt;/span>&lt;span class="nv">$silent&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mf">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">Start-Transcript&lt;/span> &lt;span class="n">-Path&lt;/span> &lt;span class="s2">&amp;#34;C:\hpia\logs\hpia-script.log&amp;#34;&lt;/span> &lt;span class="n">-Force&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kd">function&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nb">Write-Log&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">param&lt;/span> &lt;span class="p">(&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>&lt;span class="no">string&lt;/span>&lt;span class="p">]&lt;/span>&lt;span class="nv">$Message&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>&lt;span class="no">string&lt;/span>&lt;span class="p">]&lt;/span>&lt;span class="nv">$LogFile&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;C:\HPIA\Logs\HPIA_analyze.log&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>&lt;span class="no">string&lt;/span>&lt;span class="p">]&lt;/span>&lt;span class="nv">$LogLevel&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;INFO&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c"># Ensure the log directory exists&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$logDir&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="no">System.IO.Path&lt;/span>&lt;span class="p">]::&lt;/span>&lt;span class="n">GetDirectoryName&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">$LogFile&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="o">-not&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nb">Test-Path&lt;/span> &lt;span class="n">-Path&lt;/span> &lt;span class="nv">$logDir&lt;/span>&lt;span class="p">))&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">New-Item&lt;/span> &lt;span class="n">-ItemType&lt;/span> &lt;span class="n">Directory&lt;/span> &lt;span class="n">-Path&lt;/span> &lt;span class="nv">$logDir&lt;/span> &lt;span class="n">-Force&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c"># Create a timestamp&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$timestamp&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="nb">Get-Date&lt;/span> &lt;span class="n">-Format&lt;/span> &lt;span class="s2">&amp;#34;yyyy-MM-dd HH:mm:ss&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c"># Format the log message&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$logMessage&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="nv">$timestamp&lt;/span>&lt;span class="s2"> [&lt;/span>&lt;span class="nv">$LogLevel&lt;/span>&lt;span class="s2">] - &lt;/span>&lt;span class="nv">$Message&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c"># Write the log message to the log file&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">Add-Content&lt;/span> &lt;span class="n">-Path&lt;/span> &lt;span class="nv">$LogFile&lt;/span> &lt;span class="n">-Value&lt;/span> &lt;span class="nv">$logMessage&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">$logpath&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;C:\HPIA\Logs\&amp;#34;&lt;/span> &lt;span class="c">#Oder Netzwerkpfad&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nb">Test-Path&lt;/span> &lt;span class="n">-Path&lt;/span> &lt;span class="n">D:&lt;/span>&lt;span class="p">\)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$downloadfolder&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;D:\MEINPFAD\Treiber&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span> &lt;span class="k">else&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$downloadfolder&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;C:\HPIA\Downloads\&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nb">Test-Path&lt;/span> &lt;span class="n">-Path&lt;/span> &lt;span class="s1">&amp;#39;C:\HPIA\HP Image Assistant\HPImageAssistant.exe&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$assistantfilepath&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s1">&amp;#39;C:\HPIA\HP Image Assistant\HPImageAssistant.exe&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$assistantversion&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;5.3.0.506&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$currentversion&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nb">Get-Command&lt;/span> &lt;span class="nv">$assistantfilepath&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="py">FileVersionInfo&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="py">FileVersion&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">$currentversion&lt;/span> &lt;span class="o">-lt&lt;/span> &lt;span class="nv">$assistantversion&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nb">Test-Path&lt;/span> &lt;span class="n">-Path&lt;/span> &lt;span class="s2">&amp;#34;NETWORKPATH\HP\hp-hpia-5.3.0.exe&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">Start-Process&lt;/span> &lt;span class="s2">&amp;#34;NETWORKPATH\HP\hp-hpia-5.3.0.exe&amp;#34;&lt;/span> &lt;span class="n">-ArgumentList&lt;/span> &lt;span class="s2">&amp;#34;/s /e /f &lt;/span>&lt;span class="se">`&amp;#34;&lt;/span>&lt;span class="s2">C:\HPIA\HP Image Assistant&lt;/span>&lt;span class="se">`&amp;#34;&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span> &lt;span class="n">-wait&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span> &lt;span class="k">else&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nb">Test-Path&lt;/span> &lt;span class="n">-Path&lt;/span> &lt;span class="s2">&amp;#34;NETWORKPATH\HP\hp-hpia-5.3.0.exe&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">Start-Process&lt;/span> &lt;span class="s2">&amp;#34;NETWORKPATH\HP\hp-hpia-5.3.0.exe&amp;#34;&lt;/span> &lt;span class="n">-ArgumentList&lt;/span> &lt;span class="s2">&amp;#34;/s /e /f &lt;/span>&lt;span class="se">`&amp;#34;&lt;/span>&lt;span class="s2">C:\HPIA\HP Image Assistant&lt;/span>&lt;span class="se">`&amp;#34;&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span> &lt;span class="n">-wait&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="o">-not&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nb">Test-Path&lt;/span> &lt;span class="n">-Path&lt;/span> &lt;span class="nv">$logpath&lt;/span>&lt;span class="p">))&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">try&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$reportfolder&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="nb">new-item&lt;/span> &lt;span class="n">-Path&lt;/span> &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="p">$(&lt;/span>&lt;span class="nv">$logpath&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span> &lt;span class="n">-ItemType&lt;/span> &lt;span class="n">Directory&lt;/span> &lt;span class="n">-ErrorAction&lt;/span> &lt;span class="k">Continue&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span> &lt;span class="k">catch&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="nb">Write-Host&lt;/span> &lt;span class="s2">&amp;#34;Error.&amp;#34;&lt;/span> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">$analyse&lt;/span> &lt;span class="o">-eq&lt;/span> &lt;span class="vm">$true&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$args&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="vm">@&lt;/span>&lt;span class="p">(&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;/Operation:Analyze&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;/Silent&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;/AutoCleanup&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;/Action:List&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;/reportfolder:&lt;/span>&lt;span class="p">$(&lt;/span>&lt;span class="nv">$logpath&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">Start-Process&lt;/span> &lt;span class="s2">&amp;#34;C:\HPIA\HP Image Assistant\HPImageAssistant.exe&amp;#34;&lt;/span> &lt;span class="n">-argumentlist&lt;/span> &lt;span class="nv">$args&lt;/span> &lt;span class="n">-wait&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">$update&lt;/span> &lt;span class="o">-eq&lt;/span> &lt;span class="vm">$true&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">$silent&lt;/span> &lt;span class="o">-eq&lt;/span> &lt;span class="vm">$true&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$args&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="vm">@&lt;/span>&lt;span class="p">(&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;/Auto&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;/Category:All&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;/selection:all&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;/AutoCleanup&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;/Silent&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;/reportfolder:&lt;/span>&lt;span class="p">$(&lt;/span>&lt;span class="nv">$logpath&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;/SoftpaqDownloadFolder:&lt;/span>&lt;span class="p">$(&lt;/span>&lt;span class="nv">$downloadfolder&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span> &lt;span class="k">else&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$args&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="vm">@&lt;/span>&lt;span class="p">(&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;/Auto&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;/Category:All&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;/selection:all&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;/AutoCleanup&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;/Noninteractive&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;/reportfolder:&lt;/span>&lt;span class="p">$(&lt;/span>&lt;span class="nv">$logpath&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;/SoftpaqDownloadFolder:&lt;/span>&lt;span class="p">$(&lt;/span>&lt;span class="nv">$downloadfolder&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">try&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$updateresult&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="nb">Start-Process&lt;/span> &lt;span class="s2">&amp;#34;C:\HPIA\HP Image Assistant\HPImageAssistant.exe&amp;#34;&lt;/span> &lt;span class="n">-argumentlist&lt;/span> &lt;span class="nv">$args&lt;/span> &lt;span class="n">-wait&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">write-log&lt;/span> &lt;span class="n">-message&lt;/span> &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="p">$(&lt;/span>&lt;span class="nv">$updateresult&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span> &lt;span class="n">-errorcode&lt;/span> &lt;span class="s2">&amp;#34;INFO&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span> &lt;span class="k">catch&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$errorcode&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="nv">$_&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">Write-Log&lt;/span> &lt;span class="n">-Message&lt;/span> &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="p">$(&lt;/span>&lt;span class="nv">$errorcode&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span> &lt;span class="n">-errorcode&lt;/span> &lt;span class="s2">&amp;#34;ERROR&amp;#34;&lt;/span> &lt;span class="n">-LogFile&lt;/span> &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="p">$(&lt;/span>&lt;span class="nv">$logpath&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="s2">\HPIA-analyze.log&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c"># Energiespareinstellungen normalisieren&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c">#Aktiviert wieder das Ausbalancierte Schema&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">powercfg&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="n">SETDCVALUEINDEX&lt;/span> &lt;span class="n">SCHEME_CURRENT&lt;/span> &lt;span class="n">2a737441&lt;/span>&lt;span class="p">-&lt;/span>&lt;span class="mf">1930&lt;/span>&lt;span class="p">-&lt;/span>&lt;span class="mf">4402&lt;/span>&lt;span class="p">-&lt;/span>&lt;span class="n">8d77-b2bebba308a3&lt;/span> &lt;span class="n">48e6b7a6&lt;/span>&lt;span class="p">-&lt;/span>&lt;span class="n">50f5&lt;/span>&lt;span class="p">-&lt;/span>&lt;span class="mf">4782&lt;/span>&lt;span class="n">-a5d4&lt;/span>&lt;span class="p">-&lt;/span>&lt;span class="n">53bb8f07e226&lt;/span> &lt;span class="mf">0&lt;/span> &lt;span class="c"># Selective USB Energiesparen Batteriebetrieben&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">powercfg&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="n">SETACVALUEINDEX&lt;/span> &lt;span class="n">SCHEME_CURRENT&lt;/span> &lt;span class="n">2a737441&lt;/span>&lt;span class="p">-&lt;/span>&lt;span class="mf">1930&lt;/span>&lt;span class="p">-&lt;/span>&lt;span class="mf">4402&lt;/span>&lt;span class="p">-&lt;/span>&lt;span class="n">8d77-b2bebba308a3&lt;/span> &lt;span class="n">48e6b7a6&lt;/span>&lt;span class="p">-&lt;/span>&lt;span class="n">50f5&lt;/span>&lt;span class="p">-&lt;/span>&lt;span class="mf">4782&lt;/span>&lt;span class="n">-a5d4&lt;/span>&lt;span class="p">-&lt;/span>&lt;span class="n">53bb8f07e226&lt;/span> &lt;span class="mf">0&lt;/span> &lt;span class="c"># Selective USB Energiesparen am Ladegerät&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">powercfg&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="n">change&lt;/span> &lt;span class="nb">monitor-timeout&lt;/span>&lt;span class="n">-ac&lt;/span> &lt;span class="mf">0&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">powercfg&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="n">change&lt;/span> &lt;span class="nb">monitor-timeout&lt;/span>&lt;span class="n">-dc&lt;/span> &lt;span class="mf">20&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">powercfg&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="n">change&lt;/span> &lt;span class="nb">standby-timeout&lt;/span>&lt;span class="n">-dc&lt;/span> &lt;span class="mf">60&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">powercfg&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="n">change&lt;/span> &lt;span class="nb">standby-timeout&lt;/span>&lt;span class="n">-ac&lt;/span> &lt;span class="mf">0&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">powercfg&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="n">S&lt;/span> &lt;span class="n">SCHEME_CURRENT&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">powercfg&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="nb">h &lt;/span>&lt;span class="n">off&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$latest&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="nb">get-childitem&lt;/span> &lt;span class="n">-path&lt;/span> &lt;span class="n">C:&lt;/span>&lt;span class="p">\&lt;/span>&lt;span class="n">hpia&lt;/span>&lt;span class="p">\&lt;/span>&lt;span class="n">logs&lt;/span> &lt;span class="p">|&lt;/span> &lt;span class="nb">Where-Object&lt;/span> &lt;span class="p">{&lt;/span>&lt;span class="nv">$_&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="py">Name&lt;/span> &lt;span class="o">-Like&lt;/span> &lt;span class="s2">&amp;#34;*Readme*&amp;#34;&lt;/span>&lt;span class="p">}&lt;/span> &lt;span class="p">|&lt;/span> &lt;span class="nb">Sort-Object&lt;/span> &lt;span class="n">LastAccessTime&lt;/span> &lt;span class="n">-Descending&lt;/span> &lt;span class="p">|&lt;/span> &lt;span class="nb">Select-Object&lt;/span> &lt;span class="n">-First&lt;/span> &lt;span class="mf">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$mailadmin&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;adminmail@bla.de&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$mailfrom&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;noreply@bla.de&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$mailserver&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;smtp.server.de&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$mailsubject&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;HP Image Assistant Log for &lt;/span>&lt;span class="p">$(&lt;/span>&lt;span class="nv">$env:computername&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$mailbody&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;See HP Image Assistant Log attached to this email.&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">try&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">Send-MailMessage&lt;/span> &lt;span class="n">-BodyAsHtml&lt;/span> &lt;span class="n">-body&lt;/span> &lt;span class="nv">$mailbody&lt;/span> &lt;span class="n">-To&lt;/span> &lt;span class="nv">$mailadmin&lt;/span> &lt;span class="n">-From&lt;/span> &lt;span class="nv">$mailfrom&lt;/span> &lt;span class="n">-Encoding&lt;/span> &lt;span class="n">UTF8&lt;/span> &lt;span class="n">-SmtpServer&lt;/span> &lt;span class="nv">$mailserver&lt;/span> &lt;span class="n">-Subject&lt;/span> &lt;span class="nv">$mailsubject&lt;/span> &lt;span class="n">-Attachments&lt;/span> &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="p">$(&lt;/span>&lt;span class="nv">$latest&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">FullName&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span> &lt;span class="k">catch&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$errorcode&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="nv">$_&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">write-host&lt;/span> &lt;span class="s2">&amp;#34;ERROR: &lt;/span>&lt;span class="nv">$errorcode&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">Stop-Transcript&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Powershellscript ohne Fenster</title><link>https://krinkko.github.io/powershellscript-ohne-fenster/</link><pubDate>Thu, 17 Feb 2022 11:17:20 +0100</pubDate><guid>https://krinkko.github.io/powershellscript-ohne-fenster/</guid><description>&lt;p>Man kann einfach ein bisschen vbs-Code dazu benutzen um ein Powershellfenster vor Usern zu verstecken:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
