@@ -1,6 +1,6 @@
 baseURL = "https://krinkko.github.io"
 title = "krinkko's"
-theme = "etch"
+theme = "hugo-theme-stack"
 themesDir = "themes"
 languageCode = "de-de"
 defaultContentLanguage = "de"
@@ -16,6 +16,9 @@ paginate = 5
   copyright = "© 2024 d381blog"
   dark = "auto"
   highlight = true
+  mainSections = "posts"
+
+
 
 [menu]
   [[menu.main]]
