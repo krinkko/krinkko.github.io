@@ -5,6 +5,7 @@ tags: ["Garten","Kinderkram"]
 images: 
 - DSC_0980.jpg
 desciption: "Ein schöner Tag um mit einem Freund eine Schaukel für meine Kids aufzubauen. Oder?"
+categories: "IRL"
 ---
 
 Eigentlich ist es ja ein etwas später Zug über unseren "neuen" Schrebergarten hier direkt mit dem Aufbau unserer brand neuen Kinderschaukel zu starten, aber was solls...
