@@ -1,0 +1,43 @@
+[sidebar]
+emoji = "🤪"
+subtitle = "Braunschweig based sysadmin. Proud father of two and husband. I like hardcore punk, songwriters to rap. Open mind, open heart. LOVES bicycles."
+
+[sidebar.avatar]
+enabled = true
+local = true
+src = "img/avatar.png"
+
+[dateFormat]
+published = "02. Januar 2006"
+lastUpdated = "02 Januar 2006 15:04 MST"
+
+## Widgets
+[[widgets.homepage]]
+type = "search"
+
+[[widgets.homepage]]
+type = "archives"
+
+[widgets.homepage.params]
+limit = 5
+
+[[widgets.homepage]]
+type = "categories"
+
+[widgets.homepage.params]
+limit = 10
+
+[[widgets.homepage]]
+type = "tag-cloud"
+
+[widgets.homepage.params]
+limit = 10
+
+[[widgets.page]]
+type = "toc"
+
+[imageProcessing.cover]
+enabled = true
+
+[imageProcessing.content]
+enabled = true

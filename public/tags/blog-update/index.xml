@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Blog Update on krinkko&#39;s</title>
+        <link>http://localhost:1313/tags/blog-update/</link>
+        <description>Recent content in Blog Update on krinkko&#39;s</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>de-de</language>
+        <lastBuildDate>Mon, 31 Jan 2022 11:28:04 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/blog-update/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hallo</title>
+        <link>http://localhost:1313/hallo/</link>
+        <pubDate>Mon, 31 Jan 2022 11:28:04 +0100</pubDate>
+        
+        <guid>http://localhost:1313/hallo/</guid>
+        <description>&lt;p&gt;Moin, moin aus Braunschweig. Hier zurück mit einer kleinen Website unter Hugo und das Ganze möglichst minimalistisch gehalten.
+Ich hatte nun ein wenig Zeit mit dem VPS von 1u1 Ionos zu spielen und hab mich letztendlich dazu entschieden einfach Hugo zu nehmen. Der Einfachheit halber.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

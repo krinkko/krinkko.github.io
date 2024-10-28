@@ -1,0 +1,24 @@
+# Configure main menu and social menu
+#[[main]]
+#identifier = "home"
+#name = "Home"
+#url = "/"
+#[main.params]
+#icon = "home"
+#newtab = true
+
+[[social]]
+identifier = "mastodon"
+name = "Mastodon"
+url = "https://elk.zone/kanoa.de/@dion"
+
+[social.params]
+icon = "brand-twitter"
+
+[[social]]
+identifier = "twitter"
+name = "Twitter"
+url = "https://twitter.com"
+
+[social.params]
+icon = "brand-twitter"

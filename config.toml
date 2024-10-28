@@ -18,36 +18,32 @@ paginate = 5
   highlight = true
   mainSections = "posts"
 
+## Widgets
+[widgets]
+[[widgets.homepage]]
+type = "search"
 
+[[widgets.homepage]]
+type = "archives"
 
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    name = "posts"
-    title = "posts"
-    url = "/"
-    weight = 10
+[widgets.homepage.params]
+limit = 5
 
-  [[menu.main]]
-    identifier = "about"
-    name = "about"
-    title = "about"
-    url = "/about/"
-    weight = 20
+[[widgets.homepage]]
+type = "categories"
 
-  [[menu.main]]
-    identifier = "archive"
-    name = "archive"
-    title = "archive"
-    url = "/posts-archive/"
-    weight = 30
+[widgets.homepage.params]
+limit = 10
 
-  [[menu.second]]
-    identifier = "impressum"
-    name = "impressum"
-    title = "impressum"
-    url = "/impressum/"
-    weight = 10
+[[widgets.homepage]]
+type = "tag-cloud"
+
+[widgets.homepage.params]
+limit = 10
+
+[[widgets.page]]
+type = "toc"
+
 
 [permalinks]
   posts = "/:title/"

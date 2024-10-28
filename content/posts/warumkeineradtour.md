@@ -2,6 +2,7 @@
 title: "Warum gibts in Braunschweig nicht so eine Radtour?"
 date: 2022-02-03T10:30:18+01:00
 tags: ["Fahrrad", "Tour", "Terry Barentsen", "New York", "5 Boro Bike Tour"]
+categories: "Fahrradkultur"
 ---
 Checkt mal dieses kleine Promovideo zu New Yorks "5 Boro Bike Tour":
 

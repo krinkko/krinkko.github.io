@@ -2,6 +2,7 @@
 title: "Powershellscript ohne Fenster"
 date: 2022-02-17T11:17:20+01:00
 tags: ["Powershell","Scripting","Scripte","vbs"]
+categories: "Powershell"
 ---
 Man kann einfach ein bisschen vbs-Code dazu benutzen um ein Powershellfenster vor Usern zu verstecken:
 
