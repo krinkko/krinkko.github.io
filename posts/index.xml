@@ -26,7 +26,140 @@ Customer Support Specialist | Yubico&lt;/p>
 >HP Image Assistant&lt;/a> via Powershell auseinandergesetzt habe, hier mal meine 2ct dazu.&lt;/p>
 &lt;p>Ich hatte vor ein Script zu machen, welches mir erst einmal ausliest welche Treiber und Programme für ein bestimmtes Gerät verfügbar sind und welche Windows Update vielleicht nicht gesehen hat. Es gibt danach eine .html-Datei aus, in der die fehlenden oder aktualisierbaren Komponenten aufgelistet werden.&lt;/p>
 &lt;p>&lt;b>Update 28.10.2024:&lt;/b> Die aktuelle Form des Scrips:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="line">&lt;span class="cl">&lt;span class="k">param&lt;/span> &lt;span class="p">(&lt;/span>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt"> 10
+&lt;/span>&lt;span class="lnt"> 11
+&lt;/span>&lt;span class="lnt"> 12
+&lt;/span>&lt;span class="lnt"> 13
+&lt;/span>&lt;span class="lnt"> 14
+&lt;/span>&lt;span class="lnt"> 15
+&lt;/span>&lt;span class="lnt"> 16
+&lt;/span>&lt;span class="lnt"> 17
+&lt;/span>&lt;span class="lnt"> 18
+&lt;/span>&lt;span class="lnt"> 19
+&lt;/span>&lt;span class="lnt"> 20
+&lt;/span>&lt;span class="lnt"> 21
+&lt;/span>&lt;span class="lnt"> 22
+&lt;/span>&lt;span class="lnt"> 23
+&lt;/span>&lt;span class="lnt"> 24
+&lt;/span>&lt;span class="lnt"> 25
+&lt;/span>&lt;span class="lnt"> 26
+&lt;/span>&lt;span class="lnt"> 27
+&lt;/span>&lt;span class="lnt"> 28
+&lt;/span>&lt;span class="lnt"> 29
+&lt;/span>&lt;span class="lnt"> 30
+&lt;/span>&lt;span class="lnt"> 31
+&lt;/span>&lt;span class="lnt"> 32
+&lt;/span>&lt;span class="lnt"> 33
+&lt;/span>&lt;span class="lnt"> 34
+&lt;/span>&lt;span class="lnt"> 35
+&lt;/span>&lt;span class="lnt"> 36
+&lt;/span>&lt;span class="lnt"> 37
+&lt;/span>&lt;span class="lnt"> 38
+&lt;/span>&lt;span class="lnt"> 39
+&lt;/span>&lt;span class="lnt"> 40
+&lt;/span>&lt;span class="lnt"> 41
+&lt;/span>&lt;span class="lnt"> 42
+&lt;/span>&lt;span class="lnt"> 43
+&lt;/span>&lt;span class="lnt"> 44
+&lt;/span>&lt;span class="lnt"> 45
+&lt;/span>&lt;span class="lnt"> 46
+&lt;/span>&lt;span class="lnt"> 47
+&lt;/span>&lt;span class="lnt"> 48
+&lt;/span>&lt;span class="lnt"> 49
+&lt;/span>&lt;span class="lnt"> 50
+&lt;/span>&lt;span class="lnt"> 51
+&lt;/span>&lt;span class="lnt"> 52
+&lt;/span>&lt;span class="lnt"> 53
+&lt;/span>&lt;span class="lnt"> 54
+&lt;/span>&lt;span class="lnt"> 55
+&lt;/span>&lt;span class="lnt"> 56
+&lt;/span>&lt;span class="lnt"> 57
+&lt;/span>&lt;span class="lnt"> 58
+&lt;/span>&lt;span class="lnt"> 59
+&lt;/span>&lt;span class="lnt"> 60
+&lt;/span>&lt;span class="lnt"> 61
+&lt;/span>&lt;span class="lnt"> 62
+&lt;/span>&lt;span class="lnt"> 63
+&lt;/span>&lt;span class="lnt"> 64
+&lt;/span>&lt;span class="lnt"> 65
+&lt;/span>&lt;span class="lnt"> 66
+&lt;/span>&lt;span class="lnt"> 67
+&lt;/span>&lt;span class="lnt"> 68
+&lt;/span>&lt;span class="lnt"> 69
+&lt;/span>&lt;span class="lnt"> 70
+&lt;/span>&lt;span class="lnt"> 71
+&lt;/span>&lt;span class="lnt"> 72
+&lt;/span>&lt;span class="lnt"> 73
+&lt;/span>&lt;span class="lnt"> 74
+&lt;/span>&lt;span class="lnt"> 75
+&lt;/span>&lt;span class="lnt"> 76
+&lt;/span>&lt;span class="lnt"> 77
+&lt;/span>&lt;span class="lnt"> 78
+&lt;/span>&lt;span class="lnt"> 79
+&lt;/span>&lt;span class="lnt"> 80
+&lt;/span>&lt;span class="lnt"> 81
+&lt;/span>&lt;span class="lnt"> 82
+&lt;/span>&lt;span class="lnt"> 83
+&lt;/span>&lt;span class="lnt"> 84
+&lt;/span>&lt;span class="lnt"> 85
+&lt;/span>&lt;span class="lnt"> 86
+&lt;/span>&lt;span class="lnt"> 87
+&lt;/span>&lt;span class="lnt"> 88
+&lt;/span>&lt;span class="lnt"> 89
+&lt;/span>&lt;span class="lnt"> 90
+&lt;/span>&lt;span class="lnt"> 91
+&lt;/span>&lt;span class="lnt"> 92
+&lt;/span>&lt;span class="lnt"> 93
+&lt;/span>&lt;span class="lnt"> 94
+&lt;/span>&lt;span class="lnt"> 95
+&lt;/span>&lt;span class="lnt"> 96
+&lt;/span>&lt;span class="lnt"> 97
+&lt;/span>&lt;span class="lnt"> 98
+&lt;/span>&lt;span class="lnt"> 99
+&lt;/span>&lt;span class="lnt">100
+&lt;/span>&lt;span class="lnt">101
+&lt;/span>&lt;span class="lnt">102
+&lt;/span>&lt;span class="lnt">103
+&lt;/span>&lt;span class="lnt">104
+&lt;/span>&lt;span class="lnt">105
+&lt;/span>&lt;span class="lnt">106
+&lt;/span>&lt;span class="lnt">107
+&lt;/span>&lt;span class="lnt">108
+&lt;/span>&lt;span class="lnt">109
+&lt;/span>&lt;span class="lnt">110
+&lt;/span>&lt;span class="lnt">111
+&lt;/span>&lt;span class="lnt">112
+&lt;/span>&lt;span class="lnt">113
+&lt;/span>&lt;span class="lnt">114
+&lt;/span>&lt;span class="lnt">115
+&lt;/span>&lt;span class="lnt">116
+&lt;/span>&lt;span class="lnt">117
+&lt;/span>&lt;span class="lnt">118
+&lt;/span>&lt;span class="lnt">119
+&lt;/span>&lt;span class="lnt">120
+&lt;/span>&lt;span class="lnt">121
+&lt;/span>&lt;span class="lnt">122
+&lt;/span>&lt;span class="lnt">123
+&lt;/span>&lt;span class="lnt">124
+&lt;/span>&lt;span class="lnt">125
+&lt;/span>&lt;span class="lnt">126
+&lt;/span>&lt;span class="lnt">127
+&lt;/span>&lt;span class="lnt">128
+&lt;/span>&lt;span class="lnt">129
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-powershell" data-lang="powershell">&lt;span class="line">&lt;span class="cl">&lt;span class="k">param&lt;/span> &lt;span class="p">(&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>&lt;span class="no">bool&lt;/span>&lt;span class="p">]&lt;/span>&lt;span class="nv">$analyse&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mf">1&lt;/span>&lt;span class="p">,&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>&lt;span class="no">bool&lt;/span>&lt;span class="p">]&lt;/span>&lt;span class="nv">$update&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mf">0&lt;/span>&lt;span class="p">,&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>&lt;span class="no">bool&lt;/span>&lt;span class="p">]&lt;/span>&lt;span class="nv">$silent&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mf">1&lt;/span>
@@ -155,7 +288,9 @@ Customer Support Specialist | Yubico&lt;/p>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">Stop-Transcript&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Schaukelaufbaublues</title><link>https://krinkko.github.io/schaukelaufbaublues/</link><pubDate>Mon, 26 Feb 2024 16:32:27 +0100</pubDate><guid>https://krinkko.github.io/schaukelaufbaublues/</guid><description>&lt;p>Eigentlich ist es ja ein etwas später Zug über unseren &amp;ldquo;neuen&amp;rdquo; Schrebergarten hier direkt mit dem Aufbau unserer brand neuen Kinderschaukel zu starten, aber was solls&amp;hellip;&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Schaukelaufbaublues</title><link>https://krinkko.github.io/schaukelaufbaublues/</link><pubDate>Mon, 26 Feb 2024 16:32:27 +0100</pubDate><guid>https://krinkko.github.io/schaukelaufbaublues/</guid><description>&lt;p>Eigentlich ist es ja ein etwas später Zug über unseren &amp;ldquo;neuen&amp;rdquo; Schrebergarten hier direkt mit dem Aufbau unserer brand neuen Kinderschaukel zu starten, aber was solls&amp;hellip;&lt;/p>
 &lt;p>Kurz vorweg: Ich hätte nicht gedacht, dass es so ein Akt ist ein Schaukelgestell aufzustellen, aber lest erst mal rein hier.&lt;/p>
 &lt;p>&lt;a class="link" href="DSC_0980.JPG" >&lt;img src="https://krinkko.github.io/schaukelaufbaublues/DSC_0980.JPG"
 width="1024"
@@ -290,15 +425,34 @@ title="YouTube Video"
 >
 &lt;/iframe>
 &lt;/div></description></item><item><title>Powershellscript ohne Fenster</title><link>https://krinkko.github.io/powershellscript-ohne-fenster/</link><pubDate>Thu, 17 Feb 2022 11:17:20 +0100</pubDate><guid>https://krinkko.github.io/powershellscript-ohne-fenster/</guid><description>&lt;p>Man kann einfach ein bisschen vbs-Code dazu benutzen um ein Powershellfenster vor Usern zu verstecken:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-cmd" data-lang="cmd">&lt;span class="line">&lt;span class="cl">Dim objArguments
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-cmd" data-lang="cmd">&lt;span class="line">&lt;span class="cl">Dim objArguments
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Dim command
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">Set&lt;/span> &lt;span class="nv">objArguments &lt;/span>&lt;span class="p">=&lt;/span> WScript.Arguments
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">command = &lt;span class="s2">&amp;#34;powershell.exe -nologo -command &amp;#34;&lt;/span> &lt;span class="p">&amp;amp;&lt;/span> objArguments(0) &lt;span class="p">&amp;amp;&lt;/span> &lt;span class="s2">&amp;#34;&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">set&lt;/span> &lt;span class="nv">shell &lt;/span>&lt;span class="p">=&lt;/span> CreateObject(&lt;span class="s2">&amp;#34;WScript.Shell&amp;#34;&lt;/span>)
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">shell.Run command,0
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Speichern wir das nun z.B. als Launchpwrshl.vbs können wir direkt ein Script als Argument[0] daran hängen:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-cmd" data-lang="cmd">&lt;span class="line">&lt;span class="cl"> launchpwrshl.vbs meinscript.ps1
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Nützlich, wenn man ein Powershellscript als Aufgabe oder so laufen lassen will.&lt;/p></description></item><item><title>Not Just Bikes &amp; Climate Town mit Städtebauvergleich</title><link>https://krinkko.github.io/not-just-bikes-climate-town-mit-st%C3%A4dtebauvergleich/</link><pubDate>Mon, 14 Feb 2022 09:22:10 +0100</pubDate><guid>https://krinkko.github.io/not-just-bikes-climate-town-mit-st%C3%A4dtebauvergleich/</guid><description>&lt;p>Also ihr solltet euch unbedingt mal diese Kollaboration von &lt;a class="link" href="https://www.youtube.com/channel/UC0intLFzLaudFG-xAvUEO-A" target="_blank" rel="noopener"
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Speichern wir das nun z.B. als Launchpwrshl.vbs können wir direkt ein Script als Argument[0] daran hängen:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-cmd" data-lang="cmd">&lt;span class="line">&lt;span class="cl"> launchpwrshl.vbs meinscript.ps1
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Nützlich, wenn man ein Powershellscript als Aufgabe oder so laufen lassen will.&lt;/p></description></item><item><title>Not Just Bikes &amp; Climate Town mit Städtebauvergleich</title><link>https://krinkko.github.io/not-just-bikes-climate-town-mit-st%C3%A4dtebauvergleich/</link><pubDate>Mon, 14 Feb 2022 09:22:10 +0100</pubDate><guid>https://krinkko.github.io/not-just-bikes-climate-town-mit-st%C3%A4dtebauvergleich/</guid><description>&lt;p>Also ihr solltet euch unbedingt mal diese Kollaboration von &lt;a class="link" href="https://www.youtube.com/channel/UC0intLFzLaudFG-xAvUEO-A" target="_blank" rel="noopener"
 >Not Just Bikes&lt;/a> und &lt;a class="link" href="https://www.youtube.com/channel/UCuVLG9pThvBABcYCm7pkNkA" target="_blank" rel="noopener"
 >Climate Town&lt;/a> in zwei Teilen ansehen. Die beiden verdeutlichen ziemlich genial die Unterschiede zwischen Amsterdam und im Prinzip den meisten verkackten US Städten:&lt;/p>
 &lt;div class="video-wrapper">
