@@ -4,6 +4,7 @@ date: 2024-08-28T11:24:30+02:00
 tags: ["Scripting","HP","Device Management","Powershell"]
 categories: "Adminkram"
 draft: false
+image: hpia-commandline.jpg
 description: "HP hat einen Image Assistant, den man mehr oder weniger bequem der Commandline nutzen kann."
 ---
 Nachdem ich mich nun den Vormittag mit der an sich tollen Idee der Remoteausführung von [HP Image Assistant](https://ftp.ext.hp.com/pub/caps-softpaq/cmit/HPIA.html) via Powershell auseinandergesetzt habe, hier mal meine 2ct dazu.

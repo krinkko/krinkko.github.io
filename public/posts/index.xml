@@ -45,7 +45,7 @@ Customer Support Specialist | Yubico&lt;/p&gt;
         <pubDate>Wed, 28 Aug 2024 11:24:30 +0200</pubDate>
         
         <guid>https://krinkko.github.io/hp-image-assistant-commandline-mit-powershell/</guid>
-        <description>&lt;p&gt;Nachdem ich mich nun den Vormittag mit der an sich tollen Idee der Remoteausführung von &lt;a class=&#34;link&#34; href=&#34;https://ftp.ext.hp.com/pub/caps-softpaq/cmit/HPIA.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <description>&lt;img src="https://krinkko.github.io/hp-image-assistant-commandline-mit-powershell/hpia-commandline.jpg" alt="Featured image of post HP Image Assistant Commandline Mit Powershell" /&gt;&lt;p&gt;Nachdem ich mich nun den Vormittag mit der an sich tollen Idee der Remoteausführung von &lt;a class=&#34;link&#34; href=&#34;https://ftp.ext.hp.com/pub/caps-softpaq/cmit/HPIA.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;HP Image Assistant&lt;/a&gt; via Powershell auseinandergesetzt habe, hier mal meine 2ct dazu.&lt;/p&gt;
 &lt;p&gt;Ich hatte vor ein Script zu machen, welches mir erst einmal ausliest welche Treiber und Programme für ein bestimmtes Gerät verfügbar sind und welche Windows Update vielleicht nicht gesehen hat. Es gibt danach eine .html-Datei aus, in der die fehlenden oder aktualisierbaren Komponenten aufgelistet werden.&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;Update 28.10.2024:&lt;/b&gt; Die aktuelle Form des Scrips:&lt;/p&gt;
