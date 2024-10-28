@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yubikey on krinkko&#39;s</title>
+    <link>https://krinkko.github.io/tags/yubikey/</link>
+    <description>Recent content in Yubikey on krinkko&#39;s</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <lastBuildDate>Wed, 23 Oct 2024 07:17:00 +0200</lastBuildDate>
+    <atom:link href="https://krinkko.github.io/tags/yubikey/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Yubikey SmartCard Slot Problem</title>
+      <link>https://krinkko.github.io/yubikey-smartcard-slot-problem/</link>
+      <pubDate>Wed, 23 Oct 2024 07:17:00 +0200</pubDate>
+      <guid>https://krinkko.github.io/yubikey-smartcard-slot-problem/</guid>
+      <description>&lt;p&gt;Vor ein paar Jahren sind wir in der Firma auf Yubikeys gewechselt und sind vor allem auch ganz angetan von der Policy, dass sich ein Windows-Client sperrt wenn ein User den Key herauszieht. Das PKI-Management zu den Smartcards ist so eher meh, aber ich will euch hier kurz ein Problem beschreiben, welches der Verwendung von Yubikey als Smartcard unter Windows inne wohnt:&lt;/p&gt;&#xA;&lt;p&gt;Der Yubikey hat 4 Slots. Einer davon, Slot 9a, ist für die SC Authentifizierung vorgesehen. Nun haben wir die Smartcards schon einige Jahre im Einsatz und das Certificate Renewal steht bei einigen Usern an. Und hier kommt das Problem: Ist das Certificate in 9a abgelaufen (oder droht abzulaufen), so fordert der User ein neues an, gibt seine PIN ein, Registrierung erfolgreich - aber kann sich dennoch nicht einloggen. Warum?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

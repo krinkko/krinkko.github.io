@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HP on krinkko&#39;s</title>
+    <link>https://krinkko.github.io/tags/hp/</link>
+    <description>Recent content in HP on krinkko&#39;s</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <lastBuildDate>Wed, 28 Aug 2024 11:24:30 +0200</lastBuildDate>
+    <atom:link href="https://krinkko.github.io/tags/hp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HP Image Assistant Commandline Mit Powershell</title>
+      <link>https://krinkko.github.io/hp-image-assistant-commandline-mit-powershell/</link>
+      <pubDate>Wed, 28 Aug 2024 11:24:30 +0200</pubDate>
+      <guid>https://krinkko.github.io/hp-image-assistant-commandline-mit-powershell/</guid>
+      <description>&lt;p&gt;Nachdem ich mich nun den Vormittag mit der an sich tollen Idee der Remoteausführung von &lt;a href=&#34;https://ftp.ext.hp.com/pub/caps-softpaq/cmit/HPIA.html&#34;&gt;HP Image Assistant&lt;/a&gt; via Powershell auseinandergesetzt habe, hier mal meine 2ct dazu.&lt;/p&gt;&#xA;&lt;p&gt;Ich hatte vor ein Script zu machen, welches mir erst einmal ausliest welche Treiber und Programme für ein bestimmtes Gerät verfügbar sind und welche Windows Update vielleicht nicht gesehen hat. Es gibt danach eine .html-Datei aus, in der die fehlenden oder aktualisierbaren Komponenten aufgelistet werden.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
