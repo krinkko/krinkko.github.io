@@ -13,12 +13,12 @@ name = "Mastodon"
 url = "https://elk.zone/kanoa.de/@dion"
 
 [social.params]
-icon = "brand-twitter"
+icon = "brand-mastodon"
 
 [[social]]
-identifier = "twitter"
-name = "Twitter"
-url = "https://twitter.com"
+identifier = "pixelfed"
+name = "Pixelfed"
+url = "https://pixelfed.de/i/web/profile/519178760679028649"
 
 [social.params]
-icon = "brand-twitter"
+icon = "camera"
