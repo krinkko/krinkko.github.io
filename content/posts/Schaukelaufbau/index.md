@@ -1,11 +1,11 @@
 ---
 title: "Schaukelaufbaublues"
 date: 2024-02-26T16:32:27+01:00
-tags: ["Garten","Kinderkram"]
+tags: ["Kinderkram","Schaukel"]
 images: 
 - DSC_0980.jpg
 desciption: "Ein schöner Tag um mit einem Freund eine Schaukel für meine Kids aufzubauen. Oder?"
-categories: "IRL"
+categories: ["IRL","Garten","Papa sein"]
 ---
 
 Eigentlich ist es ja ein etwas später Zug über unseren "neuen" Schrebergarten hier direkt mit dem Aufbau unserer brand neuen Kinderschaukel zu starten, aber was solls...
