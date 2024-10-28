@@ -4,7 +4,7 @@ date: 2024-02-26T16:32:27+01:00
 tags: ["Kinderkram","Schaukel"]
 images: 
 - DSC_0980.jpg
-desciption: "Ein schöner Tag um mit einem Freund eine Schaukel für meine Kids aufzubauen. Oder?"
+description: "Ein schöner Tag um mit einem Freund eine Schaukel für meine Kids aufzubauen. Oder?"
 categories: ["IRL","Garten","Papa sein"]
 ---
 
