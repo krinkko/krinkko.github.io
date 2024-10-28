@@ -3,6 +3,7 @@ title: "Yubikey SmartCard Slot Problem"
 date: 2024-10-23T07:17:00+02:00
 tags: ["Yubikey","Smartcards","Administration"]
 categories: ["Sysadmin"]
+description: "Yubikeys haben einige Slots. Das ist nicht immer praktisch."
 draft: false
 ---
 Vor ein paar Jahren sind wir in der Firma auf Yubikeys gewechselt und sind vor allem auch ganz angetan von der Policy, dass sich ein Windows-Client sperrt wenn ein User den Key herauszieht. Das PKI-Management zu den Smartcards ist so eher meh, aber ich will euch hier kurz ein Problem beschreiben, welches der Verwendung von Yubikey als Smartcard unter Windows inne wohnt:

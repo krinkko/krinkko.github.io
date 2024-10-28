@@ -3,6 +3,7 @@ title: "HP Image Assistant Commandline Mit Powershell"
 date: 2024-08-28T11:24:30+02:00
 tags: ["Powershell"]
 draft: false
+description: "HP hat einen Image Assistant, den man mehr oder weniger bequem der Commandline nutzen kann."
 ---
 Nachdem ich mich nun den Vormittag mit der an sich tollen Idee der Remoteausführung von [HP Image Assistant](https://ftp.ext.hp.com/pub/caps-softpaq/cmit/HPIA.html) via Powershell auseinandergesetzt habe, hier mal meine 2ct dazu.
 
