@@ -5,7 +5,6 @@ date: 2024-10-30T07:11:34+01:00
 tags: ["Fahrrad","MTB","New Bike Day"]
 categories: "Fahrradkultur"
 series:
-draft: false
 image: "25cedc5473435eca.jpeg"
 ---
 Nun war es soweit: ich hatte mein Stevens Gravere Grabelbike verkauft und habe mir mit etwas Plus dann noch ein 2023 Cube Acid Hardtail gekauft. Das ist so ein Schritt, den ich schon länger mal machen wollte, da ich nicht so gut mit Dropbars klar gekommen bin. Natürlich hat mir das Gravelbike trotzdem mega spaß gemacht und ich habe es dann zu einem fairen Preis an eine junge Erwachsene vertickt.
