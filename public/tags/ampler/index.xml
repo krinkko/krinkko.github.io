@@ -1,123 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Ampler on krinkko&#39;s</title>
-        <link>https://krinkko.github.io/tags/ampler/</link>
-        <description>Recent content in Ampler on krinkko&#39;s</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>de-de</language>
-        <lastBuildDate>Wed, 08 Jun 2022 10:40:46 +0200</lastBuildDate><atom:link href="https://krinkko.github.io/tags/ampler/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Ampler Stout 2019 - 2020 Spezifikationsliste</title>
-        <link>https://krinkko.github.io/ampler-stout-2019-2020-spezifikationsliste/</link>
-        <pubDate>Wed, 08 Jun 2022 10:40:46 +0200</pubDate>
-        
-        <guid>https://krinkko.github.io/ampler-stout-2019-2020-spezifikationsliste/</guid>
-        <description>&lt;img src="https://krinkko.github.io/ampler-stout-2019-2020-spezifikationsliste/DSC_0098.JPG" alt="Featured image of post Ampler Stout 2019 - 2020 Spezifikationsliste" /&gt;&lt;p&gt;Kleiner Dump der Spezifikationsliste für mein Ampler Stout 2019. Einfach, damit ich es leichter wiederfinde. Vielleicht ja auch für Dich interessant :)&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Komponenten&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Rahmen&lt;/td&gt;
-&lt;td&gt;Aluminium 6061&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Gabel&lt;/td&gt;
-&lt;td&gt;Aluminium 1 1/8&amp;quot;, 12 mm Steckachse&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Kurbelgarnitur&lt;/td&gt;
-&lt;td&gt;Aluminium-Legierung 42T, 170 mm&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Tretlager&lt;/td&gt;
-&lt;td&gt;Abgedichtetes Tretlager mit Drehmomentsensor&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Antrieb&lt;/td&gt;
-&lt;td&gt;Shimano Deore RD-T6000 10-Gang&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Kasette&lt;/td&gt;
-&lt;td&gt;Shimano HG500 11-32&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Kette&lt;/td&gt;
-&lt;td&gt;Yaban SLA-H10 114L&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Bremsen&lt;/td&gt;
-&lt;td&gt;Shimano Deore T6000 hydraulische Scheibenbremsen&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Bremsbeläge&lt;/td&gt;
-&lt;td&gt;Shimano G02S&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Reifen&lt;/td&gt;
-&lt;td&gt;Continental Top Contact II, 42-622 mm&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Laufräder&lt;/td&gt;
-&lt;td&gt;28&amp;quot; Laufräder mit asymmetrischen 18 mm Felgen und gedichteten, industriegelagerten Naben&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Schutzbleche&lt;/td&gt;
-&lt;td&gt;Ampler Aluminium Schutzbleche, 60 mm&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Gewicht&lt;/td&gt;
-&lt;td&gt;17,2 kg&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Max. Unterstützung&lt;/td&gt;
-&lt;td&gt;25 km/h&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Reichweite&lt;/td&gt;
-&lt;td&gt;45-100 km je nach Gelände und Einstellung der Unterstützung, durchschnittliche Reichweite 70 km&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Batterie&lt;/td&gt;
-&lt;td&gt;48 V 336 Wh LG Li-ion Akku&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Motor&lt;/td&gt;
-&lt;td&gt;48 V 250 W Nabenmotor (Hinterrad)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Kontrollmodus&lt;/td&gt;
-&lt;td&gt;Präzise Pedal-Drehmoment spürende Motorsteuerung, 2 Motor-Unterstützungsstufen&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Konnektivität&lt;/td&gt;
-&lt;td&gt;Smartphone-Konnektivität ermöglicht u.a. die Änderung von Motoreinstellungen&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Ladegerät&lt;/td&gt;
-&lt;td&gt;3A Li-Ionen-Ladegerät mit Rosenberger Magnetstecker&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Ladezeit&lt;/td&gt;
-&lt;td&gt;2,5 Stunden (100%)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Lichter Vorne:&lt;/td&gt;
-&lt;td&gt;Busch+Müller IQ2 EYC&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Hinten:&lt;/td&gt;
-&lt;td&gt;LightSKIN in der Sattelstütze integrierte LED-Lichter&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;So. Passt.&lt;/p&gt;
-</description>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>Ampler on krinkko&#39;s</title>
+    <link>https://krinkko.github.io/tags/ampler/</link>
+    <description>Recent content in Ampler on krinkko&#39;s</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <lastBuildDate>Wed, 08 Jun 2022 10:40:46 +0200</lastBuildDate>
+    <atom:link href="https://krinkko.github.io/tags/ampler/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ampler Stout 2019 - 2020 Spezifikationsliste</title>
+      <link>https://krinkko.github.io/ampler-stout-2019-2020-spezifikationsliste/</link>
+      <pubDate>Wed, 08 Jun 2022 10:40:46 +0200</pubDate>
+      <guid>https://krinkko.github.io/ampler-stout-2019-2020-spezifikationsliste/</guid>
+      <description>&lt;p&gt;Kleiner Dump der Spezifikationsliste für mein Ampler Stout 2019. Einfach, damit ich es leichter wiederfinde. Vielleicht ja auch für Dich interessant :)&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Komponenten&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Rahmen&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Aluminium 6061&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Gabel&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Aluminium 1 1/8&amp;quot;, 12 mm Steckachse&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Kurbelgarnitur&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Aluminium-Legierung 42T, 170 mm&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Tretlager&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Abgedichtetes Tretlager mit Drehmomentsensor&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Antrieb&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Shimano Deore RD-T6000 10-Gang&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Kasette&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Shimano HG500 11-32&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Kette&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Yaban SLA-H10 114L&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Bremsen&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Shimano Deore T6000 hydraulische Scheibenbremsen&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Bremsbeläge&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Shimano G02S&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Reifen&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Continental Top Contact II, 42-622 mm&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Laufräder&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;28&amp;quot; Laufräder mit asymmetrischen 18 mm Felgen und gedichteten, industriegelagerten Naben&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Schutzbleche&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Ampler Aluminium Schutzbleche, 60 mm&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Gewicht&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;17,2 kg&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Max. Unterstützung&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;25 km/h&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Reichweite&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;45-100 km je nach Gelände und Einstellung der Unterstützung, durchschnittliche Reichweite 70 km&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Batterie&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;48 V 336 Wh LG Li-ion Akku&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Motor&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;48 V 250 W Nabenmotor (Hinterrad)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Kontrollmodus&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Präzise Pedal-Drehmoment spürende Motorsteuerung, 2 Motor-Unterstützungsstufen&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Konnektivität&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Smartphone-Konnektivität ermöglicht u.a. die Änderung von Motoreinstellungen&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Ladegerät&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;3A Li-Ionen-Ladegerät mit Rosenberger Magnetstecker&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Ladezeit&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;2,5 Stunden (100%)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Lichter Vorne:&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Busch+Müller IQ2 EYC&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Hinten:&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;LightSKIN in der Sattelstütze integrierte LED-Lichter&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;So. Passt.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

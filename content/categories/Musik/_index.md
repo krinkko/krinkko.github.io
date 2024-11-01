@@ -4,6 +4,6 @@ description: "Die Musikkategorie darf nicht fehlen. Wenn ich mal was nettes hör
 slug: "musik"
 image: "brigittemitamp.JPG"
 style:
-    background: "#2a9d8f"
+    background: "#d98880"
     color: "#fff"
 ---
