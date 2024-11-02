@@ -1,4 +1,4 @@
-/* import { Elm } from './Main.elm' */
+import { Elm } from './Main.elm'
 
 function initComments(config) {
   // get nullable session object from localstorage
