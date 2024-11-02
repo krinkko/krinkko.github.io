@@ -38,7 +38,7 @@ KaTeX:
 Cactus:
     - src: /cactus.js
       integrity:
-      type: module
+      type: script
     - src: /style.css
       integrity:
       type: style
