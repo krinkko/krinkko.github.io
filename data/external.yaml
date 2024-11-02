@@ -36,9 +36,9 @@ KaTeX:
       defer: true
 
 Cactus:
-    - src: /cactus.js
+    - src: /cactus/cactus.js
       integrity:
       type: script
-    - src: /style.css
+    - src: /cactus/style.css
       integrity:
       type: style
