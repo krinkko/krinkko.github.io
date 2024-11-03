@@ -44,9 +44,13 @@ enabled = true
 
 [comments]
 enabled = true
-provider = "cactus"
+provider = "cusdis"
 
 [comments.cactus]
 defaultHomeserverUrl = "https://matrix.cactus.chat:8448"
 serverName = "cactus.chat"
 siteName = "krinkko.github.io"
+
+[comments.cusdis]
+host = "https://cusdis.com"
+id = "2e20ee6f-08a8-40e9-8805-b223b4e97100"
