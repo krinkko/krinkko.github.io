@@ -2,14 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://krinkko.github.io/tags/ai/</loc>
+    <lastmod>2024-11-15T08:26:01+01:00</lastmod>
+  </url><url>
+    <loc>https://krinkko.github.io/categories/</loc>
+    <lastmod>2024-11-15T08:26:01+01:00</lastmod>
+  </url><url>
+    <loc>https://krinkko.github.io/tags/chatgpt/</loc>
+    <lastmod>2024-11-15T08:26:01+01:00</lastmod>
+  </url><url>
     <loc>https://krinkko.github.io/</loc>
+    <lastmod>2024-11-15T08:26:01+01:00</lastmod>
+  </url><url>
+    <loc>https://krinkko.github.io/tags/k%C3%BCnstliche-intelligenz/</loc>
+    <lastmod>2024-11-15T08:26:01+01:00</lastmod>
+  </url><url>
+    <loc>https://krinkko.github.io/categories/netzkultur/</loc>
     <lastmod>2024-11-15T08:26:01+01:00</lastmod>
   </url><url>
     <loc>https://krinkko.github.io/posts/</loc>
     <lastmod>2024-11-15T08:26:01+01:00</lastmod>
   </url><url>
-    <loc>https://krinkko.github.io/categories/</loc>
-    <lastmod>2024-10-30T07:11:34+01:00</lastmod>
+    <loc>https://krinkko.github.io/shitty-social-media-trend-chatgpt-day-in-the-life/</loc>
+    <lastmod>2024-11-15T08:26:01+01:00</lastmod>
+  </url><url>
+    <loc>https://krinkko.github.io/tags/social-media/</loc>
+    <lastmod>2024-11-15T08:26:01+01:00</lastmod>
+  </url><url>
+    <loc>https://krinkko.github.io/tags/</loc>
+    <lastmod>2024-11-15T08:26:01+01:00</lastmod>
   </url><url>
     <loc>https://krinkko.github.io/tags/fahrrad/</loc>
     <lastmod>2024-10-30T07:11:34+01:00</lastmod>
@@ -24,9 +45,6 @@
     <lastmod>2024-10-30T07:11:34+01:00</lastmod>
   </url><url>
     <loc>https://krinkko.github.io/new-bike-day/</loc>
-    <lastmod>2024-10-30T07:11:34+01:00</lastmod>
-  </url><url>
-    <loc>https://krinkko.github.io/tags/</loc>
     <lastmod>2024-10-30T07:11:34+01:00</lastmod>
   </url><url>
     <loc>https://krinkko.github.io/categories/adminkram/</loc>

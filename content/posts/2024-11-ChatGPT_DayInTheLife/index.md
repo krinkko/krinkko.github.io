@@ -6,7 +6,6 @@ tags: ["Social Media","AI","Künstliche Intelligenz","ChatGPT"]
 categories: "Netzkultur"
 image: "nahrizul-kadri-OAsF0QMRWlA-unsplash.jpg"
 series:
-draft: true
 ---
 Diese Dinger "künstliche Intelligenz" zu nennen war sicherlich ein smarter Move. Ein <i>neuer</i> Trend auf Social Media zeigt, dass Leute für ein wenig Fun bereit sind, die Maschine mit massig persönlichen Daten zu füttern: "A day in my future life". Die Corporate Overlords wird es freuen.
 
