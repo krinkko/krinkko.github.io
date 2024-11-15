@@ -1,47 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories on krinkko&#39;s</title>
-    <link>https://krinkko.github.io/categories/</link>
-    <description>Recent content in Categories on krinkko&#39;s</description>
-    <generator>Hugo</generator>
-    <language>de-de</language>
-    <lastBuildDate>Wed, 30 Oct 2024 07:11:34 +0100</lastBuildDate>
-    <atom:link href="https://krinkko.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Fahrradkultur</title>
-      <link>https://krinkko.github.io/categories/fahrradkultur/</link>
-      <pubDate>Wed, 30 Oct 2024 07:11:34 +0100</pubDate>
-      <guid>https://krinkko.github.io/categories/fahrradkultur/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Adminkram</title>
-      <link>https://krinkko.github.io/categories/adminkram/</link>
-      <pubDate>Tue, 29 Oct 2024 12:39:34 +0100</pubDate>
-      <guid>https://krinkko.github.io/categories/adminkram/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gardening</title>
-      <link>https://krinkko.github.io/categories/gardening/</link>
-      <pubDate>Mon, 26 Feb 2024 16:32:27 +0100</pubDate>
-      <guid>https://krinkko.github.io/categories/gardening/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Diverses</title>
-      <link>https://krinkko.github.io/categories/diverses/</link>
-      <pubDate>Mon, 26 Feb 2024 12:40:47 +0100</pubDate>
-      <guid>https://krinkko.github.io/categories/diverses/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Musik</title>
-      <link>https://krinkko.github.io/categories/musik/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://krinkko.github.io/categories/musik/</guid>
-      <description></description>
-    </item>
-  </channel>
+    <channel>
+        <title>Categories on krinkko&#39;s</title>
+        <link>https://krinkko.github.io/categories/</link>
+        <description>Recent content in Categories on krinkko&#39;s</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>de-de</language>
+        <lastBuildDate>Wed, 30 Oct 2024 07:11:34 +0100</lastBuildDate><atom:link href="https://krinkko.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Fahrradkultur</title>
+        <link>https://krinkko.github.io/categories/fahrradkultur/</link>
+        <pubDate>Wed, 30 Oct 2024 07:11:34 +0100</pubDate>
+        
+        <guid>https://krinkko.github.io/categories/fahrradkultur/</guid>
+        <description>&lt;img src="https://krinkko.github.io/categories/fahrradkultur/DSC_0099.JPG" alt="Featured image of post Fahrradkultur" /&gt;</description>
+        </item>
+        <item>
+        <title>Adminkram</title>
+        <link>https://krinkko.github.io/categories/adminkram/</link>
+        <pubDate>Tue, 29 Oct 2024 12:39:34 +0100</pubDate>
+        
+        <guid>https://krinkko.github.io/categories/adminkram/</guid>
+        <description>&lt;img src="https://krinkko.github.io/categories/adminkram/luca-bravo-XJXWbfSo2f0-unsplash.jpg" alt="Featured image of post Adminkram" /&gt;</description>
+        </item>
+        <item>
+        <title>Gardening</title>
+        <link>https://krinkko.github.io/categories/gardening/</link>
+        <pubDate>Mon, 26 Feb 2024 16:32:27 +0100</pubDate>
+        
+        <guid>https://krinkko.github.io/categories/gardening/</guid>
+        <description>&lt;img src="https://krinkko.github.io/categories/gardening/2ZBdlsXnxIbiZ8oY36lMyhJQ2Jk8T2d7YMxPq7do.jpg" alt="Featured image of post Gardening" /&gt;</description>
+        </item>
+        <item>
+        <title>Diverses</title>
+        <link>https://krinkko.github.io/categories/diverses/</link>
+        <pubDate>Mon, 26 Feb 2024 12:40:47 +0100</pubDate>
+        
+        <guid>https://krinkko.github.io/categories/diverses/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Musik</title>
+        <link>https://krinkko.github.io/categories/musik/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://krinkko.github.io/categories/musik/</guid>
+        <description>&lt;img src="https://krinkko.github.io/categories/musik/brigittemitamp.JPG" alt="Featured image of post Musik" /&gt;</description>
+        </item>
+        
+    </channel>
 </rss>
