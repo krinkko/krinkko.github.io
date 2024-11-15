@@ -4,6 +4,6 @@ description: "Ich mag Fahrräder mit allem Drum und Dran. Ab und zu findet davon
 slug: "fahrradkultur"
 image: "DSC_0099.JPG"
 style:
-    background: "#2a9d8f"
+    background: "#1abc9c"
     color: "#fff"
 ---

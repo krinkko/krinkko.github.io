@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Python on krinkko&#39;s</title>
-        <link>https://krinkko.github.io/tags/python/</link>
-        <description>Recent content in Python on krinkko&#39;s</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>de-de</language>
-        <lastBuildDate>Tue, 29 Oct 2024 12:39:34 +0100</lastBuildDate><atom:link href="https://krinkko.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Python verbieten!</title>
-        <link>https://krinkko.github.io/python-verbieten/</link>
-        <pubDate>Tue, 29 Oct 2024 12:39:34 +0100</pubDate>
-        
-        <guid>https://krinkko.github.io/python-verbieten/</guid>
-        <description>&lt;img src="https://krinkko.github.io/python-verbieten/david-clode-RJQPJXWmNPY-unsplash.jpg" alt="Featured image of post Python verbieten!" /&gt;&lt;p&gt;Siehe Beschreibung.&lt;/p&gt;
-&lt;p&gt;Aber ein bisschen angepisste Wahrheit schwingt da schon mit, wenn der Sicherheitsscanner immer wieder abgelaufene Python-Dependencies findet, die mit scheinbar aktueller Software mitgekommen sind. Ich hab hier ein Dev-Notebook mit 8 mal Python in verschiedenen Geschmacksrichtungen drauf. Eeeeeh&amp;hellip;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Foto von &lt;a href=&#34;https://unsplash.com/de/@davidclode?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;David Clode&lt;/a&gt; auf &lt;a href=&#34;https://unsplash.com/de/fotos/flachfokusfotografie-der-vipernschlange-RJQPJXWmNPY?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>Python on krinkko&#39;s</title>
+    <link>https://krinkko.github.io/tags/python/</link>
+    <description>Recent content in Python on krinkko&#39;s</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <lastBuildDate>Tue, 29 Oct 2024 12:39:34 +0100</lastBuildDate>
+    <atom:link href="https://krinkko.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python verbieten!</title>
+      <link>https://krinkko.github.io/python-verbieten/</link>
+      <pubDate>Tue, 29 Oct 2024 12:39:34 +0100</pubDate>
+      <guid>https://krinkko.github.io/python-verbieten/</guid>
+      <description>&lt;p&gt;Siehe Beschreibung.&lt;/p&gt;&#xA;&lt;p&gt;Aber ein bisschen angepisste Wahrheit schwingt da schon mit, wenn der Sicherheitsscanner immer wieder abgelaufene Python-Dependencies findet, die mit scheinbar aktueller Software mitgekommen sind. Ich hab hier ein Dev-Notebook mit 8 mal Python in verschiedenen Geschmacksrichtungen drauf. Eeeeeh&amp;hellip;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Foto von &lt;a href=&#34;https://unsplash.com/de/@davidclode?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;David Clode&lt;/a&gt; auf &lt;a href=&#34;https://unsplash.com/de/fotos/flachfokusfotografie-der-vipernschlange-RJQPJXWmNPY?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
+  </channel>
 </rss>
